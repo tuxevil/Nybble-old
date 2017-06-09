@@ -1,0 +1,41 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="base.master.cs" Inherits="Administration.WebSite._base" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
+</head>
+<body>
+    <form id="frmBody" runat="server">
+    <div>
+        <div>
+            <fieldset style="float:left;background-color:white;;">
+                <a>Usuario: </a>
+                <asp:LoginName ID="LoginName1" runat="server"/>&nbsp;|&nbsp;<asp:LoginStatus ID="LoginStatus1" LogoutPageUrl="~/login.aspx" runat="server" OnLoggedOut="LoginStatus1_LoggedOut" />
+                |&nbsp;<asp:HyperLink ID="lnkChangePass" NavigateUrl="Admin/changepassword.aspx" runat="server">Cambiar Password</asp:HyperLink>
+            </fieldset>
+            <fieldset style="float:right;background-color:white;">
+                <a>Administración: </a>
+                <asp:HyperLink ID="lnkSites" runat="server" NavigateUrl="Admin/Sites.aspx">Sitios</asp:HyperLink>&nbsp;|
+                <asp:HyperLink ID="lnkRoles" runat="server" NavigateUrl="Admin/Roles.aspx">Roles</asp:HyperLink>&nbsp;|
+                <asp:HyperLink ID="lnkUsers" runat="server" NavigateUrl="Admin/Users.aspx">Usuarios</asp:HyperLink>&nbsp;|
+                <asp:HyperLink ID="lnkFunctions" runat="server" NavigateUrl="Admin/Functions.aspx">Funciones</asp:HyperLink>&nbsp;|
+                <asp:HyperLink ID="lnkPermissions" runat="server" NavigateUrl="Admin/Permissions.aspx">Permisos</asp:HyperLink>
+            </fieldset>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div>
+        <asp:ContentPlaceHolder ID="cplhBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <p><span>
+            <asp:Label ID="lblVersion" runat="server" ></asp:Label>
+        </span></p>
+    </form>
+</body>
+</html>

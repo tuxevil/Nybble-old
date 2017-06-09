@@ -1,0 +1,1795 @@
+2009-10-22 12:03:27,824 INFO NHibernate 2.0.1.4000 (2.0.1.4000)
+2009-10-22 12:03:27,840 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 12:03:27,840 INFO Bytecode provider name : lcg
+2009-10-22 12:03:27,840 INFO Using reflection optimizer
+2009-10-22 12:03:27,918 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 12:03:27,918 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 12:03:27,918 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 12:03:27,918 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 12:03:27,918 DEBUG connection.isolation=ReadCommitted
+2009-10-22 12:03:27,918 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 12:03:27,918 DEBUG show_sql=true
+2009-10-22 12:03:27,918 DEBUG adonet.batch_size=10
+2009-10-22 12:03:27,918 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 12:03:27,918 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 12:03:27,918 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 12:03:27,980 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 12:03:29,777 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 12:03:29,808 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 12:03:29,824 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 12:03:29,840 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 12:03:29,840 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 12:03:29,840 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 12:03:29,840 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 12:03:29,840 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 12:03:29,902 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 12:03:29,918 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 12:03:29,933 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 12:03:29,933 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 12:03:29,933 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 12:03:29,933 INFO checking mappings queue
+2009-10-22 12:03:29,949 INFO processing one-to-many association mappings
+2009-10-22 12:03:29,949 INFO processing one-to-one association property references
+2009-10-22 12:03:29,949 INFO processing foreign key constraints
+2009-10-22 12:03:29,965 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 12:03:29,965 INFO Using dialect defined converter
+2009-10-22 12:03:29,965 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 12:03:29,965 INFO Configuring ConnectionProvider
+2009-10-22 12:03:29,965 INFO Transaction factory: NHibernate.Transaction.AdoNetTransactionFactory
+2009-10-22 12:03:29,965 INFO Optimize cache for minimal puts: False
+2009-10-22 12:03:29,965 INFO Connection release mode: auto
+2009-10-22 12:03:29,980 INFO Default schema: Nybble_Test.dbo
+2009-10-22 12:03:29,980 INFO Default batch fetch size: 1
+2009-10-22 12:03:29,980 INFO echoing all SQL to stdout
+2009-10-22 12:03:29,980 INFO Statistics: disabled
+2009-10-22 12:03:29,980 INFO Query translator: NHibernate.Hql.Classic.ClassicQueryTranslatorFactory
+2009-10-22 12:03:29,980 INFO Query language substitutions: {}
+2009-10-22 12:03:29,980 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 12:03:29,980 DEBUG Wrap result sets: disabled
+2009-10-22 12:03:29,980 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 12:03:29,980 INFO Using Isolation Level: ReadCommitted
+2009-10-22 12:03:29,980 INFO Named query checking : enabled
+2009-10-22 12:03:29,996 INFO building session factory
+2009-10-22 12:03:29,996 DEBUG instantiating session factory with properties: {use_reflection_optimizer=True, session_factory_name=cimexEjecutivos, dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data, connection.provider=NHibernate.Connection.DriverConnectionProvider, connection.driver_class=NHibernate.Driver.SqlClientDriver, connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test, connection.isolation=ReadCommitted, default_schema=Nybble_Test.dbo, show_sql=true, adonet.batch_size=10}
+2009-10-22 12:03:30,105 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 12:03:30,105 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 12:03:30,168 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 12:03:30,168 DEBUG registered: 0bb6c6a1bc3d408bb854dafe6df1596f(cimexEjecutivos)
+2009-10-22 12:03:30,168 INFO Factory name:cimexEjecutivos
+2009-10-22 12:03:30,246 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 12:03:30,246 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 12:03:30,246 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 12:03:30,246 DEBUG  Insert 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-22 12:03:30,246 DEBUG  Update 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-22 12:03:30,246 DEBUG  Delete 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-22 12:03:30,246 DEBUG  Identity insert: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-22 12:03:30,293 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 12:03:30,293 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 12:03:30,293 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 12:03:30,293 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 12:03:30,293 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 12:03:30,293 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 12:03:30,293 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 12:03:30,293 DEBUG Instantiated session factory
+2009-10-22 12:03:30,293 DEBUG Checking 0 named HQL queries
+2009-10-22 12:03:30,293 DEBUG Checking 0 named SQL queries
+2009-10-22 12:03:30,324 DEBUG opened session
+2009-10-22 12:03:30,324 DEBUG Begin (Unspecified)
+2009-10-22 12:03:30,324 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 12:03:32,511 DEBUG Start Commit
+2009-10-22 12:03:32,527 DEBUG before transaction completion
+2009-10-22 12:03:32,527 DEBUG IDbTransaction Committed
+2009-10-22 12:03:32,527 DEBUG transaction completion
+2009-10-22 12:03:32,527 DEBUG aggressively releasing database connection
+2009-10-22 12:03:32,527 DEBUG Closing connection
+2009-10-22 12:03:32,527 DEBUG IDbTransaction disposed.
+2009-10-22 12:03:32,527 DEBUG closing session
+2009-10-22 12:03:32,527 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 12:03:32,590 DEBUG opened session
+2009-10-22 12:03:32,590 DEBUG Begin (Unspecified)
+2009-10-22 12:03:32,590 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 12:03:32,621 DEBUG Start Commit
+2009-10-22 12:03:32,621 DEBUG before transaction completion
+2009-10-22 12:03:32,621 DEBUG IDbTransaction Committed
+2009-10-22 12:03:32,621 DEBUG transaction completion
+2009-10-22 12:03:32,621 DEBUG aggressively releasing database connection
+2009-10-22 12:03:32,621 DEBUG Closing connection
+2009-10-22 12:03:32,621 DEBUG IDbTransaction disposed.
+2009-10-22 12:03:32,621 DEBUG closing session
+2009-10-22 12:03:32,621 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 12:03:35,590 DEBUG opened session
+2009-10-22 12:03:35,590 DEBUG Begin (Unspecified)
+2009-10-22 12:03:35,590 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 12:03:35,605 DEBUG Start Commit
+2009-10-22 12:03:35,605 DEBUG before transaction completion
+2009-10-22 12:03:35,605 DEBUG IDbTransaction Committed
+2009-10-22 12:03:35,605 DEBUG transaction completion
+2009-10-22 12:03:35,605 DEBUG aggressively releasing database connection
+2009-10-22 12:03:35,605 DEBUG Closing connection
+2009-10-22 12:03:35,605 DEBUG IDbTransaction disposed.
+2009-10-22 12:03:35,605 DEBUG closing session
+2009-10-22 12:03:35,605 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 12:05:21,057 DEBUG opened session
+2009-10-22 12:05:21,057 DEBUG Begin (Unspecified)
+2009-10-22 12:05:21,057 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 12:05:36,822 DEBUG Start Commit
+2009-10-22 12:05:36,822 DEBUG before transaction completion
+2009-10-22 12:05:36,822 DEBUG IDbTransaction Committed
+2009-10-22 12:05:36,822 DEBUG transaction completion
+2009-10-22 12:05:36,822 DEBUG aggressively releasing database connection
+2009-10-22 12:05:36,822 DEBUG Closing connection
+2009-10-22 12:05:36,822 DEBUG IDbTransaction disposed.
+2009-10-22 12:05:36,822 DEBUG closing session
+2009-10-22 12:05:36,822 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 12:05:40,838 DEBUG opened session
+2009-10-22 12:05:40,838 DEBUG Begin (Unspecified)
+2009-10-22 12:05:40,838 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 12:05:40,838 DEBUG Start Commit
+2009-10-22 12:05:40,838 DEBUG before transaction completion
+2009-10-22 12:05:40,838 DEBUG IDbTransaction Committed
+2009-10-22 12:05:40,838 DEBUG transaction completion
+2009-10-22 12:05:40,838 DEBUG aggressively releasing database connection
+2009-10-22 12:05:40,838 DEBUG Closing connection
+2009-10-22 12:05:40,838 DEBUG IDbTransaction disposed.
+2009-10-22 12:05:40,838 DEBUG closing session
+2009-10-22 12:05:40,838 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 12:05:57,353 DEBUG opened session
+2009-10-22 12:05:57,353 DEBUG Begin (Unspecified)
+2009-10-22 12:05:57,353 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 12:06:54,275 DEBUG Start Commit
+2009-10-22 12:06:54,275 DEBUG before transaction completion
+2009-10-22 12:06:54,275 DEBUG IDbTransaction Committed
+2009-10-22 12:06:54,275 DEBUG transaction completion
+2009-10-22 12:06:54,275 DEBUG aggressively releasing database connection
+2009-10-22 12:06:54,275 DEBUG Closing connection
+2009-10-22 12:06:54,275 DEBUG IDbTransaction disposed.
+2009-10-22 12:06:54,275 DEBUG closing session
+2009-10-22 12:06:54,275 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 12:08:38,338 INFO NHibernate 2.0.1.4000 (2.0.1.4000)
+2009-10-22 12:08:38,354 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 12:08:38,370 INFO Bytecode provider name : lcg
+2009-10-22 12:08:38,370 INFO Using reflection optimizer
+2009-10-22 12:08:38,479 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 12:08:38,479 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 12:08:38,479 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 12:08:38,479 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 12:08:38,479 DEBUG connection.isolation=ReadCommitted
+2009-10-22 12:08:38,479 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 12:08:38,479 DEBUG show_sql=true
+2009-10-22 12:08:38,479 DEBUG adonet.batch_size=10
+2009-10-22 12:08:38,479 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 12:08:38,479 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 12:08:38,479 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 12:08:38,526 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 12:08:40,167 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 12:08:40,198 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 12:08:40,229 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 12:08:40,245 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 12:08:40,245 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 12:08:40,245 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 12:08:40,245 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 12:08:40,245 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 12:08:40,292 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 12:08:40,307 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 12:08:40,323 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 12:08:40,339 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 12:08:40,339 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 12:08:40,339 INFO checking mappings queue
+2009-10-22 12:08:40,339 INFO processing one-to-many association mappings
+2009-10-22 12:08:40,339 INFO processing one-to-one association property references
+2009-10-22 12:08:40,339 INFO processing foreign key constraints
+2009-10-22 12:08:40,354 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 12:08:40,354 INFO Using dialect defined converter
+2009-10-22 12:08:40,370 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 12:08:40,370 INFO Configuring ConnectionProvider
+2009-10-22 12:08:40,370 INFO Transaction factory: NHibernate.Transaction.AdoNetTransactionFactory
+2009-10-22 12:08:40,370 INFO Optimize cache for minimal puts: False
+2009-10-22 12:08:40,370 INFO Connection release mode: auto
+2009-10-22 12:08:40,370 INFO Default schema: Nybble_Test.dbo
+2009-10-22 12:08:40,370 INFO Default batch fetch size: 1
+2009-10-22 12:08:40,370 INFO echoing all SQL to stdout
+2009-10-22 12:08:40,370 INFO Statistics: disabled
+2009-10-22 12:08:40,370 INFO Query translator: NHibernate.Hql.Classic.ClassicQueryTranslatorFactory
+2009-10-22 12:08:40,370 INFO Query language substitutions: {}
+2009-10-22 12:08:40,370 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 12:08:40,370 DEBUG Wrap result sets: disabled
+2009-10-22 12:08:40,370 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 12:08:40,370 INFO Using Isolation Level: ReadCommitted
+2009-10-22 12:08:40,370 INFO Named query checking : enabled
+2009-10-22 12:08:40,385 INFO building session factory
+2009-10-22 12:08:40,385 DEBUG instantiating session factory with properties: {use_reflection_optimizer=True, session_factory_name=cimexEjecutivos, dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data, connection.provider=NHibernate.Connection.DriverConnectionProvider, connection.driver_class=NHibernate.Driver.SqlClientDriver, connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test, connection.isolation=ReadCommitted, default_schema=Nybble_Test.dbo, show_sql=true, adonet.batch_size=10}
+2009-10-22 12:08:40,495 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 12:08:40,495 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 12:08:40,573 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 12:08:40,573 DEBUG registered: c079da157da8428b8e8170f8373a4e4e(cimexEjecutivos)
+2009-10-22 12:08:40,573 INFO Factory name:cimexEjecutivos
+2009-10-22 12:08:40,635 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 12:08:40,635 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 12:08:40,635 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 12:08:40,635 DEBUG  Insert 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-22 12:08:40,635 DEBUG  Update 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-22 12:08:40,635 DEBUG  Delete 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-22 12:08:40,635 DEBUG  Identity insert: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-22 12:08:40,682 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 12:08:40,682 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 12:08:40,682 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 12:08:40,682 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 12:08:40,682 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 12:08:40,682 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 12:08:40,682 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 12:08:40,682 DEBUG Instantiated session factory
+2009-10-22 12:08:40,698 DEBUG Checking 0 named HQL queries
+2009-10-22 12:08:40,698 DEBUG Checking 0 named SQL queries
+2009-10-22 12:08:40,714 DEBUG opened session
+2009-10-22 12:08:40,714 DEBUG Begin (Unspecified)
+2009-10-22 12:08:40,729 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 12:08:42,776 DEBUG Start Commit
+2009-10-22 12:08:42,776 DEBUG before transaction completion
+2009-10-22 12:08:42,776 DEBUG IDbTransaction Committed
+2009-10-22 12:08:42,792 DEBUG transaction completion
+2009-10-22 12:08:42,792 DEBUG aggressively releasing database connection
+2009-10-22 12:08:42,792 DEBUG Closing connection
+2009-10-22 12:08:42,792 DEBUG IDbTransaction disposed.
+2009-10-22 12:08:42,792 DEBUG closing session
+2009-10-22 12:08:42,792 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 12:09:00,137 DEBUG opened session
+2009-10-22 12:09:00,137 DEBUG Begin (Unspecified)
+2009-10-22 12:09:00,137 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 12:09:27,091 DEBUG Start Commit
+2009-10-22 12:09:27,091 DEBUG before transaction completion
+2009-10-22 12:09:27,091 DEBUG IDbTransaction Committed
+2009-10-22 12:09:27,091 DEBUG transaction completion
+2009-10-22 12:09:27,091 DEBUG aggressively releasing database connection
+2009-10-22 12:09:27,091 DEBUG Closing connection
+2009-10-22 12:09:27,091 DEBUG IDbTransaction disposed.
+2009-10-22 12:09:27,091 DEBUG closing session
+2009-10-22 12:09:27,091 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 14:52:49,038 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 14:52:49,053 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 14:52:49,053 INFO Bytecode provider name : lcg
+2009-10-22 14:52:49,053 INFO Using reflection optimizer
+2009-10-22 14:52:49,147 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 14:52:49,147 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 14:52:49,147 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 14:52:49,147 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 14:52:49,147 DEBUG connection.isolation=ReadCommitted
+2009-10-22 14:52:49,147 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 14:52:49,147 DEBUG show_sql=true
+2009-10-22 14:52:49,147 DEBUG adonet.batch_size=10
+2009-10-22 14:52:49,147 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 14:52:49,147 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 14:52:49,147 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 14:52:49,147 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 14:52:49,241 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 14:52:51,272 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 14:52:51,319 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 14:52:51,335 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 14:52:51,350 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 14:52:51,350 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 14:52:51,350 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 14:52:51,350 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 14:52:51,350 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 14:52:51,397 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 14:52:51,397 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 14:52:51,428 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 14:52:51,428 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 14:52:51,428 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 14:52:51,444 INFO checking mappings queue
+2009-10-22 14:52:51,444 INFO processing one-to-many association mappings
+2009-10-22 14:52:51,444 INFO processing one-to-one association property references
+2009-10-22 14:52:51,444 INFO processing foreign key constraints
+2009-10-22 14:52:51,475 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 14:52:51,475 INFO Using dialect defined converter
+2009-10-22 14:52:51,475 INFO Generate SQL with comments: disabled
+2009-10-22 14:52:51,475 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 14:52:51,475 INFO Configuring ConnectionProvider
+2009-10-22 14:52:51,475 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 14:52:51,475 INFO Optimize cache for minimal puts: False
+2009-10-22 14:52:51,475 INFO Connection release mode: auto
+2009-10-22 14:52:51,475 INFO Default schema: Nybble_Test.dbo
+2009-10-22 14:52:51,475 INFO Default batch fetch size: 1
+2009-10-22 14:52:51,475 INFO echoing all SQL to stdout
+2009-10-22 14:52:51,475 INFO Statistics: disabled
+2009-10-22 14:52:51,475 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 14:52:51,475 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 14:52:51,491 INFO Query language substitutions: {}
+2009-10-22 14:52:51,491 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 14:52:51,491 DEBUG Wrap result sets: disabled
+2009-10-22 14:52:51,491 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 14:52:51,491 INFO Using Isolation Level: ReadCommitted
+2009-10-22 14:52:51,491 INFO Default entity-mode: Poco
+2009-10-22 14:52:51,491 INFO Named query checking : enabled
+2009-10-22 14:52:51,522 INFO building session factory
+2009-10-22 14:52:51,522 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 14:52:51,522 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 14:52:51,522 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 14:52:52,803 DEBUG Closing connection
+2009-10-22 14:52:52,928 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 14:52:52,928 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 14:52:52,975 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 14:52:53,069 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 14:52:53,069 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 14:52:53,069 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 14:52:53,069 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 14:52:53,069 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 14:52:53,069 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 14:52:53,069 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 14:52:53,116 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 14:52:53,116 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 14:52:53,116 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 14:52:53,116 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 14:52:53,116 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 14:52:53,116 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 14:52:53,116 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 14:52:53,116 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 14:52:53,116 DEBUG registered: 23754bc653c64e33adb92d93e7464ffd(cimexEjecutivos)
+2009-10-22 14:52:53,131 INFO Factory name:cimexEjecutivos
+2009-10-22 14:52:53,131 DEBUG Instantiated session factory
+2009-10-22 14:52:53,131 DEBUG Checking 0 named HQL queries
+2009-10-22 14:52:53,131 DEBUG Checking 0 named SQL queries
+2009-10-22 14:52:53,163 DEBUG [session-id=b3af2cce-aa05-4b75-8ccd-431da3097683] opened session at timestamp:633918199731
+2009-10-22 14:52:53,163 DEBUG Begin (Unspecified)
+2009-10-22 14:52:53,163 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 14:56:29,070 DEBUG Start Commit
+2009-10-22 14:56:29,086 DEBUG before transaction completion
+2009-10-22 14:56:29,086 DEBUG IDbTransaction Committed
+2009-10-22 14:56:29,086 DEBUG transaction completion
+2009-10-22 14:56:29,086 DEBUG aggressively releasing database connection
+2009-10-22 14:56:29,086 DEBUG Closing connection
+2009-10-22 14:56:29,086 DEBUG IDbTransaction disposed.
+2009-10-22 14:56:29,086 DEBUG closing session
+2009-10-22 14:56:29,086 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 14:56:29,133 DEBUG [session-id=ad334a64-a250-4e1f-9b0a-6fc4033ff5f6] opened session at timestamp:633918201891
+2009-10-22 14:56:29,133 DEBUG Begin (Unspecified)
+2009-10-22 14:56:29,133 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 14:56:29,180 DEBUG Start Commit
+2009-10-22 14:56:29,180 DEBUG before transaction completion
+2009-10-22 14:56:29,180 DEBUG IDbTransaction Committed
+2009-10-22 14:56:29,180 DEBUG transaction completion
+2009-10-22 14:56:29,180 DEBUG aggressively releasing database connection
+2009-10-22 14:56:29,180 DEBUG Closing connection
+2009-10-22 14:56:29,180 DEBUG IDbTransaction disposed.
+2009-10-22 14:56:29,180 DEBUG closing session
+2009-10-22 14:56:29,180 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 14:56:29,180 DEBUG [session-id=ad334a64-a250-4e1f-9b0a-6fc4033ff5f6] executing real Dispose(False)
+2009-10-22 14:56:32,133 DEBUG [session-id=aa80b43e-4b12-49aa-9f56-e271e58cda6a] opened session at timestamp:633918201921
+2009-10-22 14:56:32,133 DEBUG Begin (Unspecified)
+2009-10-22 14:56:32,133 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 14:56:32,133 DEBUG Start Commit
+2009-10-22 14:56:32,133 DEBUG before transaction completion
+2009-10-22 14:56:32,133 DEBUG IDbTransaction Committed
+2009-10-22 14:56:32,133 DEBUG transaction completion
+2009-10-22 14:56:32,133 DEBUG aggressively releasing database connection
+2009-10-22 14:56:32,133 DEBUG Closing connection
+2009-10-22 14:56:32,133 DEBUG IDbTransaction disposed.
+2009-10-22 14:56:32,133 DEBUG closing session
+2009-10-22 14:56:32,133 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 14:56:32,883 DEBUG [session-id=1fc99df3-886e-4291-9bf3-aed7ca931ea1] opened session at timestamp:633918201928
+2009-10-22 14:56:32,883 DEBUG Begin (Unspecified)
+2009-10-22 14:56:32,883 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 14:58:30,649 DEBUG Start Commit
+2009-10-22 14:58:30,649 DEBUG before transaction completion
+2009-10-22 14:58:30,649 DEBUG IDbTransaction Committed
+2009-10-22 14:58:30,649 DEBUG transaction completion
+2009-10-22 14:58:30,649 DEBUG aggressively releasing database connection
+2009-10-22 14:58:30,649 DEBUG Closing connection
+2009-10-22 14:58:30,649 DEBUG IDbTransaction disposed.
+2009-10-22 14:58:30,649 DEBUG closing session
+2009-10-22 14:58:30,649 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 14:58:32,727 DEBUG [session-id=fd66421a-7e8a-483e-b40a-1a6b69644d15] opened session at timestamp:633918203127
+2009-10-22 14:58:32,727 DEBUG Begin (Unspecified)
+2009-10-22 14:58:32,727 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 14:58:32,743 DEBUG [session-id=aa80b43e-4b12-49aa-9f56-e271e58cda6a] executing real Dispose(False)
+2009-10-22 14:58:32,743 DEBUG [session-id=1fc99df3-886e-4291-9bf3-aed7ca931ea1] executing real Dispose(False)
+2009-10-22 15:00:36,868 DEBUG Start Commit
+2009-10-22 15:00:36,868 DEBUG before transaction completion
+2009-10-22 15:00:36,868 DEBUG IDbTransaction Committed
+2009-10-22 15:00:36,868 DEBUG transaction completion
+2009-10-22 15:00:36,868 DEBUG aggressively releasing database connection
+2009-10-22 15:00:36,868 DEBUG Closing connection
+2009-10-22 15:00:36,868 DEBUG IDbTransaction disposed.
+2009-10-22 15:00:36,868 DEBUG closing session
+2009-10-22 15:00:36,868 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 15:00:38,508 DEBUG [session-id=73cf76b5-33ff-4534-b246-3700b961dd02] opened session at timestamp:633918204385
+2009-10-22 15:00:38,508 DEBUG Begin (Unspecified)
+2009-10-22 15:00:38,508 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:00:38,508 DEBUG [session-id=fd66421a-7e8a-483e-b40a-1a6b69644d15] executing real Dispose(False)
+2009-10-22 15:02:47,554 DEBUG Start Commit
+2009-10-22 15:02:47,554 DEBUG before transaction completion
+2009-10-22 15:02:47,554 DEBUG IDbTransaction Committed
+2009-10-22 15:02:47,554 DEBUG transaction completion
+2009-10-22 15:02:47,554 DEBUG aggressively releasing database connection
+2009-10-22 15:02:47,554 DEBUG Closing connection
+2009-10-22 15:02:47,554 DEBUG IDbTransaction disposed.
+2009-10-22 15:02:47,554 DEBUG closing session
+2009-10-22 15:02:47,554 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 15:02:52,211 DEBUG [session-id=73c2c3b0-6f81-4c85-80d1-c6f7c1ed8822] opened session at timestamp:633918205722
+2009-10-22 15:02:52,211 DEBUG Begin (Unspecified)
+2009-10-22 15:02:52,211 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:03:48,163 DEBUG Start Commit
+2009-10-22 15:03:48,163 DEBUG before transaction completion
+2009-10-22 15:03:48,163 DEBUG IDbTransaction Committed
+2009-10-22 15:03:48,163 DEBUG transaction completion
+2009-10-22 15:03:48,163 DEBUG aggressively releasing database connection
+2009-10-22 15:03:48,163 DEBUG Closing connection
+2009-10-22 15:03:48,163 DEBUG IDbTransaction disposed.
+2009-10-22 15:03:48,163 DEBUG closing session
+2009-10-22 15:03:48,163 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 15:04:11,476 DEBUG [session-id=295cad2f-c29f-4334-8fcc-f4fa2eba1f79] opened session at timestamp:633918206514
+2009-10-22 15:04:11,476 DEBUG Begin (Unspecified)
+2009-10-22 15:04:11,476 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:04:32,148 DEBUG Start Commit
+2009-10-22 15:04:32,148 DEBUG before transaction completion
+2009-10-22 15:04:32,163 DEBUG IDbTransaction Committed
+2009-10-22 15:04:32,163 DEBUG transaction completion
+2009-10-22 15:04:32,163 DEBUG aggressively releasing database connection
+2009-10-22 15:04:32,163 DEBUG Closing connection
+2009-10-22 15:04:32,163 DEBUG IDbTransaction disposed.
+2009-10-22 15:04:32,163 DEBUG closing session
+2009-10-22 15:04:32,163 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 15:05:04,460 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 15:05:04,476 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 15:05:04,491 INFO Bytecode provider name : lcg
+2009-10-22 15:05:04,491 INFO Using reflection optimizer
+2009-10-22 15:05:04,585 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 15:05:04,585 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 15:05:04,585 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 15:05:04,585 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 15:05:04,585 DEBUG connection.isolation=ReadCommitted
+2009-10-22 15:05:04,585 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 15:05:04,585 DEBUG show_sql=true
+2009-10-22 15:05:04,585 DEBUG adonet.batch_size=10
+2009-10-22 15:05:04,585 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 15:05:04,585 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 15:05:04,585 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 15:05:04,585 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 15:05:04,679 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 15:05:06,757 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 15:05:06,804 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 15:05:06,819 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 15:05:06,835 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 15:05:06,851 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 15:05:06,851 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 15:05:06,851 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 15:05:06,851 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 15:05:06,882 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 15:05:06,898 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 15:05:06,913 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 15:05:06,913 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 15:05:06,913 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 15:05:06,929 INFO checking mappings queue
+2009-10-22 15:05:06,929 INFO processing one-to-many association mappings
+2009-10-22 15:05:06,929 INFO processing one-to-one association property references
+2009-10-22 15:05:06,929 INFO processing foreign key constraints
+2009-10-22 15:05:06,960 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 15:05:06,960 INFO Using dialect defined converter
+2009-10-22 15:05:06,960 INFO Generate SQL with comments: disabled
+2009-10-22 15:05:06,960 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 15:05:06,960 INFO Configuring ConnectionProvider
+2009-10-22 15:05:06,960 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 15:05:06,960 INFO Optimize cache for minimal puts: False
+2009-10-22 15:05:06,960 INFO Connection release mode: auto
+2009-10-22 15:05:06,960 INFO Default schema: Nybble_Test.dbo
+2009-10-22 15:05:06,960 INFO Default batch fetch size: 1
+2009-10-22 15:05:06,960 INFO echoing all SQL to stdout
+2009-10-22 15:05:06,960 INFO Statistics: disabled
+2009-10-22 15:05:06,960 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 15:05:06,976 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 15:05:06,976 INFO Query language substitutions: {}
+2009-10-22 15:05:06,976 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 15:05:06,991 DEBUG Wrap result sets: disabled
+2009-10-22 15:05:06,991 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 15:05:06,991 INFO Using Isolation Level: ReadCommitted
+2009-10-22 15:05:06,991 INFO Default entity-mode: Poco
+2009-10-22 15:05:06,991 INFO Named query checking : enabled
+2009-10-22 15:05:07,023 INFO building session factory
+2009-10-22 15:05:07,023 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 15:05:07,023 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 15:05:07,023 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:05:08,491 DEBUG Closing connection
+2009-10-22 15:05:08,585 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 15:05:08,585 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 15:05:08,616 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 15:05:08,726 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 15:05:08,726 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 15:05:08,726 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 15:05:08,726 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 15:05:08,726 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 15:05:08,726 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 15:05:08,726 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 15:05:08,788 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:05:08,788 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:05:08,788 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:05:08,788 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:05:08,788 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:05:08,788 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:05:08,788 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:05:08,788 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 15:05:08,788 DEBUG registered: 26670eedbc1845ef9e1027e67f05b193(cimexEjecutivos)
+2009-10-22 15:05:08,788 INFO Factory name:cimexEjecutivos
+2009-10-22 15:05:08,788 DEBUG Instantiated session factory
+2009-10-22 15:05:08,804 DEBUG Checking 0 named HQL queries
+2009-10-22 15:05:08,804 DEBUG Checking 0 named SQL queries
+2009-10-22 15:05:08,819 DEBUG [session-id=ad48823c-3a5a-4d54-9887-ae1ed0b4292a] opened session at timestamp:633918207088
+2009-10-22 15:05:08,835 DEBUG Begin (Unspecified)
+2009-10-22 15:05:08,835 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:05:29,601 DEBUG Start Commit
+2009-10-22 15:05:29,601 DEBUG before transaction completion
+2009-10-22 15:05:29,601 DEBUG IDbTransaction Committed
+2009-10-22 15:05:29,601 DEBUG transaction completion
+2009-10-22 15:05:29,601 DEBUG aggressively releasing database connection
+2009-10-22 15:05:29,601 DEBUG Closing connection
+2009-10-22 15:05:29,616 DEBUG IDbTransaction disposed.
+2009-10-22 15:05:29,616 DEBUG closing session
+2009-10-22 15:05:29,616 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 15:06:39,382 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 15:06:39,398 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 15:06:39,398 INFO Bytecode provider name : lcg
+2009-10-22 15:06:39,398 INFO Using reflection optimizer
+2009-10-22 15:06:39,444 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 15:06:39,444 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 15:06:39,444 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 15:06:39,444 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 15:06:39,444 DEBUG connection.isolation=ReadCommitted
+2009-10-22 15:06:39,444 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 15:06:39,444 DEBUG show_sql=true
+2009-10-22 15:06:39,444 DEBUG adonet.batch_size=10
+2009-10-22 15:06:39,444 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 15:06:39,444 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 15:06:39,444 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 15:06:39,444 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 15:06:39,491 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 15:06:41,507 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 15:06:41,554 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 15:06:41,554 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 15:06:41,585 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 15:06:41,585 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 15:06:41,585 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 15:06:41,585 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 15:06:41,585 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 15:06:41,616 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 15:06:41,632 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 15:06:41,648 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 15:06:41,648 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 15:06:41,648 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 15:06:41,663 INFO checking mappings queue
+2009-10-22 15:06:41,663 INFO processing one-to-many association mappings
+2009-10-22 15:06:41,663 INFO processing one-to-one association property references
+2009-10-22 15:06:41,663 INFO processing foreign key constraints
+2009-10-22 15:06:41,679 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 15:06:41,679 INFO Using dialect defined converter
+2009-10-22 15:06:41,679 INFO Generate SQL with comments: disabled
+2009-10-22 15:06:41,679 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 15:06:41,679 INFO Configuring ConnectionProvider
+2009-10-22 15:06:41,679 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 15:06:41,694 INFO Optimize cache for minimal puts: False
+2009-10-22 15:06:41,694 INFO Connection release mode: auto
+2009-10-22 15:06:41,694 INFO Default schema: Nybble_Test.dbo
+2009-10-22 15:06:41,694 INFO Default batch fetch size: 1
+2009-10-22 15:06:41,694 INFO echoing all SQL to stdout
+2009-10-22 15:06:41,694 INFO Statistics: disabled
+2009-10-22 15:06:41,694 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 15:06:41,694 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 15:06:41,694 INFO Query language substitutions: {}
+2009-10-22 15:06:41,694 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 15:06:41,694 DEBUG Wrap result sets: disabled
+2009-10-22 15:06:41,694 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 15:06:41,694 INFO Using Isolation Level: ReadCommitted
+2009-10-22 15:06:41,694 INFO Default entity-mode: Poco
+2009-10-22 15:06:41,694 INFO Named query checking : enabled
+2009-10-22 15:06:41,726 INFO building session factory
+2009-10-22 15:06:41,726 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 15:06:41,726 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 15:06:41,726 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:06:42,991 DEBUG Closing connection
+2009-10-22 15:06:43,085 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 15:06:43,085 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 15:06:43,101 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 15:06:43,194 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 15:06:43,194 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 15:06:43,194 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 15:06:43,194 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 15:06:43,194 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 15:06:43,194 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 15:06:43,194 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 15:06:43,226 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:06:43,226 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:06:43,226 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:06:43,226 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:06:43,226 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:06:43,226 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:06:43,226 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:06:43,226 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 15:06:43,226 DEBUG registered: 9eb196eef8c64eb0b773734e2ce5b379(cimexEjecutivos)
+2009-10-22 15:06:43,226 INFO Factory name:cimexEjecutivos
+2009-10-22 15:06:43,226 DEBUG Instantiated session factory
+2009-10-22 15:06:43,241 DEBUG Checking 0 named HQL queries
+2009-10-22 15:06:43,241 DEBUG Checking 0 named SQL queries
+2009-10-22 15:06:43,257 DEBUG [session-id=4dbf7bdc-212d-4db9-89cb-b9e6c93fdbc2] opened session at timestamp:633918208032
+2009-10-22 15:06:43,273 DEBUG Begin (Unspecified)
+2009-10-22 15:06:43,273 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:10:12,773 DEBUG Start Commit
+2009-10-22 15:10:12,789 DEBUG before transaction completion
+2009-10-22 15:10:12,789 DEBUG IDbTransaction Committed
+2009-10-22 15:10:12,789 DEBUG transaction completion
+2009-10-22 15:10:12,789 DEBUG aggressively releasing database connection
+2009-10-22 15:10:12,789 DEBUG Closing connection
+2009-10-22 15:10:12,789 DEBUG IDbTransaction disposed.
+2009-10-22 15:10:12,789 DEBUG closing session
+2009-10-22 15:10:12,789 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 15:33:55,395 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 15:33:55,411 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 15:33:55,411 INFO Bytecode provider name : lcg
+2009-10-22 15:33:55,411 INFO Using reflection optimizer
+2009-10-22 15:33:55,473 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 15:33:55,473 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 15:33:55,473 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 15:33:55,473 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 15:33:55,473 DEBUG connection.isolation=ReadCommitted
+2009-10-22 15:33:55,473 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 15:33:55,473 DEBUG show_sql=true
+2009-10-22 15:33:55,473 DEBUG adonet.batch_size=10
+2009-10-22 15:33:55,473 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 15:33:55,473 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 15:33:55,473 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 15:33:55,473 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 15:33:55,551 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 15:33:57,676 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 15:33:57,723 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 15:33:57,739 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 15:33:57,754 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 15:33:57,770 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 15:33:57,770 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 15:33:57,770 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 15:33:57,770 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 15:33:57,801 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 15:33:57,817 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 15:33:57,833 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 15:33:57,833 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 15:33:57,833 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 15:33:57,848 INFO checking mappings queue
+2009-10-22 15:33:57,848 INFO processing one-to-many association mappings
+2009-10-22 15:33:57,848 INFO processing one-to-one association property references
+2009-10-22 15:33:57,848 INFO processing foreign key constraints
+2009-10-22 15:33:57,879 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 15:33:57,879 INFO Using dialect defined converter
+2009-10-22 15:33:57,879 INFO Generate SQL with comments: disabled
+2009-10-22 15:33:57,879 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 15:33:57,879 INFO Configuring ConnectionProvider
+2009-10-22 15:33:57,879 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 15:33:57,879 INFO Optimize cache for minimal puts: False
+2009-10-22 15:33:57,879 INFO Connection release mode: auto
+2009-10-22 15:33:57,879 INFO Default schema: Nybble_Test.dbo
+2009-10-22 15:33:57,879 INFO Default batch fetch size: 1
+2009-10-22 15:33:57,879 INFO echoing all SQL to stdout
+2009-10-22 15:33:57,879 INFO Statistics: disabled
+2009-10-22 15:33:57,879 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 15:33:57,879 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 15:33:57,895 INFO Query language substitutions: {}
+2009-10-22 15:33:57,895 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 15:33:57,895 DEBUG Wrap result sets: disabled
+2009-10-22 15:33:57,895 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 15:33:57,895 INFO Using Isolation Level: ReadCommitted
+2009-10-22 15:33:57,895 INFO Default entity-mode: Poco
+2009-10-22 15:33:57,895 INFO Named query checking : enabled
+2009-10-22 15:33:57,926 INFO building session factory
+2009-10-22 15:33:57,926 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 15:33:57,926 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 15:33:57,926 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:33:59,255 DEBUG Closing connection
+2009-10-22 15:33:59,348 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 15:33:59,348 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 15:33:59,380 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 15:33:59,489 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 15:33:59,489 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 15:33:59,489 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 15:33:59,489 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 15:33:59,489 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 15:33:59,489 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 15:33:59,489 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 15:33:59,551 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:33:59,551 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:33:59,551 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:33:59,551 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:33:59,551 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:33:59,551 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:33:59,551 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:33:59,551 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 15:33:59,551 DEBUG registered: 312f84c8e0e84db98eeec531db1d053f(cimexEjecutivos)
+2009-10-22 15:33:59,551 INFO Factory name:cimexEjecutivos
+2009-10-22 15:33:59,551 DEBUG Instantiated session factory
+2009-10-22 15:33:59,551 DEBUG Checking 0 named HQL queries
+2009-10-22 15:33:59,551 DEBUG Checking 0 named SQL queries
+2009-10-22 15:33:59,583 DEBUG [session-id=a2bc36cf-56fa-4c7e-a97d-9f5783515f9b] opened session at timestamp:633918224395
+2009-10-22 15:33:59,583 DEBUG Begin (Unspecified)
+2009-10-22 15:33:59,583 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:34:03,349 DEBUG Start Commit
+2009-10-22 15:34:03,349 DEBUG before transaction completion
+2009-10-22 15:34:03,349 DEBUG IDbTransaction Committed
+2009-10-22 15:34:03,349 DEBUG transaction completion
+2009-10-22 15:34:03,349 DEBUG aggressively releasing database connection
+2009-10-22 15:34:03,349 DEBUG Closing connection
+2009-10-22 15:34:03,364 DEBUG IDbTransaction disposed.
+2009-10-22 15:34:03,364 DEBUG closing session
+2009-10-22 15:34:03,364 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 15:34:09,052 DEBUG [session-id=52acca3b-b792-47ea-a9b3-e44a30339a32] opened session at timestamp:633918224490
+2009-10-22 15:34:09,052 DEBUG Begin (Unspecified)
+2009-10-22 15:34:09,052 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:34:12,568 DEBUG Start Commit
+2009-10-22 15:34:12,568 DEBUG before transaction completion
+2009-10-22 15:34:12,568 DEBUG IDbTransaction Committed
+2009-10-22 15:34:12,568 DEBUG transaction completion
+2009-10-22 15:34:12,568 DEBUG aggressively releasing database connection
+2009-10-22 15:34:12,568 DEBUG Closing connection
+2009-10-22 15:34:12,568 DEBUG IDbTransaction disposed.
+2009-10-22 15:34:12,568 DEBUG closing session
+2009-10-22 15:34:12,568 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 15:34:12,568 DEBUG [session-id=52acca3b-b792-47ea-a9b3-e44a30339a32] executing real Dispose(False)
+2009-10-22 15:34:24,538 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 15:34:24,554 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 15:34:24,569 INFO Bytecode provider name : lcg
+2009-10-22 15:34:24,569 INFO Using reflection optimizer
+2009-10-22 15:34:24,632 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 15:34:24,632 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 15:34:24,632 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 15:34:24,632 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 15:34:24,632 DEBUG connection.isolation=ReadCommitted
+2009-10-22 15:34:24,632 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 15:34:24,632 DEBUG show_sql=true
+2009-10-22 15:34:24,632 DEBUG adonet.batch_size=10
+2009-10-22 15:34:24,632 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 15:34:24,632 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 15:34:24,632 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 15:34:24,647 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 15:34:24,741 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 15:34:26,819 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 15:34:26,866 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 15:34:26,866 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 15:34:26,898 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 15:34:26,913 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 15:34:26,913 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 15:34:26,913 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 15:34:26,913 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 15:34:26,960 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 15:34:26,960 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 15:34:26,991 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 15:34:26,991 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 15:34:26,991 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 15:34:27,007 INFO checking mappings queue
+2009-10-22 15:34:27,007 INFO processing one-to-many association mappings
+2009-10-22 15:34:27,007 INFO processing one-to-one association property references
+2009-10-22 15:34:27,007 INFO processing foreign key constraints
+2009-10-22 15:34:27,023 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 15:34:27,023 INFO Using dialect defined converter
+2009-10-22 15:34:27,038 INFO Generate SQL with comments: disabled
+2009-10-22 15:34:27,038 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 15:34:27,038 INFO Configuring ConnectionProvider
+2009-10-22 15:34:27,038 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 15:34:27,038 INFO Optimize cache for minimal puts: False
+2009-10-22 15:34:27,038 INFO Connection release mode: auto
+2009-10-22 15:34:27,038 INFO Default schema: Nybble_Test.dbo
+2009-10-22 15:34:27,038 INFO Default batch fetch size: 1
+2009-10-22 15:34:27,038 INFO echoing all SQL to stdout
+2009-10-22 15:34:27,038 INFO Statistics: disabled
+2009-10-22 15:34:27,038 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 15:34:27,038 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 15:34:27,054 INFO Query language substitutions: {}
+2009-10-22 15:34:27,054 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 15:34:27,054 DEBUG Wrap result sets: disabled
+2009-10-22 15:34:27,054 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 15:34:27,054 INFO Using Isolation Level: ReadCommitted
+2009-10-22 15:34:27,054 INFO Default entity-mode: Poco
+2009-10-22 15:34:27,054 INFO Named query checking : enabled
+2009-10-22 15:34:27,085 INFO building session factory
+2009-10-22 15:34:27,085 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 15:34:27,085 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 15:34:27,085 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:34:27,116 DEBUG Closing connection
+2009-10-22 15:34:27,210 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 15:34:27,226 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 15:34:27,241 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 15:34:27,351 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 15:34:27,351 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 15:34:27,351 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 15:34:27,351 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 15:34:27,351 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 15:34:27,351 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 15:34:27,351 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 15:34:27,398 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:34:27,398 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:34:27,398 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:34:27,398 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:34:27,398 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 15:34:27,398 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:34:27,398 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 15:34:27,398 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 15:34:27,398 DEBUG registered: 1597d3504b1f4ffe96c81520fe5348c5(cimexEjecutivos)
+2009-10-22 15:34:27,398 INFO Factory name:cimexEjecutivos
+2009-10-22 15:34:27,398 DEBUG Instantiated session factory
+2009-10-22 15:34:27,398 DEBUG Checking 0 named HQL queries
+2009-10-22 15:34:27,398 DEBUG Checking 0 named SQL queries
+2009-10-22 15:34:27,429 DEBUG [session-id=20793919-0a72-4206-9ff5-196e6f546a5e] opened session at timestamp:633918224674
+2009-10-22 15:34:27,429 DEBUG Begin (Unspecified)
+2009-10-22 15:34:27,429 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 15:58:09,890 DEBUG Start Commit
+2009-10-22 15:58:09,922 DEBUG closing session
+2009-10-22 15:58:09,922 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 15:58:09,953 DEBUG IDbTransaction disposed.
+2009-10-22 15:58:09,968 DEBUG transaction completion
+2009-10-22 15:58:09,968 DEBUG aggressively releasing database connection
+2009-10-22 15:58:09,968 DEBUG Closing connection
+2009-10-22 16:24:42,494 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 16:24:42,494 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 16:24:42,510 INFO Bytecode provider name : lcg
+2009-10-22 16:24:42,510 INFO Using reflection optimizer
+2009-10-22 16:24:42,588 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 16:24:42,588 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:24:42,588 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 16:24:42,588 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 16:24:42,588 DEBUG connection.isolation=ReadCommitted
+2009-10-22 16:24:42,588 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 16:24:42,588 DEBUG show_sql=true
+2009-10-22 16:24:42,588 DEBUG adonet.batch_size=10
+2009-10-22 16:24:42,588 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 16:24:42,588 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 16:24:42,588 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 16:24:42,588 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 16:24:42,713 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:24:44,760 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 16:24:44,807 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 16:24:44,822 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 16:24:44,854 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 16:24:44,854 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 16:24:44,854 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 16:24:44,854 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 16:24:44,854 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 16:24:44,901 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:24:44,916 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:24:44,932 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 16:24:44,932 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 16:24:44,932 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 16:24:44,947 INFO checking mappings queue
+2009-10-22 16:24:44,947 INFO processing one-to-many association mappings
+2009-10-22 16:24:44,947 INFO processing one-to-one association property references
+2009-10-22 16:24:44,947 INFO processing foreign key constraints
+2009-10-22 16:24:44,979 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:24:44,979 INFO Using dialect defined converter
+2009-10-22 16:24:44,979 INFO Generate SQL with comments: disabled
+2009-10-22 16:24:44,979 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:24:44,979 INFO Configuring ConnectionProvider
+2009-10-22 16:24:44,979 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 16:24:44,979 INFO Optimize cache for minimal puts: False
+2009-10-22 16:24:44,979 INFO Connection release mode: auto
+2009-10-22 16:24:44,979 INFO Default schema: Nybble_Test.dbo
+2009-10-22 16:24:44,979 INFO Default batch fetch size: 1
+2009-10-22 16:24:44,979 INFO echoing all SQL to stdout
+2009-10-22 16:24:44,979 INFO Statistics: disabled
+2009-10-22 16:24:44,979 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 16:24:44,994 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 16:24:45,010 INFO Query language substitutions: {}
+2009-10-22 16:24:45,010 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:24:45,010 DEBUG Wrap result sets: disabled
+2009-10-22 16:24:45,010 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:24:45,010 INFO Using Isolation Level: ReadCommitted
+2009-10-22 16:24:45,010 INFO Default entity-mode: Poco
+2009-10-22 16:24:45,010 INFO Named query checking : enabled
+2009-10-22 16:24:45,041 INFO building session factory
+2009-10-22 16:24:45,041 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 16:24:45,041 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 16:24:45,041 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:24:46,291 DEBUG Closing connection
+2009-10-22 16:24:46,385 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:24:46,385 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:24:46,416 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 16:24:46,510 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 16:24:46,510 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 16:24:46,510 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 16:24:46,510 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 16:24:46,510 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 16:24:46,510 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 16:24:46,510 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 16:24:46,557 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:24:46,557 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:24:46,572 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:24:46,572 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:24:46,572 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:24:46,572 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:24:46,572 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:24:46,572 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 16:24:46,572 DEBUG registered: 3330f6aca9454fbfb99ee6847310f2bf(cimexEjecutivos)
+2009-10-22 16:24:46,572 INFO Factory name:cimexEjecutivos
+2009-10-22 16:24:46,572 DEBUG Instantiated session factory
+2009-10-22 16:24:46,572 DEBUG Checking 0 named HQL queries
+2009-10-22 16:24:46,572 DEBUG Checking 0 named SQL queries
+2009-10-22 16:24:46,604 DEBUG [session-id=6f62c597-9c31-4576-b6c5-a780cc52d7fe] opened session at timestamp:633918254865
+2009-10-22 16:24:46,604 DEBUG Begin (Unspecified)
+2009-10-22 16:24:46,604 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:25:45,838 DEBUG Start Commit
+2009-10-22 16:25:45,854 DEBUG before transaction completion
+2009-10-22 16:25:45,854 DEBUG IDbTransaction Committed
+2009-10-22 16:25:45,854 DEBUG transaction completion
+2009-10-22 16:25:45,854 DEBUG aggressively releasing database connection
+2009-10-22 16:25:45,854 DEBUG Closing connection
+2009-10-22 16:25:45,854 DEBUG IDbTransaction disposed.
+2009-10-22 16:25:45,854 DEBUG closing session
+2009-10-22 16:25:45,854 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 16:25:58,932 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 16:25:58,948 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 16:25:58,963 INFO Bytecode provider name : lcg
+2009-10-22 16:25:58,963 INFO Using reflection optimizer
+2009-10-22 16:25:59,057 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 16:25:59,057 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:25:59,057 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 16:25:59,057 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 16:25:59,057 DEBUG connection.isolation=ReadCommitted
+2009-10-22 16:25:59,057 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 16:25:59,057 DEBUG show_sql=true
+2009-10-22 16:25:59,057 DEBUG adonet.batch_size=10
+2009-10-22 16:25:59,057 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 16:25:59,057 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 16:25:59,057 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 16:25:59,057 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 16:25:59,135 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:26:01,167 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 16:26:01,214 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 16:26:01,245 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 16:26:01,260 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 16:26:01,260 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 16:26:01,260 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 16:26:01,260 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 16:26:01,260 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 16:26:01,323 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:26:01,323 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:26:01,339 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 16:26:01,354 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 16:26:01,354 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 16:26:01,370 INFO checking mappings queue
+2009-10-22 16:26:01,370 INFO processing one-to-many association mappings
+2009-10-22 16:26:01,370 INFO processing one-to-one association property references
+2009-10-22 16:26:01,370 INFO processing foreign key constraints
+2009-10-22 16:26:01,385 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:26:01,385 INFO Using dialect defined converter
+2009-10-22 16:26:01,385 INFO Generate SQL with comments: disabled
+2009-10-22 16:26:01,385 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:26:01,401 INFO Configuring ConnectionProvider
+2009-10-22 16:26:01,401 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 16:26:01,401 INFO Optimize cache for minimal puts: False
+2009-10-22 16:26:01,401 INFO Connection release mode: auto
+2009-10-22 16:26:01,401 INFO Default schema: Nybble_Test.dbo
+2009-10-22 16:26:01,401 INFO Default batch fetch size: 1
+2009-10-22 16:26:01,401 INFO echoing all SQL to stdout
+2009-10-22 16:26:01,401 INFO Statistics: disabled
+2009-10-22 16:26:01,401 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 16:26:01,401 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 16:26:01,401 INFO Query language substitutions: {}
+2009-10-22 16:26:01,417 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:26:01,417 DEBUG Wrap result sets: disabled
+2009-10-22 16:26:01,417 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:26:01,417 INFO Using Isolation Level: ReadCommitted
+2009-10-22 16:26:01,417 INFO Default entity-mode: Poco
+2009-10-22 16:26:01,417 INFO Named query checking : enabled
+2009-10-22 16:26:01,432 INFO building session factory
+2009-10-22 16:26:01,432 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 16:26:01,448 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 16:26:01,448 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:26:02,651 DEBUG Closing connection
+2009-10-22 16:26:02,745 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:26:02,745 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:26:02,792 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 16:26:02,885 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 16:26:02,885 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 16:26:02,885 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 16:26:02,885 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 16:26:02,885 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 16:26:02,901 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 16:26:02,901 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 16:26:02,932 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:26:02,932 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:26:02,932 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:26:02,932 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:26:02,932 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:26:02,948 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:26:02,948 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:26:02,948 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 16:26:02,948 DEBUG registered: 3d56c35804b147d0b9668b646da45b92(cimexEjecutivos)
+2009-10-22 16:26:02,948 INFO Factory name:cimexEjecutivos
+2009-10-22 16:26:02,948 DEBUG Instantiated session factory
+2009-10-22 16:26:02,948 DEBUG Checking 0 named HQL queries
+2009-10-22 16:26:02,948 DEBUG Checking 0 named SQL queries
+2009-10-22 16:26:02,979 DEBUG [session-id=dbbe4ef2-299a-4ddd-b506-71a989b2da42] opened session at timestamp:633918255629
+2009-10-22 16:26:02,979 DEBUG Begin (Unspecified)
+2009-10-22 16:26:02,979 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:26:54,073 DEBUG Start Commit
+2009-10-22 16:26:54,073 DEBUG before transaction completion
+2009-10-22 16:26:54,089 DEBUG IDbTransaction Committed
+2009-10-22 16:26:54,089 DEBUG transaction completion
+2009-10-22 16:26:54,089 DEBUG aggressively releasing database connection
+2009-10-22 16:26:54,089 DEBUG Closing connection
+2009-10-22 16:26:54,089 DEBUG IDbTransaction disposed.
+2009-10-22 16:26:54,089 DEBUG closing session
+2009-10-22 16:26:54,089 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 16:27:03,526 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 16:27:03,542 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 16:27:03,542 INFO Bytecode provider name : lcg
+2009-10-22 16:27:03,542 INFO Using reflection optimizer
+2009-10-22 16:27:03,636 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 16:27:03,636 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:27:03,636 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 16:27:03,636 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 16:27:03,636 DEBUG connection.isolation=ReadCommitted
+2009-10-22 16:27:03,636 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 16:27:03,636 DEBUG show_sql=true
+2009-10-22 16:27:03,636 DEBUG adonet.batch_size=10
+2009-10-22 16:27:03,636 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 16:27:03,636 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 16:27:03,636 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 16:27:03,636 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 16:27:03,714 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:27:05,761 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 16:27:05,808 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 16:27:05,823 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 16:27:05,839 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 16:27:05,839 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 16:27:05,839 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 16:27:05,839 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 16:27:05,839 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 16:27:05,886 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:27:05,886 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:27:05,901 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 16:27:05,917 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 16:27:05,917 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 16:27:05,917 INFO checking mappings queue
+2009-10-22 16:27:05,933 INFO processing one-to-many association mappings
+2009-10-22 16:27:05,933 INFO processing one-to-one association property references
+2009-10-22 16:27:05,933 INFO processing foreign key constraints
+2009-10-22 16:27:05,948 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:27:05,948 INFO Using dialect defined converter
+2009-10-22 16:27:05,948 INFO Generate SQL with comments: disabled
+2009-10-22 16:27:05,948 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:27:05,948 INFO Configuring ConnectionProvider
+2009-10-22 16:27:05,948 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 16:27:05,964 INFO Optimize cache for minimal puts: False
+2009-10-22 16:27:05,964 INFO Connection release mode: auto
+2009-10-22 16:27:05,964 INFO Default schema: Nybble_Test.dbo
+2009-10-22 16:27:05,964 INFO Default batch fetch size: 1
+2009-10-22 16:27:05,964 INFO echoing all SQL to stdout
+2009-10-22 16:27:05,964 INFO Statistics: disabled
+2009-10-22 16:27:05,964 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 16:27:05,964 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 16:27:05,980 INFO Query language substitutions: {}
+2009-10-22 16:27:05,980 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:27:05,980 DEBUG Wrap result sets: disabled
+2009-10-22 16:27:05,980 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:27:05,980 INFO Using Isolation Level: ReadCommitted
+2009-10-22 16:27:05,980 INFO Default entity-mode: Poco
+2009-10-22 16:27:05,980 INFO Named query checking : enabled
+2009-10-22 16:27:06,011 INFO building session factory
+2009-10-22 16:27:06,011 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 16:27:06,011 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 16:27:06,011 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:27:07,230 DEBUG Closing connection
+2009-10-22 16:27:07,339 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:27:07,339 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:27:07,370 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 16:27:07,464 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 16:27:07,464 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 16:27:07,464 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 16:27:07,464 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 16:27:07,464 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 16:27:07,464 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 16:27:07,464 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 16:27:07,511 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:27:07,511 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:27:07,511 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:27:07,511 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:27:07,511 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:27:07,511 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:27:07,511 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:27:07,511 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 16:27:07,511 DEBUG registered: 0cef0bc0618143c6ae6413b212ddc2bb(cimexEjecutivos)
+2009-10-22 16:27:07,511 INFO Factory name:cimexEjecutivos
+2009-10-22 16:27:07,511 DEBUG Instantiated session factory
+2009-10-22 16:27:07,511 DEBUG Checking 0 named HQL queries
+2009-10-22 16:27:07,511 DEBUG Checking 0 named SQL queries
+2009-10-22 16:27:07,542 DEBUG [session-id=1e9adfd0-0191-4a87-b9e3-db0a1282d799] opened session at timestamp:633918256275
+2009-10-22 16:27:07,542 DEBUG Begin (Unspecified)
+2009-10-22 16:27:07,542 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:27:12,636 DEBUG Start Commit
+2009-10-22 16:27:12,636 DEBUG before transaction completion
+2009-10-22 16:27:12,651 DEBUG IDbTransaction Committed
+2009-10-22 16:27:12,651 DEBUG transaction completion
+2009-10-22 16:27:12,651 DEBUG aggressively releasing database connection
+2009-10-22 16:27:12,651 DEBUG Closing connection
+2009-10-22 16:27:12,651 DEBUG IDbTransaction disposed.
+2009-10-22 16:27:12,651 DEBUG closing session
+2009-10-22 16:27:12,651 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 16:31:03,044 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 16:31:03,059 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 16:31:03,075 INFO Bytecode provider name : lcg
+2009-10-22 16:31:03,075 INFO Using reflection optimizer
+2009-10-22 16:31:03,137 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 16:31:03,137 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:31:03,137 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 16:31:03,137 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 16:31:03,137 DEBUG connection.isolation=ReadCommitted
+2009-10-22 16:31:03,137 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 16:31:03,137 DEBUG show_sql=true
+2009-10-22 16:31:03,137 DEBUG adonet.batch_size=10
+2009-10-22 16:31:03,137 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 16:31:03,137 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 16:31:03,137 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 16:31:03,137 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 16:31:03,231 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:31:05,294 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 16:31:05,340 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 16:31:05,356 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 16:31:05,387 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 16:31:05,387 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 16:31:05,387 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 16:31:05,387 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 16:31:05,387 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 16:31:05,434 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:31:05,434 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:31:05,450 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 16:31:05,465 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 16:31:05,465 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 16:31:05,481 INFO checking mappings queue
+2009-10-22 16:31:05,481 INFO processing one-to-many association mappings
+2009-10-22 16:31:05,481 INFO processing one-to-one association property references
+2009-10-22 16:31:05,481 INFO processing foreign key constraints
+2009-10-22 16:31:05,497 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:31:05,512 INFO Using dialect defined converter
+2009-10-22 16:31:05,512 INFO Generate SQL with comments: disabled
+2009-10-22 16:31:05,512 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:31:05,512 INFO Configuring ConnectionProvider
+2009-10-22 16:31:05,512 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 16:31:05,512 INFO Optimize cache for minimal puts: False
+2009-10-22 16:31:05,512 INFO Connection release mode: auto
+2009-10-22 16:31:05,512 INFO Default schema: Nybble_Test.dbo
+2009-10-22 16:31:05,512 INFO Default batch fetch size: 1
+2009-10-22 16:31:05,512 INFO echoing all SQL to stdout
+2009-10-22 16:31:05,512 INFO Statistics: disabled
+2009-10-22 16:31:05,512 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 16:31:05,512 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 16:31:05,528 INFO Query language substitutions: {}
+2009-10-22 16:31:05,528 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:31:05,528 DEBUG Wrap result sets: disabled
+2009-10-22 16:31:05,528 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:31:05,528 INFO Using Isolation Level: ReadCommitted
+2009-10-22 16:31:05,528 INFO Default entity-mode: Poco
+2009-10-22 16:31:05,528 INFO Named query checking : enabled
+2009-10-22 16:31:05,559 INFO building session factory
+2009-10-22 16:31:05,559 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 16:31:05,559 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 16:31:05,559 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:31:05,590 DEBUG Closing connection
+2009-10-22 16:31:05,700 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:31:05,700 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:31:05,731 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 16:31:05,825 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 16:31:05,825 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 16:31:05,825 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 16:31:05,825 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 16:31:05,825 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 16:31:05,825 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 16:31:05,825 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 16:31:05,887 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:31:05,903 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:31:05,903 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:31:05,903 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:31:05,903 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:31:05,903 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:31:05,903 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:31:05,903 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 16:31:05,903 DEBUG registered: ee563a03a18f471db11d8cdbd425e14a(cimexEjecutivos)
+2009-10-22 16:31:05,903 INFO Factory name:cimexEjecutivos
+2009-10-22 16:31:05,903 DEBUG Instantiated session factory
+2009-10-22 16:31:05,903 DEBUG Checking 0 named HQL queries
+2009-10-22 16:31:05,903 DEBUG Checking 0 named SQL queries
+2009-10-22 16:31:05,934 DEBUG [session-id=6615450d-ebd2-4d3b-934d-d1070f57d81d] opened session at timestamp:633918258659
+2009-10-22 16:31:05,934 DEBUG Begin (Unspecified)
+2009-10-22 16:31:05,934 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:31:16,559 DEBUG Start Commit
+2009-10-22 16:31:16,559 DEBUG before transaction completion
+2009-10-22 16:31:16,559 DEBUG IDbTransaction Committed
+2009-10-22 16:31:16,559 DEBUG transaction completion
+2009-10-22 16:31:16,559 DEBUG aggressively releasing database connection
+2009-10-22 16:31:16,559 DEBUG Closing connection
+2009-10-22 16:31:16,575 DEBUG IDbTransaction disposed.
+2009-10-22 16:31:16,575 DEBUG closing session
+2009-10-22 16:31:16,575 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 16:44:12,839 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 16:44:12,855 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 16:44:12,855 INFO Bytecode provider name : lcg
+2009-10-22 16:44:12,855 INFO Using reflection optimizer
+2009-10-22 16:44:12,948 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 16:44:12,948 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:44:12,948 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 16:44:12,948 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 16:44:12,948 DEBUG connection.isolation=ReadCommitted
+2009-10-22 16:44:12,948 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 16:44:12,948 DEBUG show_sql=true
+2009-10-22 16:44:12,948 DEBUG adonet.batch_size=10
+2009-10-22 16:44:12,948 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 16:44:12,948 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 16:44:12,948 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 16:44:12,948 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 16:44:13,042 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:44:15,183 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 16:44:15,230 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 16:44:15,245 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 16:44:15,261 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 16:44:15,261 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 16:44:15,261 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 16:44:15,261 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 16:44:15,261 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 16:44:15,308 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:44:15,308 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:44:15,339 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 16:44:15,339 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 16:44:15,339 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 16:44:15,355 INFO checking mappings queue
+2009-10-22 16:44:15,355 INFO processing one-to-many association mappings
+2009-10-22 16:44:15,355 INFO processing one-to-one association property references
+2009-10-22 16:44:15,355 INFO processing foreign key constraints
+2009-10-22 16:44:15,386 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:44:15,386 INFO Using dialect defined converter
+2009-10-22 16:44:15,386 INFO Generate SQL with comments: disabled
+2009-10-22 16:44:15,386 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:44:15,386 INFO Configuring ConnectionProvider
+2009-10-22 16:44:15,386 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 16:44:15,386 INFO Optimize cache for minimal puts: False
+2009-10-22 16:44:15,386 INFO Connection release mode: auto
+2009-10-22 16:44:15,386 INFO Default schema: Nybble_Test.dbo
+2009-10-22 16:44:15,386 INFO Default batch fetch size: 1
+2009-10-22 16:44:15,386 INFO echoing all SQL to stdout
+2009-10-22 16:44:15,386 INFO Statistics: disabled
+2009-10-22 16:44:15,386 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 16:44:15,386 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 16:44:15,402 INFO Query language substitutions: {}
+2009-10-22 16:44:15,402 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:44:15,402 DEBUG Wrap result sets: disabled
+2009-10-22 16:44:15,402 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:44:15,402 INFO Using Isolation Level: ReadCommitted
+2009-10-22 16:44:15,402 INFO Default entity-mode: Poco
+2009-10-22 16:44:15,417 INFO Named query checking : enabled
+2009-10-22 16:44:15,448 INFO building session factory
+2009-10-22 16:44:15,448 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 16:44:15,448 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 16:44:15,448 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:44:16,698 DEBUG Closing connection
+2009-10-22 16:44:16,886 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:44:16,886 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:44:17,073 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 16:44:17,183 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 16:44:17,183 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 16:44:17,183 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 16:44:17,183 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 16:44:17,183 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 16:44:17,183 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 16:44:17,183 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 16:44:17,401 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:44:17,401 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:44:17,401 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:44:17,401 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:44:17,401 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:44:17,401 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:44:17,401 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:44:17,401 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 16:44:17,401 DEBUG registered: 2ba9cbe68dc644e0a5f982b90057ddda(cimexEjecutivos)
+2009-10-22 16:44:17,401 INFO Factory name:cimexEjecutivos
+2009-10-22 16:44:17,401 DEBUG Instantiated session factory
+2009-10-22 16:44:17,417 DEBUG Checking 0 named HQL queries
+2009-10-22 16:44:17,417 DEBUG Checking 0 named SQL queries
+2009-10-22 16:44:17,448 DEBUG [session-id=d30ea005-d937-4f29-b311-e6da5bc17163] opened session at timestamp:633918266574
+2009-10-22 16:44:17,448 DEBUG Begin (Unspecified)
+2009-10-22 16:44:17,448 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:44:45,010 DEBUG Start Commit
+2009-10-22 16:44:45,010 DEBUG before transaction completion
+2009-10-22 16:44:45,010 DEBUG IDbTransaction Committed
+2009-10-22 16:44:45,010 DEBUG transaction completion
+2009-10-22 16:44:45,010 DEBUG aggressively releasing database connection
+2009-10-22 16:44:45,010 DEBUG Closing connection
+2009-10-22 16:44:45,010 DEBUG IDbTransaction disposed.
+2009-10-22 16:44:45,010 DEBUG closing session
+2009-10-22 16:44:45,010 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 16:45:04,462 DEBUG [session-id=f87af131-d53a-4a75-ba6a-4bcf96a2a170] opened session at timestamp:633918267044
+2009-10-22 16:45:04,462 DEBUG Begin (Unspecified)
+2009-10-22 16:45:04,462 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:47:24,709 DEBUG Start Commit
+2009-10-22 16:47:24,709 DEBUG before transaction completion
+2009-10-22 16:47:24,709 DEBUG IDbTransaction Committed
+2009-10-22 16:47:24,709 DEBUG transaction completion
+2009-10-22 16:47:24,709 DEBUG aggressively releasing database connection
+2009-10-22 16:47:24,709 DEBUG Closing connection
+2009-10-22 16:47:24,709 DEBUG IDbTransaction disposed.
+2009-10-22 16:47:24,709 DEBUG closing session
+2009-10-22 16:47:24,709 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 16:51:36,052 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 16:51:36,067 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 16:51:36,067 INFO Bytecode provider name : lcg
+2009-10-22 16:51:36,083 INFO Using reflection optimizer
+2009-10-22 16:51:36,224 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 16:51:36,224 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:51:36,224 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 16:51:36,224 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 16:51:36,224 DEBUG connection.isolation=ReadCommitted
+2009-10-22 16:51:36,224 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 16:51:36,224 DEBUG show_sql=true
+2009-10-22 16:51:36,224 DEBUG adonet.batch_size=10
+2009-10-22 16:51:36,224 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 16:51:36,224 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 16:51:36,224 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 16:51:36,224 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 16:51:36,333 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:51:38,411 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 16:51:38,458 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 16:51:38,458 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 16:51:38,489 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 16:51:38,489 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 16:51:38,489 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 16:51:38,489 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 16:51:38,489 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 16:51:38,520 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:51:38,536 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:51:38,552 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 16:51:38,552 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 16:51:38,552 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 16:51:38,567 INFO checking mappings queue
+2009-10-22 16:51:38,567 INFO processing one-to-many association mappings
+2009-10-22 16:51:38,567 INFO processing one-to-one association property references
+2009-10-22 16:51:38,567 INFO processing foreign key constraints
+2009-10-22 16:51:38,599 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:51:38,599 INFO Using dialect defined converter
+2009-10-22 16:51:38,599 INFO Generate SQL with comments: disabled
+2009-10-22 16:51:38,599 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:51:38,599 INFO Configuring ConnectionProvider
+2009-10-22 16:51:38,599 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 16:51:38,614 INFO Optimize cache for minimal puts: False
+2009-10-22 16:51:38,614 INFO Connection release mode: auto
+2009-10-22 16:51:38,614 INFO Default schema: Nybble_Test.dbo
+2009-10-22 16:51:38,614 INFO Default batch fetch size: 1
+2009-10-22 16:51:38,614 INFO echoing all SQL to stdout
+2009-10-22 16:51:38,614 INFO Statistics: disabled
+2009-10-22 16:51:38,614 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 16:51:38,614 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 16:51:38,614 INFO Query language substitutions: {}
+2009-10-22 16:51:38,614 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:51:38,630 DEBUG Wrap result sets: disabled
+2009-10-22 16:51:38,630 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:51:38,630 INFO Using Isolation Level: ReadCommitted
+2009-10-22 16:51:38,630 INFO Default entity-mode: Poco
+2009-10-22 16:51:38,630 INFO Named query checking : enabled
+2009-10-22 16:51:38,645 INFO building session factory
+2009-10-22 16:51:38,645 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 16:51:38,661 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 16:51:38,661 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:51:39,895 DEBUG Closing connection
+2009-10-22 16:51:40,005 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:51:40,005 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:51:40,036 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 16:51:40,130 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 16:51:40,130 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 16:51:40,130 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 16:51:40,130 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 16:51:40,130 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 16:51:40,130 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 16:51:40,130 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 16:51:40,192 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:51:40,192 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:51:40,192 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:51:40,192 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:51:40,192 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:51:40,192 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:51:40,192 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:51:40,192 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 16:51:40,192 DEBUG registered: abb7d8f045d04a44bd9d1b3acd2d9e78(cimexEjecutivos)
+2009-10-22 16:51:40,192 INFO Factory name:cimexEjecutivos
+2009-10-22 16:51:40,192 DEBUG Instantiated session factory
+2009-10-22 16:51:40,192 DEBUG Checking 0 named HQL queries
+2009-10-22 16:51:40,192 DEBUG Checking 0 named SQL queries
+2009-10-22 16:51:40,224 DEBUG [session-id=e8cfc224-2395-47b4-8b67-4e329543bb58] opened session at timestamp:633918271002
+2009-10-22 16:51:40,239 DEBUG Begin (Unspecified)
+2009-10-22 16:51:40,239 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:51:56,317 DEBUG Start Commit
+2009-10-22 16:51:56,333 DEBUG before transaction completion
+2009-10-22 16:51:56,349 DEBUG IDbTransaction Committed
+2009-10-22 16:51:56,349 DEBUG transaction completion
+2009-10-22 16:51:56,349 DEBUG aggressively releasing database connection
+2009-10-22 16:51:56,349 DEBUG Closing connection
+2009-10-22 16:51:56,349 DEBUG IDbTransaction disposed.
+2009-10-22 16:51:56,349 DEBUG closing session
+2009-10-22 16:51:56,349 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 16:52:29,114 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 16:52:29,130 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 16:52:29,130 INFO Bytecode provider name : lcg
+2009-10-22 16:52:29,130 INFO Using reflection optimizer
+2009-10-22 16:52:29,208 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 16:52:29,208 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:52:29,208 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 16:52:29,208 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 16:52:29,208 DEBUG connection.isolation=ReadCommitted
+2009-10-22 16:52:29,208 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 16:52:29,208 DEBUG show_sql=true
+2009-10-22 16:52:29,208 DEBUG adonet.batch_size=10
+2009-10-22 16:52:29,208 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 16:52:29,208 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 16:52:29,208 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 16:52:29,224 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 16:52:29,302 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:52:31,349 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 16:52:31,395 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 16:52:31,395 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 16:52:31,427 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 16:52:31,427 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 16:52:31,427 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 16:52:31,427 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 16:52:31,427 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 16:52:31,474 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:52:31,474 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:52:31,489 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 16:52:31,505 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 16:52:31,505 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 16:52:31,520 INFO checking mappings queue
+2009-10-22 16:52:31,520 INFO processing one-to-many association mappings
+2009-10-22 16:52:31,520 INFO processing one-to-one association property references
+2009-10-22 16:52:31,520 INFO processing foreign key constraints
+2009-10-22 16:52:31,536 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:52:31,536 INFO Using dialect defined converter
+2009-10-22 16:52:31,536 INFO Generate SQL with comments: disabled
+2009-10-22 16:52:31,536 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:52:31,536 INFO Configuring ConnectionProvider
+2009-10-22 16:52:31,552 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 16:52:31,552 INFO Optimize cache for minimal puts: False
+2009-10-22 16:52:31,552 INFO Connection release mode: auto
+2009-10-22 16:52:31,552 INFO Default schema: Nybble_Test.dbo
+2009-10-22 16:52:31,552 INFO Default batch fetch size: 1
+2009-10-22 16:52:31,552 INFO echoing all SQL to stdout
+2009-10-22 16:52:31,552 INFO Statistics: disabled
+2009-10-22 16:52:31,552 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 16:52:31,552 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 16:52:31,567 INFO Query language substitutions: {}
+2009-10-22 16:52:31,567 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:52:31,567 DEBUG Wrap result sets: disabled
+2009-10-22 16:52:31,567 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:52:31,567 INFO Using Isolation Level: ReadCommitted
+2009-10-22 16:52:31,567 INFO Default entity-mode: Poco
+2009-10-22 16:52:31,567 INFO Named query checking : enabled
+2009-10-22 16:52:31,599 INFO building session factory
+2009-10-22 16:52:31,599 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 16:52:31,599 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 16:52:31,599 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:52:31,630 DEBUG Closing connection
+2009-10-22 16:52:31,724 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:52:31,724 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:52:31,755 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 16:52:31,880 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 16:52:31,880 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 16:52:31,880 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 16:52:31,880 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 16:52:31,880 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 16:52:31,880 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 16:52:31,880 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 16:52:31,927 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:52:31,927 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:52:31,927 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:52:31,927 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:52:31,927 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:52:31,927 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:52:31,927 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:52:31,927 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 16:52:31,927 DEBUG registered: 521356298bad44a2b623d3fcb443c523(cimexEjecutivos)
+2009-10-22 16:52:31,927 INFO Factory name:cimexEjecutivos
+2009-10-22 16:52:31,927 DEBUG Instantiated session factory
+2009-10-22 16:52:31,927 DEBUG Checking 0 named HQL queries
+2009-10-22 16:52:31,927 DEBUG Checking 0 named SQL queries
+2009-10-22 16:52:31,958 DEBUG [session-id=6f4caa39-1b09-4eba-b4a5-0ec5e9ed265e] opened session at timestamp:633918271519
+2009-10-22 16:52:31,958 DEBUG Begin (Unspecified)
+2009-10-22 16:52:31,958 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:53:19,458 DEBUG Start Commit
+2009-10-22 16:53:19,458 DEBUG before transaction completion
+2009-10-22 16:53:19,458 DEBUG IDbTransaction Committed
+2009-10-22 16:53:19,458 DEBUG transaction completion
+2009-10-22 16:53:19,458 DEBUG aggressively releasing database connection
+2009-10-22 16:53:19,458 DEBUG Closing connection
+2009-10-22 16:53:19,458 DEBUG IDbTransaction disposed.
+2009-10-22 16:53:19,458 DEBUG closing session
+2009-10-22 16:53:19,458 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 16:55:51,333 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 16:55:51,349 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 16:55:51,364 INFO Bytecode provider name : lcg
+2009-10-22 16:55:51,364 INFO Using reflection optimizer
+2009-10-22 16:55:51,458 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 16:55:51,458 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:55:51,458 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 16:55:51,458 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 16:55:51,458 DEBUG connection.isolation=ReadCommitted
+2009-10-22 16:55:51,458 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 16:55:51,458 DEBUG show_sql=true
+2009-10-22 16:55:51,458 DEBUG adonet.batch_size=10
+2009-10-22 16:55:51,458 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 16:55:51,458 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 16:55:51,458 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 16:55:51,458 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 16:55:51,536 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:55:53,661 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 16:55:53,692 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 16:55:53,724 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 16:55:53,739 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 16:55:53,739 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 16:55:53,739 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 16:55:53,739 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 16:55:53,739 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 16:55:53,786 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:55:53,802 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 16:55:53,817 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 16:55:53,817 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 16:55:53,817 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 16:55:53,833 INFO checking mappings queue
+2009-10-22 16:55:53,833 INFO processing one-to-many association mappings
+2009-10-22 16:55:53,833 INFO processing one-to-one association property references
+2009-10-22 16:55:53,833 INFO processing foreign key constraints
+2009-10-22 16:55:53,864 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 16:55:53,864 INFO Using dialect defined converter
+2009-10-22 16:55:53,864 INFO Generate SQL with comments: disabled
+2009-10-22 16:55:53,864 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 16:55:53,880 INFO Configuring ConnectionProvider
+2009-10-22 16:55:53,880 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 16:55:53,880 INFO Optimize cache for minimal puts: False
+2009-10-22 16:55:53,880 INFO Connection release mode: auto
+2009-10-22 16:55:53,880 INFO Default schema: Nybble_Test.dbo
+2009-10-22 16:55:53,880 INFO Default batch fetch size: 1
+2009-10-22 16:55:53,880 INFO echoing all SQL to stdout
+2009-10-22 16:55:53,880 INFO Statistics: disabled
+2009-10-22 16:55:53,880 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 16:55:53,880 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 16:55:53,895 INFO Query language substitutions: {}
+2009-10-22 16:55:53,895 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:55:53,895 DEBUG Wrap result sets: disabled
+2009-10-22 16:55:53,895 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 16:55:53,895 INFO Using Isolation Level: ReadCommitted
+2009-10-22 16:55:53,895 INFO Default entity-mode: Poco
+2009-10-22 16:55:53,895 INFO Named query checking : enabled
+2009-10-22 16:55:53,927 INFO building session factory
+2009-10-22 16:55:53,927 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 16:55:53,927 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 16:55:53,942 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:55:53,974 DEBUG Closing connection
+2009-10-22 16:55:54,083 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:55:54,083 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 16:55:54,114 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 16:55:54,208 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 16:55:54,208 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 16:55:54,208 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 16:55:54,208 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 16:55:54,208 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 16:55:54,208 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 16:55:54,208 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 16:55:54,255 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:55:54,255 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:55:54,255 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:55:54,255 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:55:54,270 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 16:55:54,270 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:55:54,270 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 16:55:54,270 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 16:55:54,270 DEBUG registered: b5bdf5c213f5438db30ea34d345a9069(cimexEjecutivos)
+2009-10-22 16:55:54,270 INFO Factory name:cimexEjecutivos
+2009-10-22 16:55:54,270 DEBUG Instantiated session factory
+2009-10-22 16:55:54,270 DEBUG Checking 0 named HQL queries
+2009-10-22 16:55:54,270 DEBUG Checking 0 named SQL queries
+2009-10-22 16:55:54,302 DEBUG [session-id=d9d70a76-0fbe-4d85-ad9a-6c743f61dfbd] opened session at timestamp:633918273542
+2009-10-22 16:55:54,302 DEBUG Begin (Unspecified)
+2009-10-22 16:55:54,302 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 16:57:43,130 DEBUG Start Commit
+2009-10-22 16:57:43,130 DEBUG before transaction completion
+2009-10-22 16:57:43,130 DEBUG IDbTransaction Committed
+2009-10-22 16:57:43,130 DEBUG transaction completion
+2009-10-22 16:57:43,130 DEBUG aggressively releasing database connection
+2009-10-22 16:57:43,130 DEBUG Closing connection
+2009-10-22 16:57:43,130 DEBUG IDbTransaction disposed.
+2009-10-22 16:57:43,130 DEBUG closing session
+2009-10-22 16:57:43,130 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 17:07:59,179 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 17:07:59,195 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 17:07:59,195 INFO Bytecode provider name : lcg
+2009-10-22 17:07:59,210 INFO Using reflection optimizer
+2009-10-22 17:07:59,289 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 17:07:59,289 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 17:07:59,289 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 17:07:59,289 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 17:07:59,289 DEBUG connection.isolation=ReadCommitted
+2009-10-22 17:07:59,289 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 17:07:59,289 DEBUG show_sql=true
+2009-10-22 17:07:59,289 DEBUG adonet.batch_size=10
+2009-10-22 17:07:59,289 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 17:07:59,289 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 17:07:59,289 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 17:07:59,289 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 17:07:59,414 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 17:08:01,539 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 17:08:01,585 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 17:08:01,601 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 17:08:01,617 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 17:08:01,632 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 17:08:01,632 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 17:08:01,632 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 17:08:01,632 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 17:08:01,664 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 17:08:01,679 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 17:08:01,695 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 17:08:01,695 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 17:08:01,695 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 17:08:01,710 INFO checking mappings queue
+2009-10-22 17:08:01,710 INFO processing one-to-many association mappings
+2009-10-22 17:08:01,710 INFO processing one-to-one association property references
+2009-10-22 17:08:01,710 INFO processing foreign key constraints
+2009-10-22 17:08:01,742 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 17:08:01,742 INFO Using dialect defined converter
+2009-10-22 17:08:01,742 INFO Generate SQL with comments: disabled
+2009-10-22 17:08:01,742 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 17:08:01,742 INFO Configuring ConnectionProvider
+2009-10-22 17:08:01,742 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 17:08:01,742 INFO Optimize cache for minimal puts: False
+2009-10-22 17:08:01,742 INFO Connection release mode: auto
+2009-10-22 17:08:01,757 INFO Default schema: Nybble_Test.dbo
+2009-10-22 17:08:01,757 INFO Default batch fetch size: 1
+2009-10-22 17:08:01,757 INFO echoing all SQL to stdout
+2009-10-22 17:08:01,757 INFO Statistics: disabled
+2009-10-22 17:08:01,757 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 17:08:01,757 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 17:08:01,757 INFO Query language substitutions: {}
+2009-10-22 17:08:01,757 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 17:08:01,773 DEBUG Wrap result sets: disabled
+2009-10-22 17:08:01,773 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 17:08:01,773 INFO Using Isolation Level: ReadCommitted
+2009-10-22 17:08:01,773 INFO Default entity-mode: Poco
+2009-10-22 17:08:01,773 INFO Named query checking : enabled
+2009-10-22 17:08:01,804 INFO building session factory
+2009-10-22 17:08:01,804 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 17:08:01,804 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 17:08:01,804 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 17:08:01,835 DEBUG Closing connection
+2009-10-22 17:08:01,945 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 17:08:01,945 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 17:08:01,976 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 17:08:02,070 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 17:08:02,070 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 17:08:02,070 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 17:08:02,070 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 17:08:02,070 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 17:08:02,070 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 17:08:02,070 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 17:08:02,132 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 17:08:02,132 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 17:08:02,132 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 17:08:02,132 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 17:08:02,132 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 17:08:02,132 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 17:08:02,132 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 17:08:02,132 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 17:08:02,132 DEBUG registered: 342c8c78c07440ffb69fce8528228f37(cimexEjecutivos)
+2009-10-22 17:08:02,132 INFO Factory name:cimexEjecutivos
+2009-10-22 17:08:02,132 DEBUG Instantiated session factory
+2009-10-22 17:08:02,132 DEBUG Checking 0 named HQL queries
+2009-10-22 17:08:02,132 DEBUG Checking 0 named SQL queries
+2009-10-22 17:08:02,164 DEBUG [session-id=c0cd1e9d-4479-4f75-aa43-9e25e29d7629] opened session at timestamp:633918280821
+2009-10-22 17:08:02,164 DEBUG Begin (Unspecified)
+2009-10-22 17:08:02,164 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 17:08:18,257 DEBUG Start Commit
+2009-10-22 17:08:18,257 DEBUG before transaction completion
+2009-10-22 17:08:18,257 DEBUG IDbTransaction Committed
+2009-10-22 17:08:18,257 DEBUG transaction completion
+2009-10-22 17:08:18,257 DEBUG aggressively releasing database connection
+2009-10-22 17:08:18,257 DEBUG Closing connection
+2009-10-22 17:08:18,273 DEBUG IDbTransaction disposed.
+2009-10-22 17:08:18,273 DEBUG closing session
+2009-10-22 17:08:18,273 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 17:09:36,977 INFO NHibernate 2.1.0.4000 (2.1.0.4000)
+2009-10-22 17:09:36,992 INFO hibernate-configuration section not found in application configuration file
+2009-10-22 17:09:36,992 INFO Bytecode provider name : lcg
+2009-10-22 17:09:37,008 INFO Using reflection optimizer
+2009-10-22 17:09:37,086 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-22 17:09:37,086 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-22 17:09:37,086 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-22 17:09:37,086 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-22 17:09:37,086 DEBUG connection.isolation=ReadCommitted
+2009-10-22 17:09:37,086 DEBUG default_schema=Nybble_Test.dbo
+2009-10-22 17:09:37,086 DEBUG show_sql=true
+2009-10-22 17:09:37,086 DEBUG adonet.batch_size=10
+2009-10-22 17:09:37,086 DEBUG proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2009-10-22 17:09:37,086 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-22 17:09:37,086 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-22 17:09:37,102 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-22 17:09:37,180 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 17:09:39,258 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-22 17:09:39,320 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-22 17:09:39,336 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-22 17:09:39,367 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-22 17:09:39,367 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-22 17:09:39,367 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-22 17:09:39,367 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-22 17:09:39,367 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-22 17:09:39,414 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 17:09:39,430 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-22 17:09:39,445 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-22 17:09:39,445 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-22 17:09:39,445 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-22 17:09:39,461 INFO checking mappings queue
+2009-10-22 17:09:39,461 INFO processing one-to-many association mappings
+2009-10-22 17:09:39,461 INFO processing one-to-one association property references
+2009-10-22 17:09:39,461 INFO processing foreign key constraints
+2009-10-22 17:09:39,492 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-22 17:09:39,492 INFO Using dialect defined converter
+2009-10-22 17:09:39,492 INFO Generate SQL with comments: disabled
+2009-10-22 17:09:39,492 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-22 17:09:39,492 INFO Configuring ConnectionProvider
+2009-10-22 17:09:39,492 INFO Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2009-10-22 17:09:39,508 INFO Optimize cache for minimal puts: False
+2009-10-22 17:09:39,508 INFO Connection release mode: auto
+2009-10-22 17:09:39,508 INFO Default schema: Nybble_Test.dbo
+2009-10-22 17:09:39,508 INFO Default batch fetch size: 1
+2009-10-22 17:09:39,508 INFO echoing all SQL to stdout
+2009-10-22 17:09:39,508 INFO Statistics: disabled
+2009-10-22 17:09:39,508 INFO Deleted entity synthetic identifier rollback: disabled
+2009-10-22 17:09:39,508 INFO Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2009-10-22 17:09:39,524 INFO Query language substitutions: {}
+2009-10-22 17:09:39,524 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 17:09:39,524 DEBUG Wrap result sets: disabled
+2009-10-22 17:09:39,524 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-22 17:09:39,524 INFO Using Isolation Level: ReadCommitted
+2009-10-22 17:09:39,524 INFO Default entity-mode: Poco
+2009-10-22 17:09:39,524 INFO Named query checking : enabled
+2009-10-22 17:09:39,555 INFO building session factory
+2009-10-22 17:09:39,555 DEBUG Session factory constructed with filter configurations : {}
+2009-10-22 17:09:39,555 DEBUG instantiating session factory with properties: {'use_reflection_optimizer'='True', 'session_factory_name'='cimexEjecutivos', 'dialect'='ProjectBase.Data.FullTextDialect, ProjectBase.Data', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'connection.connection_string'='data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test', 'connection.isolation'='ReadCommitted', 'default_schema'='Nybble_Test.dbo', 'show_sql'='true', 'adonet.batch_size'='10', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2009-10-22 17:09:39,555 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 17:09:40,805 DEBUG Closing connection
+2009-10-22 17:09:40,914 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 17:09:40,914 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-22 17:09:40,945 DEBUG Create Instantiator using optimizer for:ProjectBase.WebTester.Test
+2009-10-22 17:09:41,039 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-22 17:09:41,055 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-22 17:09:41,055 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-22 17:09:41,055 DEBUG  Insert 0: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, ID) VALUES (?, ?, ?, ?, ?, ?, ?)
+2009-10-22 17:09:41,055 DEBUG  Update 0: UPDATE Nybble_Test.dbo.Test SET Version = ?, TestProperty = ?, CreatedOn = ?, ModifiedOn = ?, CreatedBy = ?, ModifiedBy = ? WHERE ID = ? AND Version = ?
+2009-10-22 17:09:41,055 DEBUG  Delete 0: DELETE FROM Nybble_Test.dbo.Test WHERE ID = ? AND Version = ?
+2009-10-22 17:09:41,055 DEBUG  Identity insert: INSERT INTO Nybble_Test.dbo.Test (Version, TestProperty, CreatedOn, ModifiedOn, CreatedBy, ModifiedBy) VALUES (?, ?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2009-10-22 17:09:41,102 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 17:09:41,102 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 17:09:41,102 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 17:09:41,102 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 17:09:41,102 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-22 17:09:41,102 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 17:09:41,102 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-22 17:09:41,102 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-22 17:09:41,102 DEBUG registered: 3f5d8579a89a46418bd61a74ce847e1a(cimexEjecutivos)
+2009-10-22 17:09:41,102 INFO Factory name:cimexEjecutivos
+2009-10-22 17:09:41,102 DEBUG Instantiated session factory
+2009-10-22 17:09:41,117 DEBUG Checking 0 named HQL queries
+2009-10-22 17:09:41,117 DEBUG Checking 0 named SQL queries
+2009-10-22 17:09:41,133 DEBUG [session-id=136e3fc7-057e-4b95-93a4-47336b4eadb1] opened session at timestamp:633918281811
+2009-10-22 17:09:41,149 DEBUG Begin (Unspecified)
+2009-10-22 17:09:41,149 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 17:10:49,087 DEBUG Start Commit
+2009-10-22 17:10:49,102 DEBUG before transaction completion
+2009-10-22 17:10:49,102 DEBUG IDbTransaction Committed
+2009-10-22 17:10:49,102 DEBUG transaction completion
+2009-10-22 17:10:49,102 DEBUG aggressively releasing database connection
+2009-10-22 17:10:49,102 DEBUG Closing connection
+2009-10-22 17:10:49,102 DEBUG IDbTransaction disposed.
+2009-10-22 17:10:49,102 DEBUG closing session
+2009-10-22 17:10:49,102 DEBUG running BatcherImpl.Dispose(true)
+2009-10-22 17:24:07,920 DEBUG [session-id=a0d77168-4145-4b20-a75c-9f234052d49f] opened session at timestamp:633918290479
+2009-10-22 17:24:07,920 DEBUG Begin (Unspecified)
+2009-10-22 17:24:07,920 DEBUG Obtaining IDbConnection from Driver
+2009-10-22 17:24:42,701 DEBUG [session-id=136e3fc7-057e-4b95-93a4-47336b4eadb1] executing real Dispose(False)
+2009-10-22 17:24:51,842 DEBUG Start Commit
+2009-10-22 17:24:51,842 DEBUG before transaction completion
+2009-10-22 17:24:51,842 DEBUG IDbTransaction Committed
+2009-10-22 17:24:51,842 DEBUG transaction completion
+2009-10-22 17:24:51,842 DEBUG aggressively releasing database connection
+2009-10-22 17:24:51,842 DEBUG Closing connection
+2009-10-22 17:24:51,842 DEBUG IDbTransaction disposed.
+2009-10-22 17:24:51,842 DEBUG closing session
+2009-10-22 17:24:51,842 DEBUG running BatcherImpl.Dispose(true)

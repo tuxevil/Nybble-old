@@ -1,0 +1,71 @@
+9
+
+dir
+2858
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble/Library/ProjectBase/trunk/ProjectBase.Payment
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble
+
+
+
+2009-04-23T17:25:07.416575Z
+18
+leonardo.rodriguez
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+420dda77-6af4-1841-a513-76830d1e3cad
+
+CreditCard
+dir
+
+Paypal
+dir
+
+Properties
+dir
+
+ProjectBase.Payment.csproj
+file
+
+
+
+
+2009-07-27T19:38:48.671875Z
+2b19d308c5e3fc2a747bbd278d24ff64
+2009-04-23T17:25:07.416575Z
+18
+leonardo.rodriguez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2976
+

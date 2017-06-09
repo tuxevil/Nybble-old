@@ -1,0 +1,128 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3690C9DB-452E-43B5-BC4C-816F8A95F359}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectBase.Newsletter</RootNamespace>
+    <AssemblyName>ProjectBase.Newsletter</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Redist\NHibernate-2.1.0.GA-bin\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\ExecutionDao.cs" />
+    <Compile Include="DataAccess\HistoryDao.cs" />
+    <Compile Include="DataAccess\ProcessExecutionDao.cs" />
+    <Compile Include="DataAccess\FrequencyDao.cs" />
+    <Compile Include="DataAccess\NewsletterDao.cs" />
+    <Compile Include="Domain\Execution.cs" />
+    <Compile Include="Domain\HistoryUser.cs" />
+    <Compile Include="Domain\History.cs" />
+    <Compile Include="Domain\ProcessorExecution.cs" />
+    <Compile Include="Domain\Frequency.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="INewsletterProcessor.cs" />
+    <Compile Include="NewsletterDaoFactory.cs" />
+    <Compile Include="DataAccess\CampaignDao.cs" />
+    <Compile Include="DataAccess\UserCampaignDao.cs" />
+    <Compile Include="Domain\Campaign.cs" />
+    <Compile Include="Domain\Newsletter.cs" />
+    <Compile Include="Domain\UserCampaign.cs" />
+    <Compile Include="Interfaces\IDynamicNewsletter.cs" />
+    <Compile Include="Interfaces\IPersonalizedNewsletter.cs" />
+    <Compile Include="NewsletterManager.cs" />
+    <Compile Include="NewsletterProcessor.cs" />
+    <Compile Include="ProcessorCollector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Campaign.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Newsletter.hbm.xml" />
+    <EmbeddedResource Include="Mapping\UserCampaign.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectBase.Data\ProjectBase.Data.csproj">
+      <Project>{DF442913-716B-4A18-8A70-004B0FEB0168}</Project>
+      <Name>ProjectBase.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectBase.Utils\ProjectBase.Utils.csproj">
+      <Project>{24D21FC0-59B8-4208-AA1D-1B30D3F3C101}</Project>
+      <Name>ProjectBase.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\History.hbm.xml" />
+    <EmbeddedResource Include="Mapping\HistoryUser.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Frequency.hbm.xml" />
+    <EmbeddedResource Include="Mapping\CampaignExecute.hbm.xml" />
+    <EmbeddedResource Include="Mapping\ProcessExecution.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Domain\Domain Model.cd" />
+    <None Include="Modeling.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="To Extend.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

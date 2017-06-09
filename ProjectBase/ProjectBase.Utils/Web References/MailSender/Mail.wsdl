@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://mailservice.grundfos.app.nybblenetwork.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://mailservice.grundfos.app.nybblenetwork.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://mailservice.grundfos.app.nybblenetwork.com/">
+      <s:element name="SendEmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="from" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="to" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="body" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="replyToAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="replyToName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendEmailResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SendEmailWithAttachment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="from" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="to" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="body" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="replyToAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="replyToName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileContent" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendEmailWithAttachmentResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendEmailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendEmail" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailWithAttachmentSoapIn">
+    <wsdl:part name="parameters" element="tns:SendEmailWithAttachment" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailWithAttachmentSoapOut">
+    <wsdl:part name="parameters" element="tns:SendEmailWithAttachmentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MailSoap">
+    <wsdl:operation name="SendEmail">
+      <wsdl:input message="tns:SendEmailSoapIn" />
+      <wsdl:output message="tns:SendEmailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendEmailWithAttachment">
+      <wsdl:input message="tns:SendEmailWithAttachmentSoapIn" />
+      <wsdl:output message="tns:SendEmailWithAttachmentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MailSoap" type="tns:MailSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendEmail">
+      <soap:operation soapAction="http://mailservice.grundfos.app.nybblenetwork.com/SendEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmailWithAttachment">
+      <soap:operation soapAction="http://mailservice.grundfos.app.nybblenetwork.com/SendEmailWithAttachment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MailSoap12" type="tns:MailSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendEmail">
+      <soap12:operation soapAction="http://mailservice.grundfos.app.nybblenetwork.com/SendEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmailWithAttachment">
+      <soap12:operation soapAction="http://mailservice.grundfos.app.nybblenetwork.com/SendEmailWithAttachment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Mail">
+    <wsdl:port name="MailSoap" binding="tns:MailSoap">
+      <soap:address location="http://localhost:3731/Mail.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MailSoap12" binding="tns:MailSoap12">
+      <soap12:address location="http://localhost:3731/Mail.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

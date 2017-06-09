@@ -1,0 +1,10 @@
+C:\Projects\Nybble\ProjectBase\ProjectBase.Payment\bin\Debug\ProjectBase.Payment.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.Payment\bin\Debug\ProjectBase.Payment.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.Payment\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Nybble\ProjectBase\ProjectBase.Payment\obj\Debug\ProjectBase.Payment.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.Payment\obj\Debug\ProjectBase.Payment.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.Payment\bin\Release\ProjectBase.Payment.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.Payment\bin\Release\ProjectBase.Payment.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.Payment\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Nybble\ProjectBase\ProjectBase.Payment\obj\Release\ProjectBase.Payment.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.Payment\obj\Release\ProjectBase.Payment.pdb

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nybble/!svn/ver/2855/Library/NybbleMembership/trunk/NybbleMembership.Business/Controller
+END
+PermissionController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/2855/Library/NybbleMembership/trunk/NybbleMembership.Business/Controller/PermissionController.cs
+END
+RolController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/nybble/!svn/ver/2172/Library/NybbleMembership/trunk/NybbleMembership.Business/Controller/RolController.cs
+END
+UserProfileController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/1937/Library/NybbleMembership/trunk/NybbleMembership.Business/Controller/UserProfileController.cs
+END
+SiteController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/nybble/!svn/ver/673/Library/NybbleMembership/trunk/NybbleMembership.Business/Controller/SiteController.cs
+END
+FunctionController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/673/Library/NybbleMembership/trunk/NybbleMembership.Business/Controller/FunctionController.cs
+END
+UserMemberController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/1937/Library/NybbleMembership/trunk/NybbleMembership.Business/Controller/UserMemberController.cs
+END

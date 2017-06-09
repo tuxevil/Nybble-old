@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/Paypal
+END
+PaypalConfig.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/Paypal/PaypalConfig.cs
+END
+PaypalItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/Paypal/PaypalItem.cs
+END
+PaypalProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/Paypal/PaypalProcessor.cs
+END
+PaypalSectionHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/Paypal/PaypalSectionHandler.cs
+END

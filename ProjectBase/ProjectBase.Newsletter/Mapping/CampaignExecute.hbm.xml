@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ProjectBase.Newsletter" namespace="ProjectBase.Newsletter">
+  <class name="Execution" table="camExecute" >
+	  
+    <id name="ID" type="System.Int32" column="ExecuteID">
+      <generator class="identity"/>
+    </id>
+	  
+    <many-to-one name="Campaign" column="CampaignID" class="Campaign" />
+    <property    name="RunDate" column="RunDate" type="System.DateTime" not-null="true"/>
+    <property    name="DateCreated" column="DateCreated" type="System.DateTime" not-null="true"/>
+	<property    name="TestExecution" column="TestExecution" type="System.Boolean" not-null="true" />
+
+  </class>
+  
+</hibernate-mapping>

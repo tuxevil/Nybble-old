@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nybble/!svn/ver/2855/Library/NybbleMembership/trunk/NybbleMembership.PermissionManager
+END
+Exceptions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/551/Library/NybbleMembership/trunk/NybbleMembership.PermissionManager/Exceptions.cs
+END
+PermissionManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nybble/!svn/ver/2855/Library/NybbleMembership/trunk/NybbleMembership.PermissionManager/PermissionManager.cs
+END
+NybbleMembership.PermissionManager.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/nybble/!svn/ver/2229/Library/NybbleMembership/trunk/NybbleMembership.PermissionManager/NybbleMembership.PermissionManager.csproj
+END
+PermissionManager.cd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/518/Library/NybbleMembership/trunk/NybbleMembership.PermissionManager/PermissionManager.cd
+END
+MembershipManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nybble/!svn/ver/2426/Library/NybbleMembership/trunk/NybbleMembership.PermissionManager/MembershipManager.cs
+END

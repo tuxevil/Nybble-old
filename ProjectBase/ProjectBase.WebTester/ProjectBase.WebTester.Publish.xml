@@ -1,0 +1,44 @@
+<publishData>
+  <publishTarget publishUrl="c:\testleo\">
+    <file relUrl="bin/Castle.MicroKernel.xml" publishTime="06/08/2007 12:32:58 p.m." />
+    <file relUrl="bin/log4net.dll" publishTime="29/09/2008 10:02:22 a.m." />
+    <file relUrl="bin/Castle.Model.xml" publishTime="06/08/2007 12:32:58 p.m." />
+    <file relUrl="bin/ProjectBase.Newsletter.dll" publishTime="28/08/2009 05:23:51 p.m." />
+    <file relUrl="bin/Castle.Core.xml" publishTime="29/09/2008 10:02:22 a.m." />
+    <file relUrl="bin/NHibernate.dll" publishTime="29/09/2008 10:30:22 a.m." />
+    <file relUrl="bin/ProjectBase.Data.pdb" publishTime="28/08/2009 05:23:51 p.m." />
+    <file relUrl="bin/ProjectBase.Data.dll" publishTime="28/08/2009 05:23:51 p.m." />
+    <file relUrl="bin/Castle.DynamicProxy2.xml" publishTime="29/09/2008 10:02:22 a.m." />
+    <file relUrl="TestCSV.aspx" publishTime="27/07/2009 04:38:47 p.m." />
+    <file relUrl="bin/log4net.xml" publishTime="29/09/2008 10:02:22 a.m." />
+    <file relUrl="bin/ProjectBase.Newsletter.pdb" publishTime="28/08/2009 05:23:51 p.m." />
+    <file relUrl="createeventsource.aspx" publishTime="27/07/2009 04:38:47 p.m." />
+    <file relUrl="bin/Castle.DynamicProxy2.dll" publishTime="29/09/2008 10:02:22 a.m." />
+    <file relUrl="bin/ProjectBase.WebTester.pdb" publishTime="28/08/2009 05:29:06 p.m." />
+    <file relUrl="bin/Castle.DynamicProxy.dll" publishTime="06/02/2007 02:12:20 p.m." />
+    <file relUrl="bin/ProjectBase.Utils.pdb" publishTime="28/08/2009 05:23:50 p.m." />
+    <file relUrl="bin/Castle.MicroKernel.dll" publishTime="06/08/2007 12:32:58 p.m." />
+    <file relUrl="bin/Castle.Core.dll" publishTime="29/09/2008 10:02:22 a.m." />
+    <file relUrl="bin/ProjectBase.MailSender.pdb" publishTime="28/08/2009 05:29:05 p.m." />
+    <file relUrl="bin/NHibernate.xml" publishTime="29/09/2008 10:30:22 a.m." />
+    <file relUrl="bin/Iesi.Collections.xml" publishTime="29/09/2008 10:30:08 a.m." />
+    <file relUrl="Web.config" publishTime="28/08/2009 04:13:07 p.m." />
+    <file relUrl="bin/Castle.Windsor.dll" publishTime="06/08/2007 12:32:59 p.m." />
+    <file relUrl="Global.asax" publishTime="27/07/2009 04:38:47 p.m." />
+    <file relUrl="WebNHibernate.config" publishTime="27/07/2009 04:38:47 p.m." />
+    <file relUrl="bin/Castle.Windsor.xml" publishTime="06/08/2007 12:32:59 p.m." />
+    <file relUrl="bin/Iesi.Collections.dll" publishTime="29/09/2008 10:30:10 a.m." />
+    <file relUrl="bin/ProjectBase.Payment.pdb" publishTime="28/08/2009 05:22:32 p.m." />
+    <file relUrl="bin/ProjectBase.Utils.dll" publishTime="28/08/2009 05:23:50 p.m." />
+    <file relUrl="MailTest.aspx" publishTime="28/08/2009 04:00:44 p.m." />
+    <file relUrl="bin/ProjectBase.Payment.dll" publishTime="28/08/2009 05:22:32 p.m." />
+    <file relUrl="WebCastle.config" publishTime="27/07/2009 04:38:47 p.m." />
+    <file relUrl="bin/Castle.Model.dll" publishTime="06/08/2007 12:32:58 p.m." />
+    <file relUrl="bin/ProjectBase.WebTester.dll" publishTime="28/08/2009 05:29:06 p.m." />
+    <file relUrl="bin/Castle.DynamicProxy.xml" publishTime="06/02/2007 02:12:20 p.m." />
+    <file relUrl="logi.aspx" publishTime="27/07/2009 04:38:47 p.m." />
+    <file relUrl="bin/ProjectBase.MailSender.dll" publishTime="28/08/2009 05:29:05 p.m." />
+    <file relUrl="Default.aspx" publishTime="27/07/2009 04:38:47 p.m." />
+    <file relUrl="bin/ProjectBase.Utils.XmlSerializers.dll" publishTime="28/08/2009 05:23:51 p.m." />
+  </publishTarget>
+</publishData>

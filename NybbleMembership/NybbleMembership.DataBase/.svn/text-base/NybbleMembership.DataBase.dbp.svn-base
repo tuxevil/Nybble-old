@@ -1,0 +1,25 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "NybbleMembership.DataBase"
+   MSDTVersion = "80"
+   DefDBRef = "dbserver.Grundfos_Security.grundfos"
+   SccProjectName = "Svn"
+   SccLocalPath = "Svn"
+   SccAuxPath = "Svn"
+   SccProvider = "SubversionScc"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+      Begin Folder = "v.1.0"
+         Script = "NybbleMembership_FullDB.sql"
+      End
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "dbserver.Grundfos_Security.grundfos"
+         ConnectStr = "Data Source=DBSERVER;Initial Catalog=Grundfos_Security;Persist Security Info=True;User ID=grundfos"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 5
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

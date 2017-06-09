@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="805306377">
+  <Assembly Name="NHibernate.Caches.SysCache, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" Image="eda8dddc-70c1-4940-994f-51af18344832" Timestamp="633137965720000000" XmlDocIndexTimestamp="633686798173906250" />
+  <Assembly Name="ProjectBase.Data, Version=1.0.0.0, Culture=neutral" Image="736e693e-aed9-42a0-91fb-da51abc4ad24" Timestamp="633668518475637768" />
+  <Assembly Name="ProjectBase.Services, Version=1.0.0.0, Culture=neutral" Image="74a6a57e-611d-4dd8-a3c2-ac9ca0f8c962" Timestamp="633476871520000000" />
+  <Assembly Name="ProjectBase.Utils, Version=1.0.0.0, Culture=neutral" Image="359b0c2f-f983-44c2-9dc4-abec48c6371a" Timestamp="633668518471573838" />
+</Assemblies>

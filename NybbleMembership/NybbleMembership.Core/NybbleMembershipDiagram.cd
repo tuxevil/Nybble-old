@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="NybbleMembership.Core.Domain.EntityPermission">
+    <Position X="16.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\EntityPermission.cs</FileName>
+      <HashCode>CAAAAIAAAACAAAAAAAJAAAAAAAAAAABAAAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="className" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="NybbleMembership.Core.Domain.Function">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\Function.cs</FileName>
+      <HashCode>AAAAAAAAAAAggABAIIACQARAAgAEAAAAEgAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Parent" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="roles" />
+      <Field Name="permissions" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="description" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Field Name="parent" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="NybbleMembership.Core.Domain.PagePermission">
+    <Position X="13.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\PagePermission.cs</FileName>
+      <HashCode>CAEEAAABBAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="folderName" Hidden="true" />
+      <Field Name="pageName" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="NybbleMembership.Core.Domain.Permission">
+    <Position X="15.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\Permission.cs</FileName>
+      <HashCode>KAAABChAAAAgAAAAIgJgAAYAIAAEAAAACAAAAgAIAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="functions" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="action" Hidden="true" />
+      <Field Name="code" Hidden="true" />
+      <Field Name="description" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="NybbleMembership.Core.Domain.Rol">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\Rol.cs</FileName>
+      <HashCode>IAAAACAAAAAggAAAIoAAAAYAAgAEAAIAAgAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="function" />
+      <Field Name="users" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="description" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="NybbleMembership.Core.Domain.Site">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\Site.cs</FileName>
+      <HashCode>ICAAACAAAAAAAAAAAAAgAAQAIAAEAAAAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Users" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="appName" Hidden="true" />
+      <Field Name="code" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Field Name="users" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="NybbleMembership.Core.Domain.UserMember">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\UserMember.cs</FileName>
+      <HashCode>AAAAAAAABCAAAAQgAAADAAAQAgIAEAACEQABABEAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="roles" />
+      <Field Name="sites" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="createDate" Hidden="true" />
+      <Field Name="email" Hidden="true" />
+      <Field Name="isApproved" Hidden="true" />
+      <Field Name="isLockedOut" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="NybbleMembership.Core.Domain.MethodPermission">
+    <Position X="11.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\MethodPermission.cs</FileName>
+      <HashCode>CAAAAIAAAACAAAAAAAJAAAAAAAAAAAIACAACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="NybbleMembership.Core.Domain.WebControlPermission">
+    <Position X="18.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\WebControlPermission.cs</FileName>
+      <HashCode>CAAAAABAAAAAAAAAAABAAEAAAABAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

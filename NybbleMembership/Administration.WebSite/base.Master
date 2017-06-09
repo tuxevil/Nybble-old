@@ -1,0 +1,154 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="base.master.cs" Inherits="Administration.WebSite._base" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <link rel="stylesheet" href="/css/reset-fonts-grids.css" type="text/css" />
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
+       <style type="text/css">
+a:link, a:visited {
+    color: #03c;
+  }
+
+  a:hover {
+    color: #fff;
+    background-color: #03c;
+  }
+
+  #hd {
+    background-color: #036;
+  }
+
+  #hd h1 {
+    color: #fff;
+  }
+
+  #P2P_selector {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  #hd h3, #hd h3 a:link, #hd h3 a:visited {
+    color: #fff;
+  }
+
+  #hd h3 a:hover {
+    color: #fff;
+    background-color: #1D64AD;
+  }
+
+  #hd h3 a.current:link, #hd h3 a.current:visited {
+    color: #fff;
+  }
+
+  #hd h3 a.current:hover {
+    color: #fff;
+    background-color: #036;
+  }
+
+  #hd h1 a:link, #hd h1 a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #hd h1 a:hover {
+    color: #fff;
+    background-color: #036;
+    text-decoration: underline;
+  }
+
+  #hd h1 span {
+    color: #fff;
+  }
+  
+#Tabs a:link, #Tabs a:visited {
+    background-color: #1A4F85;
+    color: #fff;
+    border: 1px solid #036;
+    border-bottom: 1px solid #1A4F85;
+  }
+
+  #Tabs ul#MainTabs a:link.current, #Tabs ul#MainTabs a:visited.current,
+  div#CategoryList a.current:link, div#CategoryList a.current:visited {
+    color: #090;
+  }
+
+  #Tabs a:hover {
+    color: #fff;
+    background-color: #1D64AD;
+    border-bottom: 1px solid #1D64AD;
+  }
+
+  #Tabs li#AdminTab a:link, #Tabs li#AdminTab a:visited {
+    color: #fff;
+    background-color: #036;
+    border-bottom: 1px solid #036;
+    text-decoration: underline;
+  }
+
+  #Tabs li#AdminTab a:hover {
+    color: #fff;
+  }
+
+  #Tabs li#AdminTab a.current {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+</style>
+<asp:ContentPlaceHolder ID="cplHead" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmBody" runat="server">
+    <div id="doc3">
+    
+        <div id="hd" class="global">
+       
+        <h3>
+                <asp:LoginName ID="LoginName1" runat="server"/>
+                <span class="pipe">|</span><asp:LoginStatus ID="LoginStatus1" LogoutPageUrl="~/login.aspx" runat="server" OnLoggedOut="LoginStatus1_LoggedOut" />
+                <span class="pipe">|</span><a href="/Admin/changepassword.aspx">Cambiar Password</a>
+        </h3>
+       
+       <h1 id="headerTitle"><span>Prices Manager Advanced - Permisos</span></h1>
+       
+        <div id="Tabs"> 
+               <ul id="MainTabs">
+                   <li><a href="/Admin/Sites.aspx">Sitios</a></li>
+                    <li><a href="/Admin/Roles.aspx">Roles</a></li>
+                    <li><a href="/Admin/Users.aspx">Usuarios</a></li>
+                    <li><a href="/Admin/Functions.aspx">Funciones</a></li>
+                    <li><a href="/Admin/Permissions.aspx">Permisos</a></li>
+                </ul>
+        </div>       
+       </div>
+        
+        <div id="bd">
+        <div class="yui-b">
+        <div class="yui-g">
+            <div class="col">
+<%--            <div class="page_header"> 
+--%>              <h1 runat="server" ID="lblPageTitle"></h1>
+            <%--</div>--%>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="cplMain" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            </div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        </div>
+       </div>
+       
+       <div id="ft" class="footer">
+       
+        <span class="pipe_series">
+            <asp:Label ID="lblVersion" runat="server" ></asp:Label>
+        </span>
+       </div>
+       
+    </div>
+  </form>
+</body>
+</html>

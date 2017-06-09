@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/nybble/!svn/ver/2211/Library/ProjectBase/trunk/ProjectBase.Utils/Email
+END
+WebMailing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nybble/!svn/ver/2211/Library/ProjectBase/trunk/ProjectBase.Utils/Email/WebMailing.cs
+END
+Mailing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nybble/!svn/ver/2211/Library/ProjectBase/trunk/ProjectBase.Utils/Email/Mailing.cs
+END
+SmtpMailing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nybble/!svn/ver/2211/Library/ProjectBase/trunk/ProjectBase.Utils/Email/SmtpMailing.cs
+END

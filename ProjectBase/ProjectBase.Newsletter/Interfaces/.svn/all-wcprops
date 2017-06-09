@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Interfaces
+END
+IPersonalizedNewsletter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Interfaces/IPersonalizedNewsletter.cs
+END
+IDynamicNewsletter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Interfaces/IDynamicNewsletter.cs
+END

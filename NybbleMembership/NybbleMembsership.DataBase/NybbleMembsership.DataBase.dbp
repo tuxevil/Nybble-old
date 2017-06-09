@@ -1,0 +1,19 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "NybbleMembsership.DataBase"
+   MSDTVersion = "80"
+   SccProjectName = "Svn"
+   SccLocalPath = "Svn"
+   SccAuxPath = "Svn"
+   SccProvider = "SubversionScc"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+      Begin Folder = "v1.0"
+         Script = "NybbleMembership_FullDBSchema.sql"
+      End
+   End
+   Begin DBRefFolder = "Database References"
+   End
+   Begin Folder = "Queries"
+   End
+End

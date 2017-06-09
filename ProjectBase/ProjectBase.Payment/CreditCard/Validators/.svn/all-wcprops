@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/CreditCard/Validators
+END
+CardTypesListBoxConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/CreditCard/Validators/CardTypesListBoxConverter.cs
+END
+CreditCardValidatorDesigner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/CreditCard/Validators/CreditCardValidatorDesigner.cs
+END
+CreditCardValidatorSectionHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/CreditCard/Validators/CreditCardValidatorSectionHandler.cs
+END
+CardTypesListBox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/CreditCard/Validators/CardTypesListBox.cs
+END
+CardTypesListBoxDesigner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/CreditCard/Validators/CardTypesListBoxDesigner.cs
+END
+CardTypesCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/CreditCard/Validators/CardTypesCollection.cs
+END
+CreditCardValidator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Payment/CreditCard/Validators/CreditCardValidator.cs
+END

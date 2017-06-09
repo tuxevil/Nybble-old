@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="NybbleMembership.Core" namespace="NybbleMembership.Core.Domain">
+  <class name="UserProfile" table="mem_UserProfile" >
+    <id name="ID" type="System.Guid" column="UserId">
+      <generator class="assigned"/>
+    </id>
+    <property name="FirstName" column="FirstName" type="System.String" not-null="true" length="64"/>
+    <property name="LastName" column="LastName" type="System.String" not-null="true" length="64"/>
+
+    <one-to-one name="UserMember" class="UserMember" constrained="true"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/nybble/!svn/ver/2477/Library/ProjectBase/trunk/ProjectBase.Utils
+END
+ProjectBase.Utils.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nybble/!svn/ver/2211/Library/ProjectBase/trunk/ProjectBase.Utils/ProjectBase.Utils.csproj
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/nybble/!svn/ver/2211/Library/ProjectBase/trunk/ProjectBase.Utils/app.config
+END
+DesignByContract.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Utils/DesignByContract.cs
+END
+Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Utils/Enums.cs
+END
+WindsorAccessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Utils/WindsorAccessor.cs
+END

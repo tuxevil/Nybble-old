@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/nybble/!svn/ver/2380/Library/NybbleMembership/trunk/Administration.WebSite
+END
+Web.config
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nybble/!svn/ver/2359/Library/NybbleMembership/trunk/Administration.WebSite/Web.config
+END
+WebNHibernate.config
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/2229/Library/NybbleMembership/trunk/Administration.WebSite/WebNHibernate.config
+END
+login.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nybble/!svn/ver/1985/Library/NybbleMembership/trunk/Administration.WebSite/login.aspx
+END
+Administration.WebSite.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2373/Library/NybbleMembership/trunk/Administration.WebSite/Administration.WebSite.csproj
+END
+login.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/nybble/!svn/ver/1985/Library/NybbleMembership/trunk/Administration.WebSite/login.aspx.designer.cs
+END
+login.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nybble/!svn/ver/1985/Library/NybbleMembership/trunk/Administration.WebSite/login.aspx.cs
+END
+test.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nybble/!svn/ver/519/Library/NybbleMembership/trunk/Administration.WebSite/test.aspx
+END
+test.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/519/Library/NybbleMembership/trunk/Administration.WebSite/test.aspx.designer.cs
+END
+test.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nybble/!svn/ver/519/Library/NybbleMembership/trunk/Administration.WebSite/test.aspx.cs
+END
+Default.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nybble/!svn/ver/1676/Library/NybbleMembership/trunk/Administration.WebSite/Default.aspx
+END
+Default.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/1676/Library/NybbleMembership/trunk/Administration.WebSite/Default.aspx.designer.cs
+END
+Default.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nybble/!svn/ver/424/Library/NybbleMembership/trunk/Administration.WebSite/Default.aspx.cs
+END
+base.Master
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nybble/!svn/ver/1985/Library/NybbleMembership/trunk/Administration.WebSite/base.Master
+END
+base.Master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/nybble/!svn/ver/1666/Library/NybbleMembership/trunk/Administration.WebSite/base.Master.designer.cs
+END
+base.Master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nybble/!svn/ver/2111/Library/NybbleMembership/trunk/Administration.WebSite/base.Master.cs
+END

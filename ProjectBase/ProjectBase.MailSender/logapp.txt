@@ -1,0 +1,61 @@
+2009-08-28 17:10:14,241 ERROR asdasd
+System.Exception: asdasd
+   en ProjectBase.MailSender.Mail.SendEmail(String siteCode, String to, String subject, String body) en C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\Mail.asmx.cs:línea 34
+2009-09-11 17:51:58,285 ERROR No se pudo administrar la solicitud.
+System.InvalidOperationException: Tanto Boolean SendEmail(System.String, System.String, System.String, System.String, System.String, System.String, Byte[]) como Boolean SendEmail(System.String, System.String, System.String, System.String, System.String) utilizan el nombre de mensaje 'SendEmail'. Utilice la propiedad MessageName del atributo personalizado WebMethod para especificar nombres de mensaje únicos para los métodos.
+   en System.Web.Services.Description.ServiceDescriptionReflector.CheckForDuplicateMethods(LogicalMethodInfo[] methods)
+   en System.Web.Services.Description.ServiceDescriptionReflector.Reflect(Type type, String url)
+   en System.Web.Services.Protocols.DocumentationServerType..ctor(Type type, String uri)
+   en System.Web.Services.Protocols.DocumentationServerProtocol.Initialize()
+   en System.Web.Services.Protocols.ServerProtocolFactory.Create(Type type, HttpContext context, HttpRequest request, HttpResponse response, Boolean& abortProcessing)
+2009-09-11 17:51:58,457 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-09-11 17:52:01,441 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-09-14 12:50:09,474 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-09-14 12:50:12,474 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-10-22 11:37:22,465 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-10-22 11:37:25,449 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-10-22 12:01:18,404 ERROR El buzón de correo no está disponible. La respuesta del servidor fue: <sebastian.real@nybblegroup.com> No such user here
+System.Net.Mail.SmtpFailedRecipientException: El buzón de correo no está disponible. La respuesta del servidor fue: <sebastian.real@nybblegroup.com> No such user here
+   en System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en ProjectBase.MailSender.Mail.SendEmailWithAttachment(String siteCode, String from, String to, String subject, String body, String filename, Byte[] fileContent) en C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\Mail.asmx.cs:línea 49
+2009-10-22 12:14:37,435 ERROR El buzón de correo no está disponible. La respuesta del servidor fue: <sebastian.real@nybblegroup.com> No such user here
+System.Net.Mail.SmtpFailedRecipientException: El buzón de correo no está disponible. La respuesta del servidor fue: <sebastian.real@nybblegroup.com> No such user here
+   en System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en ProjectBase.MailSender.Mail.SendEmailWithAttachment(String siteCode, String from, String to, String subject, String body, String filename, Byte[] fileContent) en C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\Mail.asmx.cs:línea 49
+2009-10-22 12:21:10,411 ERROR El buzón de correo no está disponible. La respuesta del servidor fue: <sebastian.real@nybblegroup.com> No such user here
+System.Net.Mail.SmtpFailedRecipientException: El buzón de correo no está disponible. La respuesta del servidor fue: <sebastian.real@nybblegroup.com> No such user here
+   en System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en ProjectBase.MailSender.Mail.SendEmailWithAttachment(String siteCode, String from, String to, String subject, String body, String filename, Byte[] fileContent) en C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\Mail.asmx.cs:línea 49

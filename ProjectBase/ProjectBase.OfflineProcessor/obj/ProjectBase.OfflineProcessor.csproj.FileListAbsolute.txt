@@ -1,0 +1,12 @@
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\bin\Debug\ProjectBase.OfflineProcessor.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\bin\Debug\ProjectBase.OfflineProcessor.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\obj\Debug\ProjectBase.OfflineProcessor.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\obj\Debug\ProjectBase.OfflineProcessor.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\bin\Release\ProjectBase.OfflineProcessor.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\bin\Release\ProjectBase.OfflineProcessor.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\obj\Release\ProjectBase.OfflineProcessor.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\obj\Release\ProjectBase.OfflineProcessor.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\bin\Release\log4net.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor\bin\Release\log4net.xml

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ProjectBase.Newsletter" namespace="ProjectBase.Newsletter">
+  <class name="UserCampaign" table="camCampaignUsers" >
+    <id name="ID" type="System.Int32" column="UserCampaignID">
+      <generator class="identity"/>
+    </id>
+    <property name="UserID" column="UserID" type="System.Guid" not-null="true" />
+    <many-to-one name="Campaign" column="CampaignID" class="Campaign"/>
+  </class>
+</hibernate-mapping>

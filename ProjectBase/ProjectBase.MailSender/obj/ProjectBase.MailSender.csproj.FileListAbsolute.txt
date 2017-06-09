@@ -1,0 +1,10 @@
+C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\bin\ProjectBase.MailSender.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\bin\ProjectBase.MailSender.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\obj\Debug\ProjectBase.MailSender.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\obj\Debug\ProjectBase.MailSender.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\bin\log4net.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\bin\log4net.xml
+C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\obj\Release\ProjectBase.MailSender.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\obj\Release\ProjectBase.MailSender.pdb

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/nybble/!svn/ver/2711/Library/ProjectBase/trunk/ProjectBase.Data/Entity
+END
+Entity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nybble/!svn/ver/2362/Library/ProjectBase/trunk/ProjectBase.Data/Entity/Entity.cs
+END
+DomainObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nybble/!svn/ver/2711/Library/ProjectBase/trunk/ProjectBase.Data/Entity/DomainObject.cs
+END
+BaseObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nybble/!svn/ver/2411/Library/ProjectBase/trunk/ProjectBase.Data/Entity/BaseObject.cs
+END
+AuditableEntity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nybble/!svn/ver/2362/Library/ProjectBase/trunk/ProjectBase.Data/Entity/AuditableEntity.cs
+END
+BaseObjectEqualityComparer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2412/Library/ProjectBase/trunk/ProjectBase.Data/Entity/BaseObjectEqualityComparer.cs
+END

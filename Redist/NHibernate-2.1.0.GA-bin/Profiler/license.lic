@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<license id="744507e5-3366-43bc-9ab7-4dbc62eac6ad" expiration="2009-11-23T17:42:31.3367276" type="Trial">
+ <name>Leonardo</name>
+ <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+   <SignedInfo>
+     <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+     <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+     <Reference URI="">
+       <Transforms>
+         <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+       </Transforms>
+       <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+       <DigestValue>ACfcxqm/riVhduX+iwwgHEdjKkU=</DigestValue>
+     </Reference>
+   </SignedInfo>
+   <SignatureValue>AO6vadFJCYpoa+KUj1NlGIs1woMcEJhSc0zhyUXJyds9jie9pqVdfrkKqVbeFOaCYtN+ET/UHJIAqgaLaCLxO4B2/Cos7WytcuyNAjdmPi460SPLDp0rx7ViC2fYDFmAqgIyHE0A1r1MQfnWyLz/2r3Es/3q2UGhxsIm6Tyo2cU=</SignatureValue>
+ </Signature>
+</license><?xml version="1.0" encoding="utf-8"?>
+<license id="744507e5-3366-43bc-9ab7-4dbc62eac6ad" expiration="2009-11-23T17:42:31.3367276" type="Trial">
+ <name>Leonardo</name>
+ <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+   <SignedInfo>
+     <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+     <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+     <Reference URI="">
+       <Transforms>
+         <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+       </Transforms>
+       <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+       <DigestValue>ACfcxqm/riVhduX+iwwgHEdjKkU=</DigestValue>
+     </Reference>
+   </SignedInfo>
+   <SignatureValue>AO6vadFJCYpoa+KUj1NlGIs1woMcEJhSc0zhyUXJyds9jie9pqVdfrkKqVbeFOaCYtN+ET/UHJIAqgaLaCLxO4B2/Cos7WytcuyNAjdmPi460SPLDp0rx7ViC2fYDFmAqgIyHE0A1r1MQfnWyLz/2r3Es/3q2UGhxsIm6Tyo2cU=</SignatureValue>
+ </Signature>
+</license>

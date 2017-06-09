@@ -1,0 +1,116 @@
+Version 3.0.5 (2007-11-22)
+	Added new imagemanager_handle option to the TinyMCE editor plugin.
+	Fixed compatibility with the TinyMCE 3.0b1 API.
+	Fixed bug where _vti_cnf was scanned for assembly DLLs.
+	Fixed bug where reverting an image after editing didn't work properly.
+	Fixed bug where caret focus on edit image sometimes wasn't possible due to IE7 bug.
+	Fixed security issue thanks to a report from Michel Weimerskirch.
+Version 3.0.4 (2007-11-02)
+	Added new upload.format option. Enables you to auto resize a image to multiple dimensions and formats.
+	Added new ExternalAuthenticator.session_prefix option to ExternalAuthenticator to separate sessions.
+	Added new compatibility with TinyMCE 3.x.
+	Fixed so that the external authentication page is runned each time the ImageManager opens.
+	Fixed bug where the ImageManager tried to look for plugins outside the application directory.
+	Fixed bug where filesystem.force_directory_template didn't work correctly.
+	Fixed bug where large files bigger than 100MB didn't download correctly due to MS problem with response streams.
+	Fixed bug where general.disabled_tools didn't work for the edit menu.
+	Fixed bug where switch to imagemanager made it impossible to select file.
+	Fixed various issues with the jpeg file extension.
+Version 3.0.3 (2007-08-21)
+	Added new external authenticator enables you to authenticate between backend and cross domains.
+	Added new asp and jsp example authentication pages for the external authenticator.
+	Added new non flash upload que since the flash uploader was to buggy.
+	Fixed issue with the need to have index.php as the default document.
+	Fixed bug where the mcImageManager.init call didn't work as expected.
+	Fixed bug where custom insert callback functions also execured default logic.
+	Fixed bug where ~/ paths couldn't be used for filesystem.rootpath.
+	Fixed problems with older versions of the gzip compressor.
+	Fixed so the upload.use_flash is now set to false by default.
+Version 3.0.2 (2007-06-20)
+	Added new logging options, enables you to specify level, format, rotation, max size.
+	Added new safe versions of the DLLs these work under lower trust levels but have more limited GIF support.
+	Added new config_prefix option to the SessionAuthenticator class, enables you to override any config option with a session.
+	Added cancel buttons to all dialogs for usability reasons.
+	Fixed so that all dialogs are closed when a operation is completed successfully.
+	Fixed so the template selection box gets removed if no templates are specified.
+	Fixed so the dialogs will open more nicely, less visual maniplulation.
+	Fixed so the preview.urlsuffix gets added to the end of output URLs when you select a file.
+	Fixed so the parent directory icons has an arrow for usability reasons.
+	Fixed so filter also filters folders in the folder listing to the left.
+	Fixed so images get refreshed in cache when edited.
+	Fixed so URL convertion logic is executed before custom callbacks.
+	Fixed so the element names can be element id's in a mcImageManager.open call.
+	Fixed bug where the imagemanager wasn't loading correctly if it was compressed using the TinyMCE Gzip compressor.
+	Fixed bug where the animation of the fading menus didn't finish correctly some times.
+	Fixed bug where a trailing slash was required when using the preview.wwwroot option.
+	Fixed bug where it wasn't possible to override path and root path using authenticators.
+	Fixed bug where edit button wasn't removed from view image if you can't edit the image.
+	Fixed bug where really long directory listings could make the background image wrap.
+	Fixed problem with the text not being centered on parent directory thumbnails.
+Version 3.0.1 (2007-05-21)
+	Added new upload.use_flash option, enables you to disable the flash uploader.
+	Added new use_url_path JS integration option.
+	Added new use path from url functionalty.
+	Fixed issue with IE producing warning message if it was loaded over HTTPS.
+	Fixed issue where the remember_last_path feature remembered favorites and history as well.
+	Fixed bug where thread locking was required on the config collection.
+Version 3.0 (2007-05-15)
+	Moved the general.login_page option to authenticator.login_page.
+	Added new _Template plugin, this is a example plugin.
+	Added better support for national characters like едц in filenames.
+	Fixed so that you can change the default file system impelementation.
+Version 3.0b3 (2007-05-10)
+	Added new CustomInfoExample plugin. Displays how to inject custom file information.
+	Added new include/exclude/extensions config options for stream section.
+	Added better error handling when loading XML language packs.
+	Added missing language items for add file(s) in flash upload dialog.
+	Added more rapid demo mode response. It only ask the server once.
+	Fixed so upload button is disabled until the user selects a file.
+	Fixed bug where it wasn't possible to disable the delete and edit tools in view image dialog.
+	Fixed bug where utf-8 encodings of language packs didn't work correctly.
+	Fixed bug where making 2 image edits in a row failed.
+	Fixed bug where a error was displayed if a remembered path got deleted.
+	Fixed so the translation of the page is faster, so it doesn't flicker.
+	Fixed so next/prev buttons in view mode are disabled when there is no more files in a direction.
+	Renamed all "directory" to "folder" in the English language pack. 
+Version 3.0b2 (2007-05-04)
+	Private beta released to selected customers.
+Version 3.0b1 (2007-04-13)
+	First beta release of the complete rewrite of the ImageManager .NET.
+Version 1.4 (2005-11-11)
+	Added a new DLL version, this DLL uses custom logic to workaround some .NET issues.
+	Fixed issue with the crop/resize functions on GIF images, it produced a dithered image.
+	Fixed so the MCImageManager is a plugin for TinyMCE, makes the installation process easier.
+	Fixed so all theme specific paths are updated if a new theme is created.
+	Fixed so the thumbnail cache gets released correctly when the image is modified.
+	Fixed bug when session state was stored in a MS SQL database and the dropdown.cache option was set to true.
+	Fixed bug where GDI+ errors where produced on some systems.
+	Fixed bug where saving images sometimes produced a exception.
+	Fixed bug where filesystem.force_directory_template option wasn't working correctly.
+	Fixed bug where valid extensions wasn't presented correctly in the upload form.
+	Added Norwegian language pack contributed by Knut B. Jacobsen.
+	Added German language pack contributed by Markus Vetten.
+	Added French language pack contributed by Olivier Gaillot.
+Version 1.3 (2005-09-30)
+	Fixed bug where custom javascript callbacks for mcImageManager.open didn't work.
+	Fixed a bug where thumbnails where created when user enters a thumbnail folder.
+	Fixed bug where relative urls on directories with escaped chars wasn't working correctly.
+	Changed thumnail generator to generate filename based on original file, not MD5 name.
+	Added functionality to the create directory dialog to go into the path it has just created.
+	Added new authenticator.session.path_key, authenticator.session.rootpath_key options.
+	Added new path, rootpath and remember_last_path JavaScript options.
+	Added new examples on how the imagemanager can be used in standalone mode.
+	Added new language pack support, current translations English and Swedish.
+	Added multiple upload of files.
+	Added new config option called "dropdown.cache", see documentation for more info.
+	Added new config option called "dropdown.include_path_pattern", see documentation for more info.
+	Added new config option called "dropdown.exclude_path_pattern", see documentation for more info.
+Version 1.2 (2005-09-12)
+	Added new authenticator.session.user_key option to SessionAuthenticator.
+	Added new ${user} variable that gets replaced in the SessionAuthenticator/ASPNETAuthenticator.
+Version 1.1 (2005-08-01)
+	Fixed bug where authenicators in external assemblies wasn't working.
+	Fixed issue with case sensitive extensions, both in DLL and upload template.
+	Fixed bug with not being able to specify a absolute wwwroot.
+	Fixed issue with case sensitive preview URLs.
+	Added new VB authenicator example to manuals and as a zip file.

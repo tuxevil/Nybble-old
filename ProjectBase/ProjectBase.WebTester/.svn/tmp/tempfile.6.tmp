@@ -1,0 +1,142 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+using FileHelpers.RunTime;
+using FileHelpers;
+using ProjectBase.Utils.Email;
+
+namespace ProjectBase.WebTester
+{
+    public partial class testnewcsv : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+<<<<<<< .mine
+            //DelimitedClassBuilder cb = new DelimitedClassBuilder("Prices",";");
+            //cb.IgnoreFirstLines = 1;
+            //cb.AddField("CodGrundfos", typeof(string));
+            //cb.AddField("CodProv", typeof(string));
+            //cb.AddField("Modelo", typeof(string));
+            //cb.AddField("Descripcion", typeof(string));
+            //cb.AddField("Proveedor", typeof(string));
+            //cb.AddField("Frecuencia", typeof(string));
+            //cb.LastField.FieldOptional = true;
+            //cb.AddField("TP");
+            //cb.LastField.FieldType = "Nullable < System.Decimal >";
+            //cb.LastField.Converter.TypeName = typeof(MoneyConverter).ToString();
+            //cb.LastField.Converter.Arg1 = ".";
+            //cb.LastField.FieldNullValue = null;
+            //cb.LastField.FieldOptional = true;
+            //cb.AddField("MonedaTP", typeof(string));
+            //cb.LastField.FieldOptional = true;
+            //cb.AddField("GRP", typeof(string));
+            //cb.LastField.FieldType = "Nullable < System.Decimal >";
+            //cb.LastField.Converter.Kind = ConverterKind.Decimal;
+            //cb.LastField.Converter.Arg1 = ",";
+            //cb.LastField.FieldNullValue = null;
+            //cb.LastField.FieldOptional = true;
+            //cb.AddField("MonedaGRP", typeof(string));
+            //cb.LastField.FieldOptional = true;
+            //cb.AddField("PL", typeof(string));
+            //cb.LastField.FieldType = "Nullable < System.Decimal >";
+            //cb.LastField.Converter.Kind = ConverterKind.Decimal;
+            //cb.LastField.Converter.Arg1 = ",";
+            //cb.LastField.FieldNullValue = null;
+            //cb.LastField.FieldOptional = true;
+            //cb.AddField("MonedaPL", typeof(string));
+            //cb.LastField.FieldOptional = true;
+            //cb.AddField("Familia", typeof(string));
+            //cb.LastField.FieldOptional = true;
+            //cb.AddField("Tipo", typeof(string));
+            //cb.LastField.FieldOptional = true;
+            //cb.AddField("Linea", typeof(string));
+            //cb.LastField.FieldOptional = true;
+=======
+            DelimitedClassBuilder cb = new DelimitedClassBuilder("Prices", ";");
+           // cb.IgnoreFirstLines = 1;
+            cb.AddField("CodGrundfos", typeof(string));
+            cb.AddField("CodProv", typeof(string));
+            cb.AddField("Modelo", typeof(string));
+            cb.AddField("Descripcion", typeof(string));
+            cb.AddField("Proveedor", typeof(string));
+            cb.AddField("Frecuencia", typeof(string));
+            cb.LastField.FieldOptional = true;
+            cb.AddField("TP");
+            cb.LastField.FieldType = "Nullable < System.Decimal >";
+            cb.LastField.FieldNullValue = null;
+            cb.LastField.FieldOptional = true;
+            cb.LastField.Converter.Kind = ConverterKind.AnyDecimal;
+            cb.AddField("MonedaTP", typeof(string));
+            cb.LastField.FieldOptional = true;
+            cb.AddField("GRP", typeof(string));
+            cb.LastField.FieldType = "Nullable < System.Decimal >";
+            cb.LastField.FieldNullValue = null;
+            cb.LastField.FieldOptional = true;
+            cb.LastField.Converter.Kind = ConverterKind.AnyDecimal;
+            cb.AddField("MonedaGRP", typeof(string));
+            cb.LastField.FieldOptional = true;
+            cb.AddField("PL", typeof(string));
+            cb.LastField.FieldType = "Nullable < System.Decimal >";
+            cb.LastField.FieldNullValue = null;
+            cb.LastField.FieldOptional = true;
+            cb.LastField.Converter.Kind = ConverterKind.AnyDecimal;
+            cb.AddField("MonedaPL", typeof(string));
+            cb.LastField.FieldOptional = true;
+            cb.AddField("Familia", typeof(string));
+            cb.LastField.FieldOptional = true;
+            cb.AddField("Tipo", typeof(string));
+            cb.LastField.FieldOptional = true;
+            cb.AddField("Linea", typeof(string));
+            cb.LastField.FieldOptional = true;
+            cb.IgnoreEmptyLines = true;
+>>>>>>> .r2381
+
+            FileHelperEngine engine = new FileHelperEngine(cb.CreateRecordClass());
+            object[] items = engine.ReadFile(Server.MapPath("~/TesterSeba2.csv"));
+
+            object o = items[0];
+
+            Response.Write(o.GetType().GetField("CodGrundfos").GetValue(o));
+            Response.Write("<br>");
+            Response.Write(o.GetType().GetField("TP").GetValue(o));
+            Response.Write("<br>");
+            
+            o = items[1];
+            Response.Write(o.GetType().GetField("TP").GetValue(o));
+        }
+    }
+}
+
+namespace FileHelpers.RunTime
+{
+
+    public class MoneyConverter : ConverterBase
+    {
+        private int mDecimals = 3;
+
+        public override object StringToField(string from)
+        {
+            return Convert.ToDecimal(Decimal.Parse(from) / (10 ^ mDecimals));
+        }
+
+
+        public override string FieldToString(object fieldValue)
+        {
+            Decimal v = Convert.ToDecimal(fieldValue);
+
+            string res = Decimal.ToUInt32(Decimal.Truncate(v)).ToString();
+            res += Decimal.Round(Decimal.Remainder(v, 1), mDecimals).ToString(".###").Replace(",", "").Replace(".", "").PadLeft(mDecimals, '0');
+
+            return res;
+        }
+    }
+}
+

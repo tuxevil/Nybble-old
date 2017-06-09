@@ -1,0 +1,1648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FxCopProject Version="1.35" Name="FundPro Retail">
+ <ProjectOptions>
+  <SharedProject>True</SharedProject>
+  <Stylesheet Apply="False">http://www.gotdotnet.com/team/fxcop//xsl/1.35/FxCopReport.xsl</Stylesheet>
+  <SaveMessages>
+   <Project Status="Active, Excluded" NewOnly="False" />
+   <Report Status="Active" NewOnly="False" />
+  </SaveMessages>
+  <ProjectFile Compress="True" DefaultTargetCheck="True" DefaultRuleCheck="True" SaveByRuleGroup="" Deterministic="True" />
+  <EnableMultithreadedLoad>True</EnableMultithreadedLoad>
+  <EnableMultithreadedAnalysis>True</EnableMultithreadedAnalysis>
+  <SourceLookup>True</SourceLookup>
+  <AnalysisExceptionsThreshold>10</AnalysisExceptionsThreshold>
+  <RuleExceptionsThreshold>1</RuleExceptionsThreshold>
+  <Spelling Locale="en-us" />
+  <VersionAware>False</VersionAware>
+  <OverrideRuleVisibilities>False</OverrideRuleVisibilities>
+  <CustomDictionaries SearchFxCopDir="True" SearchUserProfile="True" SearchProjectDir="True" />
+  <SearchGlobalAssemblyCache>False</SearchGlobalAssemblyCache>
+  <DeadlockDetectionTimeout>120</DeadlockDetectionTimeout>
+ </ProjectOptions>
+ <Targets>
+  <Target Name="$(ProjectDir)/../FundProRetail.Web/Bin/FundProRetail.Business.dll" Analyze="True" AnalyzeAllChildren="True" />
+  <Target Name="$(ProjectDir)/../FundProRetail.Web/Bin/FundProRetail.Core.dll" Analyze="True" AnalyzeAllChildren="True" />
+  <Target Name="$(ProjectDir)/../FundProRetail.Web/Bin/FundProRetail.Data.dll" Analyze="True" AnalyzeAllChildren="True" />
+ </Targets>
+ <Rules>
+  <RuleFiles>
+   <RuleFile Name="$(FxCopDir)\Rules\DesignRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\GlobalizationRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\InteroperabilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\MobilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\NamingRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\PerformanceRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\PortabilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\SecurityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\UsageRules.dll" Enabled="True" AllRulesEnabled="True" />
+  </RuleFiles>
+  <Groups />
+  <Settings />
+ </Rules>
+ <FxCopReport Version="1.35">
+  <Targets>
+   <Target Name="$(ProjectDir)/../FundProRetail.Web/Bin/FundProRetail.Business.dll">
+    <Modules>
+     <Module Name="fundproretail.business.dll">
+      <Messages>
+       <Message TypeName="AssembliesShouldDeclareMinimumSecurity" Category="Microsoft.Usage" CheckId="CA2209" Created="2007-09-13 19:52:40Z">
+        <Issue>
+         <Item>FundProRetail.Business</Item>
+        </Issue>
+       </Message>
+       <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Created="2007-09-13 19:52:40Z">
+        <Issue Name="NoStrongName">
+         <Item>FundProRetail.Business</Item>
+        </Issue>
+       </Message>
+       <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Created="2007-09-13 19:52:40Z">
+        <Issue Name="NoAttr">
+         <Item>FundProRetail.Business</Item>
+        </Issue>
+       </Message>
+      </Messages>
+      <Namespaces>
+       <Namespace Name="FundProRetail.Business">
+        <Types>
+         <Type Name="BaseLogic">
+          <Members>
+           <Member Name="Country">
+            <Messages>
+             <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Created="2007-09-13 19:52:40Z" FixCategory="Breaking">
+              <Issue>
+               <Item>BaseLogic.Country:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="DaoFactory">
+            <Messages>
+             <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Created="2007-09-13 19:52:40Z" FixCategory="Breaking">
+              <Issue>
+               <Item>BaseLogic.DaoFactory:IDaoFactory</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Configuration">
+          <Messages>
+           <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>Configuration</Item>
+            </Issue>
+           </Message>
+           <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>Configuration</Item>
+             <Item>System.Web.Services.Configuration</Item>
+            </Issue>
+           </Message>
+          </Messages>
+          <Members>
+           <Member Name="AssetClass">
+            <Accessors>
+             <Accessor Name="get_AssetClass():System.Int32">
+              <Messages>
+               <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2007-09-13 19:52:40Z">
+                <Issue>
+                 <Item>Configuration.get_AssetClass():Int32</Item>
+                 <Item>System.Convert.ToInt32(System.String)</Item>
+                 <Item>System.Convert.ToInt32(System.String,System.IFormatProvider)</Item>
+                </Issue>
+               </Message>
+              </Messages>
+             </Accessor>
+            </Accessors>
+           </Member>
+           <Member Name="Country">
+            <Accessors>
+             <Accessor Name="get_Country():System.Int32">
+              <Messages>
+               <Message Id="System.Convert.ToInt32(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2007-09-13 19:52:40Z">
+                <Issue>
+                 <Item>Configuration.get_Country():Int32</Item>
+                 <Item>System.Convert.ToInt32(System.Object)</Item>
+                 <Item>System.Convert.ToInt32(System.Object,System.IFormatProvider)</Item>
+                </Issue>
+               </Message>
+              </Messages>
+             </Accessor>
+            </Accessors>
+           </Member>
+           <Member Name="LAMCategory">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>Configuration.LAMCategory:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+            <Accessors>
+             <Accessor Name="get_LAMCategory():System.Int32">
+              <Messages>
+               <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2007-09-13 19:52:40Z">
+                <Issue>
+                 <Item>Configuration.get_LAMCategory():Int32</Item>
+                 <Item>System.Convert.ToInt32(System.String)</Item>
+                 <Item>System.Convert.ToInt32(System.String,System.IFormatProvider)</Item>
+                </Issue>
+               </Message>
+              </Messages>
+             </Accessor>
+            </Accessors>
+           </Member>
+           <Member Name="OfficialCategory">
+            <Accessors>
+             <Accessor Name="get_OfficialCategory():System.Int32">
+              <Messages>
+               <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2007-09-13 19:52:40Z">
+                <Issue>
+                 <Item>Configuration.get_OfficialCategory():Int32</Item>
+                 <Item>System.Convert.ToInt32(System.String)</Item>
+                 <Item>System.Convert.ToInt32(System.String,System.IFormatProvider)</Item>
+                </Issue>
+               </Message>
+              </Messages>
+             </Accessor>
+            </Accessors>
+           </Member>
+           <Member Name="RegionalFocus">
+            <Accessors>
+             <Accessor Name="get_RegionalFocus():System.Int32">
+              <Messages>
+               <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2007-09-13 19:52:40Z">
+                <Issue>
+                 <Item>Configuration.get_RegionalFocus():Int32</Item>
+                 <Item>System.Convert.ToInt32(System.String)</Item>
+                 <Item>System.Convert.ToInt32(System.String,System.IFormatProvider)</Item>
+                </Issue>
+               </Message>
+              </Messages>
+             </Accessor>
+            </Accessors>
+           </Member>
+           <Member Name="TargetInvestor">
+            <Accessors>
+             <Accessor Name="get_TargetInvestor():System.Int32">
+              <Messages>
+               <Message Id="System.Convert.ToInt32(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2007-09-13 19:52:40Z">
+                <Issue>
+                 <Item>Configuration.get_TargetInvestor():Int32</Item>
+                 <Item>System.Convert.ToInt32(System.Object)</Item>
+                 <Item>System.Convert.ToInt32(System.Object,System.IFormatProvider)</Item>
+                </Issue>
+               </Message>
+              </Messages>
+             </Accessor>
+            </Accessors>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="CustomHttpApplication">
+          <Members>
+           <Member Name="Application_End(System.Object,System.EventArgs):System.Void">
+            <Messages>
+             <Message TypeName="ReviewVisibleEventHandlers" Category="Microsoft.Security" CheckId="CA2109" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>CustomHttpApplication.Application_End(Object, EventArgs):Void</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Application_Error(System.Object,System.EventArgs):System.Void">
+            <Messages>
+             <Message TypeName="ReviewVisibleEventHandlers" Category="Microsoft.Security" CheckId="CA2109" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>CustomHttpApplication.Application_Error(Object, EventArgs):Void</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Application_Start(System.Object,System.EventArgs):System.Void">
+            <Messages>
+             <Message TypeName="ReviewVisibleEventHandlers" Category="Microsoft.Security" CheckId="CA2109" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>CustomHttpApplication.Application_Start(Object, EventArgs):Void</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Session_End(System.Object,System.EventArgs):System.Void">
+            <Messages>
+             <Message TypeName="ReviewVisibleEventHandlers" Category="Microsoft.Security" CheckId="CA2109" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>CustomHttpApplication.Session_End(Object, EventArgs):Void</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Session_Start(System.Object,System.EventArgs):System.Void">
+            <Messages>
+             <Message TypeName="ReviewVisibleEventHandlers" Category="Microsoft.Security" CheckId="CA2109" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>CustomHttpApplication.Session_Start(Object, EventArgs):Void</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="ILogicFactory">
+          <Members>
+           <Member Name="GetMailingLogic():FundProRetail.Business.MailingLogic">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetMailingLogic</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetNewsLogic():FundProRetail.Business.NewsLogic">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetNewsLogic</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+        </Types>
+       </Namespace>
+      </Namespaces>
+     </Module>
+    </Modules>
+   </Target>
+   <Target Name="$(ProjectDir)/../FundProRetail.Web/Bin/FundProRetail.Core.dll">
+    <Modules>
+     <Module Name="fundproretail.core.dll">
+      <Messages>
+       <Message TypeName="AssembliesShouldDeclareMinimumSecurity" Category="Microsoft.Usage" CheckId="CA2209" Created="2007-09-13 19:52:40Z">
+        <Issue>
+         <Item>FundProRetail.Core</Item>
+        </Issue>
+       </Message>
+       <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Created="2007-09-13 19:52:40Z">
+        <Issue Name="NoStrongName">
+         <Item>FundProRetail.Core</Item>
+        </Issue>
+       </Message>
+       <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Created="2007-09-13 19:52:40Z">
+        <Issue Name="NoAttr">
+         <Item>FundProRetail.Core</Item>
+        </Issue>
+       </Message>
+      </Messages>
+      <Namespaces>
+       <Namespace Name="FundProRetail.Core.DataInterfaces">
+        <Types>
+         <Type Name="ICategoryDao">
+          <Members>
+           <Member Name="GetByFundAndParentID(System.Int32,System.Int32):FundProRetail.Core.Domain.Category">
+            <Messages>
+             <Message Id="0#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>fundID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+             <Message Id="1#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>parentID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>ICategoryDao.GetByFundAndParentID(Int32, Int32):Category</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="IDaoFactory">
+          <Members>
+           <Member Name="GetCategoryDao():FundProRetail.Core.DataInterfaces.ICategoryDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetCategoryDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetCountryDao():FundProRetail.Core.DataInterfaces.ICountryDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetCountryDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetFundDao():FundProRetail.Core.DataInterfaces.IFundDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetFundDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetIndexesHistoryDao():FundProRetail.Core.DataInterfaces.IIndexesHistoryDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetIndexesHistoryDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetInvestmentCompanyDao():FundProRetail.Core.DataInterfaces.IInvestmentCompanyDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetInvestmentCompanyDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetNewDao():FundProRetail.Core.DataInterfaces.INewsDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetNewDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetPortfolioManagerDao():FundProRetail.Core.DataInterfaces.IPortfolioManagerDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetPortfolioManagerDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetRatingCompanyDao():FundProRetail.Core.DataInterfaces.IRatingCompanyDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetRatingCompanyDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetRatingDao():FundProRetail.Core.DataInterfaces.IRatingDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetRatingDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetRatingDefinitionDao():FundProRetail.Core.DataInterfaces.IRatingDefinitionDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetRatingDefinitionDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetRiskProfileDao():FundProRetail.Core.DataInterfaces.IRiskProfileDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetRiskProfileDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetShareClassDao():FundProRetail.Core.DataInterfaces.IShareClassDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetShareClassDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetShareClassesValueDao():FundProRetail.Core.DataInterfaces.IShareClassesValueDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetShareClassesValueDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetSponsorDao():FundProRetail.Core.DataInterfaces.ISponsorDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetSponsorDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetSponsorMaterialDao():FundProRetail.Core.DataInterfaces.ISponsorMaterialDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetSponsorMaterialDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetTargetInvestorDao():FundProRetail.Core.DataInterfaces.ITargetInvestorDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetTargetInvestorDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetUnitDao():FundProRetail.Core.DataInterfaces.IUnitDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetUnitDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetUserPortfolioDao():FundProRetail.Core.DataInterfaces.IUserPortfolioDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetUserPortfolioDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetUserProfileDao():FundProRetail.Core.DataInterfaces.IUserProfileDao">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2007-09-13 19:52:40Z">
+              <Issue Certainty="50">
+               <Item>GetUserProfileDao</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="IFundDao">
+          <Messages>
+           <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>IFundDao</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="IIndexesHistoryDao">
+          <Messages>
+           <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>IIndexesHistoryDao</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="IInvestmentCompanyDao">
+          <Messages>
+           <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>IInvestmentCompanyDao</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="INewsDao">
+          <Members>
+           <Member Name="GetByShareClassID(System.Int32):System.Collections.Generic.IList`1&lt;FundProRetail.Core.Domain.News&gt;">
+            <Messages>
+             <Message Id="0#shareclass" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>INewsDao.GetByShareClassID(Int32):IList`1&lt;FundProRetail.Core.Domain.News&gt;</Item>
+               <Item>shareclass</Item>
+               <Item>shareclassID</Item>
+              </Issue>
+             </Message>
+             <Message Id="0#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>shareclassID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>INewsDao.GetByShareClassID(Int32):IList`1&lt;FundProRetail.Core.Domain.News&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetByString(System.String,System.Int32):System.Collections.Generic.IList`1&lt;FundProRetail.Core.Domain.News&gt;">
+            <Messages>
+             <Message Id="1#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>CountryID</Item>
+              </Issue>
+             </Message>
+             <Message Id="1#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>CountryID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="IRatingCompanyDao">
+          <Messages>
+           <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>IRatingCompanyDao</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="IRatingDao">
+          <Messages>
+           <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>IRatingDao</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="IRatingDefinitionDao">
+          <Members>
+           <Member Name="GetByFund(System.Int32):FundProRetail.Core.Domain.RatingDefinition">
+            <Messages>
+             <Message Id="0#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>fundID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="IRiskProfileDao">
+          <Messages>
+           <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>IRiskProfileDao</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="IShareClassesValueDao">
+          <Members>
+           <Member Name="GetLastShareClassesValue(System.Int32):FundProRetail.Core.Domain.ShareClassesValue">
+            <Messages>
+             <Message Id="0#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>ScID</Item>
+              </Issue>
+             </Message>
+             <Message Id="0#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>ScID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="ISponsorDao">
+          <Members>
+           <Member Name="GetActive(System.Int32,System.Int32):System.Collections.Generic.IList`1&lt;FundProRetail.Core.Domain.Sponsor&gt;">
+            <Messages>
+             <Message Id="1#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>targetInvestorID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="ISponsorMaterialDao">
+          <Members>
+           <Member Name="GetBySponsor(System.Int32):System.Collections.Generic.IList`1&lt;FundProRetail.Core.Domain.SponsorMaterial&gt;">
+            <Messages>
+             <Message Id="0#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>sponsorID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetByUser(System.Guid):System.Collections.Generic.IList`1&lt;FundProRetail.Core.Domain.SponsorMaterial&gt;">
+            <Messages>
+             <Message Id="0#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>userID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="ITargetInvestorDao">
+          <Members>
+           <Member Name="GetActiveByCountry(System.Int32):System.Collections.Generic.IList`1&lt;FundProRetail.Core.Domain.TargetInvestor&gt;">
+            <Messages>
+             <Message Id="0#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>countryID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetByShareClassID(System.Int32):System.Collections.Generic.IList`1&lt;FundProRetail.Core.Domain.TargetInvestor&gt;">
+            <Messages>
+             <Message Id="0#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>ScID</Item>
+              </Issue>
+             </Message>
+             <Message Id="0#" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ParameterId">
+               <Item>ID</Item>
+               <Item>ScID</Item>
+               <Item>Id</Item>
+              </Issue>
+             </Message>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>ITargetInvestorDao.GetByShareClassID(Int32):IList`1&lt;FundProRetail.Core.Domain.TargetInvestor&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="IUnitDao">
+          <Messages>
+           <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>IUnitDao</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="IUserPortfolioDao">
+          <Messages>
+           <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>IUserPortfolioDao</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="IUserProfileDao">
+          <Messages>
+           <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>IUserProfileDao</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+        </Types>
+       </Namespace>
+       <Namespace Name="FundProRetail.Core.Domain">
+        <Types>
+         <Type Name="Category">
+          <Members>
+           <Member Name="ParentID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>Category.ParentID:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Distributor">
+          <Members>
+           <Member Name="CountryID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>Distributor.CountryID:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="DistributorTypeID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>Distributor.DistributorTypeID:Nullable`1&lt;System.Int32&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="DomainObject`1">
+          <Messages>
+           <Message TypeName="IdentifiersShouldDifferByMoreThanCase" Category="Microsoft.Naming" CheckId="CA1708" Created="2007-09-13 19:52:40Z">
+            <Issue Name="Member">
+             <Item>'ID'</Item>
+             <Item>id</Item>
+            </Issue>
+           </Message>
+          </Messages>
+          <Members>
+           <Member Name="id">
+            <Messages>
+             <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>id</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>DomainObject`1.ID:IdT</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Fund">
+          <Members>
+           <Member Name="DomicileID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>Fund.DomicileID:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="IndexesHistory">
+          <Members>
+           <Member Name="IndexClassID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>IndexesHistory.IndexClassID:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ShareClassID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>IndexesHistory.ShareClassID:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Weigth">
+            <Messages>
+             <Message Id="Weigth" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>Weigth</Item>
+               <Item>IndexesHistory.Weigth:Nullable`1&lt;System.Decimal&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="IndexesHistory+DomainObjectID">
+          <Messages>
+           <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Created="2007-09-13 19:52:40Z">
+            <Issue>
+             <Item>FundProRetail.Core.Domain.IndexesHistory+DomainObjectID</Item>
+            </Issue>
+           </Message>
+           <Message TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+            <Issue Name="TypeId">
+             <Item>FundProRetail.Core.Domain.IndexesHistory+DomainObjectID</Item>
+            </Issue>
+           </Message>
+          </Messages>
+          <Members>
+           <Member Name="IndexClassID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>DomainObjectID.IndexClassID:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ShareClassID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>DomainObjectID.ShareClassID:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Link">
+          <Members>
+           <Member Name="URL">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>Link.URL:String</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Manager">
+          <Members>
+           <Member Name="ExternalID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>Manager.ExternalID:Nullable`1&lt;System.Int32&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="News">
+          <Members>
+           <Member Name=".ctor(System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.DateTime)">
+            <Messages>
+             <Message Id="0#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>ID</Item>
+              </Issue>
+             </Message>
+             <Message Id="1#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>NewsStatus</Item>
+              </Issue>
+             </Message>
+             <Message Id="2#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>Keywords</Item>
+              </Issue>
+             </Message>
+             <Message Id="3#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>Title</Item>
+              </Issue>
+             </Message>
+             <Message Id="4#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>Brief</Item>
+              </Issue>
+             </Message>
+             <Message Id="5#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>Body</Item>
+              </Issue>
+             </Message>
+             <Message Id="6#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>DateCreated</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="PortfolioManager">
+          <Members>
+           <Member Name=".ctor(System.DateTime,System.String,System.String,System.String)">
+            <Messages>
+             <Message Id="0#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>StartDate</Item>
+              </Issue>
+             </Message>
+             <Message Id="1#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>Name</Item>
+              </Issue>
+             </Message>
+             <Message Id="2#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>Phone</Item>
+              </Issue>
+             </Message>
+             <Message Id="3#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>Email</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="RatingDefinition">
+          <Members>
+           <Member Name="Descripcion">
+            <Messages>
+             <Message Id="Descripcion" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>Descripcion</Item>
+               <Item>RatingDefinition.Descripcion:String</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="ShareClass">
+          <Members>
+           <Member Name="CUSIP">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClass.CUSIP:String</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ISIN">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClass.ISIN:String</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="OfficialID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>ShareClass.OfficialID:String</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ROITERS">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClass.ROITERS:String</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="SEDOL">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClass.SEDOL:String</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="SubavisoryFee">
+            <Messages>
+             <Message Id="Subavisory" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>Subavisory</Item>
+               <Item>ShareClass.SubavisoryFee:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="SYMBOL">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClass.SYMBOL:String</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="TER">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClass.TER:String</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="ShareClassesValue">
+          <Members>
+           <Member Name=".ctor(System.Decimal,System.Double,System.Decimal,System.Double,System.DateTime)">
+            <Messages>
+             <Message Id="0#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>ShareValue</Item>
+              </Issue>
+             </Message>
+             <Message Id="1#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>ReturnDaily</Item>
+              </Issue>
+             </Message>
+             <Message Id="2#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>AUMs</Item>
+              </Issue>
+             </Message>
+             <Message Id="3#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>ReturnYearToDate</Item>
+              </Issue>
+             </Message>
+             <Message Id="4#" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>Date</Item>
+              </Issue>
+             </Message>
+             <Message Id="2#AUMs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Parameter">
+               <Item>ShareClassesValue.ShareClassesValue(Decimal, Double, Decimal, Double, DateTime)</Item>
+               <Item>AUMs</Item>
+               <Item>AUMs</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="AUMs">
+            <Messages>
+             <Message Id="AUMs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>AUMs</Item>
+               <Item>ShareClassesValue.AUMs:Nullable`1&lt;System.Decimal&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="AUMsCalculated">
+            <Messages>
+             <Message Id="AUMs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>AUMs</Item>
+               <Item>ShareClassesValue.AUMsCalculated:Boolean</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="AUMsEUR">
+            <Messages>
+             <Message Id="AUMs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>AUMs</Item>
+               <Item>ShareClassesValue.AUMsEUR:Nullable`1&lt;System.Decimal&gt;</Item>
+              </Issue>
+             </Message>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.AUMsEUR:Nullable`1&lt;System.Decimal&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="AUMsOrig">
+            <Messages>
+             <Message Id="AUMs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>AUMs</Item>
+               <Item>ShareClassesValue.AUMsOrig:Nullable`1&lt;System.Decimal&gt;</Item>
+              </Issue>
+             </Message>
+             <Message Id="Orig" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>Orig</Item>
+               <Item>ShareClassesValue.AUMsOrig:Nullable`1&lt;System.Decimal&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="AUMsUSD">
+            <Messages>
+             <Message Id="AUMs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>AUMs</Item>
+               <Item>ShareClassesValue.AUMsUSD:Nullable`1&lt;System.Decimal&gt;</Item>
+              </Issue>
+             </Message>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.AUMsUSD:Nullable`1&lt;System.Decimal&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturn2Years">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturn2Years:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturn3Years">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturn3Years:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturn5Years">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturn5Years:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturn6Months">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturn6Months:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturnDaily">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturnDaily:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturnMonthly">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturnMonthly:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturnMonthToDate">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturnMonthToDate:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturnQuarterly">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturnQuarterly:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturnWeekly">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturnWeekly:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturnWeekToDate">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturnWeekToDate:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturnYearly">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturnYearly:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="EURReturnYearToDate">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.EURReturnYearToDate:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="IsWorkDay">
+            <Messages>
+             <Message Id="WorkDay" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Created="2007-09-13 19:52:40Z">
+              <Issue Name="ShouldBeDiscreteTerm">
+               <Item>WorkDay</Item>
+               <Item>property</Item>
+               <Item>IsWorkDay</Item>
+               <Item>Workday</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ShareClassID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>ShareClassesValue.ShareClassID:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ShareValueAdj">
+            <Messages>
+             <Message Id="Adj" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>Adj</Item>
+               <Item>ShareClassesValue.ShareValueAdj:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturn2Years">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturn2Years:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturn3Years">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturn3Years:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturn5Years">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturn5Years:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturn6Months">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturn6Months:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturnDaily">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturnDaily:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturnMonthly">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturnMonthly:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturnMonthToDate">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturnMonthToDate:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturnQuarterly">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturnQuarterly:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturnWeekly">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturnWeekly:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturnWeekToDate">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturnWeekToDate:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturnYearly">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturnYearly:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="USDReturnYearToDate">
+            <Messages>
+             <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>ShareClassesValue.USDReturnYearToDate:Nullable`1&lt;System.Double&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Sponsor">
+          <Members>
+           <Member Name="Depositarys">
+            <Messages>
+             <Message Id="Depositarys" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2007-09-13 19:52:40Z">
+              <Issue Name="Member">
+               <Item>Depositarys</Item>
+               <Item>Sponsor.Depositarys:IList`1&lt;FundProRetail.Core.Domain.Fund&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ExternalID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>Sponsor.ExternalID:Nullable`1&lt;System.Int32&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="UserPortfolio">
+          <Members>
+           <Member Name="CurrencyID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>UserPortfolio.CurrencyID:Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="UserID">
+            <Messages>
+             <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2007-09-13 19:52:40Z">
+              <Issue Name="MemberId">
+               <Item>UserPortfolio.UserID:Guid</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+        </Types>
+       </Namespace>
+      </Namespaces>
+     </Module>
+    </Modules>
+   </Target>
+   <Target Name="$(ProjectDir)/../FundProRetail.Web/Bin/FundProRetail.Data.dll">
+    <Modules>
+     <Module Name="fundproretail.data.dll">
+      <Messages>
+       <Message TypeName="AssembliesShouldDeclareMinimumSecurity" Category="Microsoft.Usage" CheckId="CA2209" Created="2007-09-13 19:52:40Z">
+        <Issue>
+         <Item>FundProRetail.Data</Item>
+        </Issue>
+       </Message>
+       <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Created="2007-09-13 19:52:40Z">
+        <Issue Name="NoStrongName">
+         <Item>FundProRetail.Data</Item>
+        </Issue>
+       </Message>
+       <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Created="2007-09-13 19:52:40Z">
+        <Issue Name="NoAttr">
+         <Item>FundProRetail.Data</Item>
+        </Issue>
+       </Message>
+      </Messages>
+      <Namespaces>
+       <Namespace Name="FundProRetail.Data">
+        <Types>
+         <Type Name="NewsDao">
+          <Members>
+           <Member Name="GetByShareClassID(System.Int32):System.Collections.Generic.IList`1&lt;FundProRetail.Core.Domain.News&gt;">
+            <Messages>
+             <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>ScID</Item>
+               <Item>NewsDao.GetByShareClassID(Int32):IList`1&lt;FundProRetail.Core.Domain.News&gt;</Item>
+               <Item>shareclassID</Item>
+               <Item>INewsDao.GetByShareClassID(Int32):IList`1&lt;FundProRetail.Core.Domain.News&gt;</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetByString(System.String,System.Int32):System.Collections.Generic.IList`1&lt;FundProRetail.Core.Domain.News&gt;">
+            <Messages>
+             <Message Id="1#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>countryId</Item>
+               <Item>NewsDao.GetByString(String, Int32):IList`1&lt;FundProRetail.Core.Domain.News&gt;</Item>
+               <Item>CountryID</Item>
+               <Item>INewsDao.GetByString(String, Int32):IList`1&lt;FundProRetail.Core.Domain.News&gt;</Item>
+              </Issue>
+             </Message>
+             <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>NewsDao.GetByString(String, Int32):IList`1&lt;FundProRetail.Core.Domain.News&gt;</Item>
+               <Item>System.Int32.ToString</Item>
+               <Item>System.Int32.ToString(System.IFormatProvider)</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="NHibernateDaoFactory">
+          <Members>
+           <Member Name=".ctor(System.String)">
+            <Messages>
+             <Message Id="ProjectBase.Utils.Check.Require(System.Boolean,System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>NHibernateDaoFactory.NHibernateDaoFactory(String)</Item>
+               <Item>2</Item>
+               <Item>Check.Require(Boolean, String):Void</Item>
+               <Item>sessionFactoryConfigPath may not be null</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="ShareClassesValueDao">
+          <Members>
+           <Member Name="GetLastShareClassesValue(System.Int32):FundProRetail.Core.Domain.ShareClassesValue">
+            <Messages>
+             <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Created="2007-09-13 19:52:40Z">
+              <Issue>
+               <Item>ID</Item>
+               <Item>ShareClassesValueDao.GetLastShareClassesValue(Int32):ShareClassesValue</Item>
+               <Item>ScID</Item>
+               <Item>IShareClassesValueDao.GetLastShareClassesValue(Int32):ShareClassesValue</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+        </Types>
+       </Namespace>
+      </Namespaces>
+     </Module>
+    </Modules>
+   </Target>
+  </Targets>
+  <Rules>
+   <Rule TypeName="AssembliesShouldDeclareMinimumSecurity" Category="Microsoft.Usage" CheckId="CA2209">
+    <Resolution Name="Default">No valid permission requests were found for assembly '{0}'. You should always specify the minimum security permissions using SecurityAction.RequestMinimum.</Resolution>
+   </Rule>
+   <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+    <Resolution Name="NoStrongName">Sign '{0}' with a strong name key.</Resolution>
+   </Rule>
+   <Rule TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040">
+    <Resolution Name="Default">Define a custom attribute to replace '{0}'.</Resolution>
+   </Rule>
+   <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+    <Resolution Name="ShouldBeDiscreteTerm">The compound word '{0}' in {1} '{2}' exists as a discrete term. If your usage is intended to be single word, case it as '{3}'.</Resolution>
+   </Rule>
+   <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+    <Resolution Name="Default">Make '{0}' private or internal (Friend in VB, public private in C++) and provide a public or protected property to access it.</Resolution>
+   </Rule>
+   <Rule TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303">
+    <Resolution Name="Default">{0} passes a literal as parameter {1} of a call to {2}. Retrieve the following string argument from a resource table instead: '{3}'</Resolution>
+   </Rule>
+   <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+    <Resolution Name="Parameter">Correct the casing of parameter name '{0}'.</Resolution>
+   </Rule>
+   <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+    <Resolution Name="Member">Correct the spelling of the unrecognized token '{0}' in member name '{1}'.</Resolution>
+    <Resolution Name="Parameter">In method {0}, correct the spelling of the unrecognized token '{1}' in parameter name '{2}' or strip it entirely if it represents any sort of hungarian notation.</Resolution>
+    <Resolution Name="ParameterOneLetter">In method {0}, consider providing a more meaningful name than the one-letter parameter name '{1}'.</Resolution>
+   </Rule>
+   <Rule TypeName="IdentifiersShouldDifferByMoreThanCase" Category="Microsoft.Naming" CheckId="CA1708">
+    <Resolution Name="Member">Change member names {0} and '{1}' so that they differ by more than case.</Resolution>
+   </Rule>
+   <Rule TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705">
+    <Resolution Name="Member">Correct the capitalization of member name '{0}'.</Resolution>
+    <Resolution Name="Parameter">Correct the capitalization of parameter name '{0}'.</Resolution>
+   </Rule>
+   <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+    <Resolution Name="NoAttr">'{0}' should be marked with CLSCompliantAttribute and its value should be true.</Resolution>
+   </Rule>
+   <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+    <Resolution Name="Default">The 'this' parameter (or 'Me' in VB) of {0} is never used. Mark the member as static (or Shared in VB) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Resolution>
+   </Rule>
+   <Rule TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034">
+    <Resolution Name="Default">Do not nest type '{0}'. Alternatively, change its accessibility so that it is not externally visible.</Resolution>
+   </Rule>
+   <Rule TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725">
+    <Resolution Name="Default">Change parameter name '{0}' of method {1} to '{2}' in order to match the identifier as it has been declared in {3}.</Resolution>
+   </Rule>
+   <Rule TypeName="ReviewVisibleEventHandlers" Category="Microsoft.Security" CheckId="CA2109">
+    <Resolution Name="Default">Consider making {0} not externally visible.</Resolution>
+   </Rule>
+   <Rule TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706">
+    <Resolution Name="Member">Correct the capitalization of '{0}' in member name '{1}'.</Resolution>
+    <Resolution Name="MemberId">'Id' is an abbreviation and therefore is not subject to acronym casing guidelines. Correct the capitalization of 'ID' in member name '{0}' by changing it to 'Id'.</Resolution>
+    <Resolution Name="ParameterId">'Id' is an abbreviation and therefore is not subject to acronym casing guidelines. Correct the capitalization of '{0}' in parameter name '{1}' by changing it to '{2}'.</Resolution>
+    <Resolution Name="TypeId">'Id' is an abbreviation and therefore is not subject to acronym casing guidelines. Correct the capitalization of 'ID' in type name '{0}' by changing it to 'Id'.</Resolution>
+   </Rule>
+   <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+    <Resolution Name="Default">{0} makes a call to {1} that does not explicitly provide an IFormatProvider. This should be replaced with a call to {2}.</Resolution>
+   </Rule>
+   <Rule TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053">
+    <Resolution Name="Default">Remove the public constructors from '{0}'.</Resolution>
+   </Rule>
+   <Rule TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724">
+    <Resolution Name="Default">The type name '{0}' conflicts in whole or in part with the namespace name '{1}'. Change either name to eliminate the conflict.</Resolution>
+   </Rule>
+   <Rule TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024">
+    <Resolution Name="Default">Change '{0}' to a property if appropriate.</Resolution>
+   </Rule>
+  </Rules>
+ </FxCopReport>
+</FxCopProject>

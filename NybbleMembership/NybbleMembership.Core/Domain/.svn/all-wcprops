@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nybble/!svn/ver/1941/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain
+END
+ExecutePermission.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/1656/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/ExecutePermission.cs
+END
+Rol.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nybble/!svn/ver/541/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/Rol.cs
+END
+UserProfile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/1941/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/UserProfile.cs
+END
+ExecutePermissionValidator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/1862/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/ExecutePermissionValidator.cs
+END
+HierarchyFunctionsView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/1771/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/HierarchyFunctionsView.cs
+END
+Site.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nybble/!svn/ver/541/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/Site.cs
+END
+EntityPermission.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/1801/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/EntityPermission.cs
+END
+Function.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nybble/!svn/ver/541/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/Function.cs
+END
+PagePermission.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/nybble/!svn/ver/576/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/PagePermission.cs
+END
+UserMember.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/nybble/!svn/ver/1933/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/UserMember.cs
+END
+WebControlPermission.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/1649/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/WebControlPermission.cs
+END
+Permission.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/nybble/!svn/ver/1769/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/Permission.cs
+END
+MethodPermission.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/577/Library/NybbleMembership/trunk/NybbleMembership.Core/Domain/MethodPermission.cs
+END

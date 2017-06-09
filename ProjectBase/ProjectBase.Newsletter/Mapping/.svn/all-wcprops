@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/nybble/!svn/ver/625/Library/ProjectBase/trunk/ProjectBase.Newsletter/Mapping
+END
+Newsletter.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/625/Library/ProjectBase/trunk/ProjectBase.Newsletter/Mapping/Newsletter.hbm.xml
+END
+UserCampaign.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Mapping/UserCampaign.hbm.xml
+END
+Campaign.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nybble/!svn/ver/625/Library/ProjectBase/trunk/ProjectBase.Newsletter/Mapping/Campaign.hbm.xml
+END
+HistoryUser.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Mapping/HistoryUser.hbm.xml
+END
+Frequency.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Mapping/Frequency.hbm.xml
+END
+History.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nybble/!svn/ver/625/Library/ProjectBase/trunk/ProjectBase.Newsletter/Mapping/History.hbm.xml
+END
+CampaignExecute.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Mapping/CampaignExecute.hbm.xml
+END
+ProcessExecution.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Mapping/ProcessExecution.hbm.xml
+END

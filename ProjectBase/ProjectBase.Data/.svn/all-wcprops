@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/nybble/!svn/ver/2711/Library/ProjectBase/trunk/ProjectBase.Data
+END
+IDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/nybble/!svn/ver/528/Library/ProjectBase/trunk/ProjectBase.Data/IDao.cs
+END
+SessionInterceptor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nybble/!svn/ver/2475/Library/ProjectBase/trunk/ProjectBase.Data/SessionInterceptor.cs
+END
+ProjectBase.Data.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nybble/!svn/ver/2412/Library/ProjectBase/trunk/ProjectBase.Data/ProjectBase.Data.csproj
+END
+AbstractNHibernateDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nybble/!svn/ver/2156/Library/ProjectBase/trunk/ProjectBase.Data/AbstractNHibernateDao.cs
+END

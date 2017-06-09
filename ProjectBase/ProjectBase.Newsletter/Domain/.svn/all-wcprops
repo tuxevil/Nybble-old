@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Domain
+END
+Newsletter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Domain/Newsletter.cs
+END
+UserCampaign.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Domain/UserCampaign.cs
+END
+Campaign.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Domain/Campaign.cs
+END
+HistoryUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Domain/HistoryUser.cs
+END
+Frequency.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Domain/Frequency.cs
+END
+History.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Domain/History.cs
+END
+Execution.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Domain/Execution.cs
+END
+ProcessorExecution.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Domain/ProcessorExecution.cs
+END
+Domain Model.cd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Domain/Domain%20Model.cd
+END

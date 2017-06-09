@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nybble/!svn/ver/2373/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite
+END
+Web.config
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nybble/!svn/ver/1579/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/Web.config
+END
+WebNHibernate.config
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/1579/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/WebNHibernate.config
+END
+WebNHibernateTest.config
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/WebNHibernateTest.config
+END
+login.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/login.aspx
+END
+login.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/login.aspx.designer.cs
+END
+login.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/login.aspx.cs
+END
+NybbleMembership.TestWebSite.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2373/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/NybbleMembership.TestWebSite.csproj
+END
+Global.asax
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/Global.asax
+END
+Numeros.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/Numeros.cs
+END
+Numeros.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/Numeros.hbm.xml
+END
+Default.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nybble/!svn/ver/598/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/Default.aspx
+END
+Global.asax.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/Global.asax.cs
+END
+ControllerManager-Alt.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/ControllerManager-Alt.cs
+END
+NumerosController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/577/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/NumerosController.cs
+END
+Default.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/Default.aspx.designer.cs
+END
+Default.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/598/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/Default.aspx.cs
+END
+permission.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/nybble/!svn/ver/1584/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/permission.aspx
+END
+base.Master
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/base.Master
+END
+permission.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/1584/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/permission.aspx.designer.cs
+END
+permission.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/1737/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/permission.aspx.cs
+END
+base.Master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/base.Master.designer.cs
+END
+base.Master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/nybble/!svn/ver/569/Library/NybbleMembership/trunk/NybbleMembership.TestWebSite/base.Master.cs
+END

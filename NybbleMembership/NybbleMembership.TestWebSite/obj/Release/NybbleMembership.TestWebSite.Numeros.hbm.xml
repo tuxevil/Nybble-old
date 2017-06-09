@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="NybbleMembership.TestWebSite" namespace="NybbleMembership.TestWebSite">
+  <class name="Numeros" table="Numeros" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+
+    <property name="Num" column="Numero" type="System.Int32" />
+
+  </class>
+</hibernate-mapping>

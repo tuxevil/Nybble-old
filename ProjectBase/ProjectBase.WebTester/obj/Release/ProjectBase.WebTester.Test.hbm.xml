@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ProjectBase.WebTester" namespace="ProjectBase.WebTester">
+	<class name="Test" table="Test" >
+		<id name="ID" type="System.Int32" column="ID">
+			<generator class="identity"/>
+		</id>
+    
+    <version name="Version" />
+    
+    <property name="TestProperty" column="TestProperty" type="System.String" />
+
+		<component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+			<property name="CreatedOn" type="System.DateTime" not-null="true" />
+			<property name="ModifiedOn" type="System.DateTime" not-null="true" />
+			<property name="CreatedBy" type="System.Guid" not-null="false"/>
+			<property name="ModifiedBy" type="System.Guid" not-null="false"/>
+		</component>
+
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,152 @@
+[2008-03-31 18:18:15] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:18:16] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:18:16] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:21:10] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:21:10] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:21:11] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:21:14] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:21:15] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:21:15] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:29:55] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:29:55] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 18:29:55] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 20:43:46] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 20:43:47] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 20:43:47] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 18
+[2008-03-31 20:48:50] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:48:51] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:48:51] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:50:18] [ERROR] System.ApplicationException: cccc
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:50:19] [ERROR] System.ApplicationException: cccc
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:50:19] [ERROR] System.ApplicationException: cccc
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:52:56] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22root%3A///%22%2C%22root_path%22%3Anull%2C%22only_dirs%22%3Atrue%7D%5D%2C%22id%22%3A%22c1%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:52:56] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22page%22%3A0%2C%22page_size%22%3A25%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%2C%22config%22%3A%22general%2Cfilesystem%2Cfilemanager%2Cthumbnail%22%7D%5D%2C%22id%22%3A%22c2%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:52:58] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22only_dirs%22%3Atrue%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%7D%5D%2C%22id%22%3A%22c0%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:54:17] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22root%3A///%22%2C%22root_path%22%3Anull%2C%22only_dirs%22%3Atrue%7D%5D%2C%22id%22%3A%22c1%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:54:18] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22page%22%3A0%2C%22page_size%22%3A25%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%2C%22config%22%3A%22general%2Cfilesystem%2Cfilemanager%2Cthumbnail%22%7D%5D%2C%22id%22%3A%22c2%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 20:54:18] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22only_dirs%22%3Atrue%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%7D%5D%2C%22id%22%3A%22c0%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 21:04:11] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22root%3A///%22%2C%22root_path%22%3Anull%2C%22only_dirs%22%3Atrue%7D%5D%2C%22id%22%3A%22c1%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 21:04:11] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22only_dirs%22%3Atrue%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%7D%5D%2C%22id%22%3A%22c0%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 21:04:12] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22page%22%3A0%2C%22page_size%22%3A25%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%2C%22config%22%3A%22general%2Cfilesystem%2Cfilemanager%2Cthumbnail%22%7D%5D%2C%22id%22%3A%22c2%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 21:04:44] [ERROR] System.ApplicationException: {"method":"im.listFiles","params":[{"path":"root:///","root_path":null,"only_dirs":true}],"id":"c1"}
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 21:04:44] [ERROR] System.ApplicationException: {"method":"im.listFiles","params":[{"path":"{default}","root_path":null,"url":null,"only_dirs":true,"filter":null,"remember_last_path":"auto"}],"id":"c0"}
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 21:04:44] [ERROR] System.ApplicationException: {"method":"im.listFiles","params":[{"path":"{default}","root_path":null,"url":null,"page":0,"page_size":25,"filter":null,"remember_last_path":"auto","config":"general,filesystem,filemanager,thumbnail"}],"id":"c2"}
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 21:14:41] [ERROR] System.ApplicationException: {"method":"im.keepAlive","params":[null],"id":"c3"}
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:20:19] [ERROR] System.ApplicationException
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 22
+[2008-03-31 23:20:19] [ERROR] System.ApplicationException
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 22
+[2008-03-31 23:20:19] [ERROR] System.ApplicationException
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 22
+[2008-03-31 23:20:23] [ERROR] System.ApplicationException
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 22
+[2008-03-31 23:20:23] [ERROR] System.ApplicationException
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 22
+[2008-03-31 23:20:24] [ERROR] System.ApplicationException
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 22
+[2008-03-31 23:20:41] [ERROR] System.ApplicationException
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 22
+[2008-03-31 23:20:41] [ERROR] System.ApplicationException
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 22
+[2008-03-31 23:20:41] [ERROR] System.ApplicationException
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 22
+[2008-03-31 23:21:09] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22only_dirs%22%3Atrue%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%7D%5D%2C%22id%22%3A%22c0%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:21:10] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22page%22%3A0%2C%22page_size%22%3A25%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%2C%22config%22%3A%22general%2Cfilesystem%2Cfilemanager%2Cthumbnail%22%7D%5D%2C%22id%22%3A%22c2%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:21:10] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22root%3A///%22%2C%22root_path%22%3Anull%2C%22only_dirs%22%3Atrue%7D%5D%2C%22id%22%3A%22c1%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:26:10] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22page%22%3A0%2C%22page_size%22%3A25%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%2C%22config%22%3A%22general%2Cfilesystem%2Cfilemanager%2Cthumbnail%22%7D%5D%2C%22id%22%3A%22c2%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:26:10] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22only_dirs%22%3Atrue%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%7D%5D%2C%22id%22%3A%22c0%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:26:10] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22root%3A///%22%2C%22root_path%22%3Anull%2C%22only_dirs%22%3Atrue%7D%5D%2C%22id%22%3A%22c1%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:31:28] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22root%3A///%22%2C%22root_path%22%3Anull%2C%22only_dirs%22%3Atrue%7D%5D%2C%22id%22%3A%22c1%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:31:28] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22only_dirs%22%3Atrue%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%7D%5D%2C%22id%22%3A%22c0%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:31:29] [ERROR] System.ApplicationException: json_data=%7B%22method%22%3A%22im.listFiles%22%2C%22params%22%3A%5B%7B%22path%22%3A%22%7Bdefault%7D%22%2C%22root_path%22%3Anull%2C%22url%22%3Anull%2C%22page%22%3A0%2C%22page_size%22%3A25%2C%22filter%22%3Anull%2C%22remember_last_path%22%3A%22auto%22%2C%22config%22%3A%22general%2Cfilesystem%2Cfilemanager%2Cthumbnail%22%7D%5D%2C%22id%22%3A%22c2%22%7D
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:31:44] [ERROR] System.ApplicationException: {"method":"im.listFiles","params":[{"path":"{default}","root_path":null,"url":null,"only_dirs":true,"filter":null,"remember_last_path":"auto"}],"id":"c0"}
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:31:44] [ERROR] System.ApplicationException: {"method":"im.listFiles","params":[{"path":"{default}","root_path":null,"url":null,"page":0,"page_size":25,"filter":null,"remember_last_path":"auto","config":"general,filesystem,filemanager,thumbnail"}],"id":"c2"}
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:31:46] [ERROR] System.ApplicationException: {"method":"im.listFiles","params":[{"path":"root:///","root_path":null,"only_dirs":true}],"id":"c1"}
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-03-31 23:41:46] [ERROR] System.ApplicationException: {"method":"im.keepAlive","params":[null],"id":"c3"}
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 21
+[2008-04-01 00:30:32] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 24
+[2008-04-01 00:30:33] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 24
+[2008-04-01 00:30:33] [ERROR] System.NullReferenceException: Object reference not set to an instance of an object.
+   at Moxiecode.Manager.Utils.JSON.ParseRPC(TextReader reader)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 24
+[2008-04-04 14:38:42] [ERROR] System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileInfo..ctor(String fileName)
+   at Moxiecode.Manager.FileSystems.LocalFile..ctor(ManagerEngine man, String absolute_path, String child_name, FileType type)
+   at Moxiecode.Manager.FileSystems.LocalFileFactory.GetFile(ManagerEngine man, String path, String child, FileType type)
+   at Moxiecode.Manager.ManagerEngine.GetFile(String path, String child, FileType type)
+   at Moxiecode.Manager.CorePlugin.DeleteFiles(ManagerEngine man, Hashtable input)
+   at Moxiecode.Manager.CorePlugin.OnRPC(ManagerEngine man, String cmd, Hashtable input)
+   at Moxiecode.Manager.ManagerEngine.ExecuteEvent(EventType type, Object[] args)
+   at ASP.admin_js_tiny_mce_plugins_imagemanager_rpc_rpc_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in c:\Projects\QA.Retail\Admin\js\tiny_mce\plugins\imagemanager\rpc\rpc.aspx:line 50

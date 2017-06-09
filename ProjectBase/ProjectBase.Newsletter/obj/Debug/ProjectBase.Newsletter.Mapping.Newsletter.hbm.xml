@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ProjectBase.Newsletter" namespace="ProjectBase.Newsletter">
+  <class name="Newsletter" table="camNewsletters" >
+    <id name="ID" type="System.Int32" column="NewsletterID">
+      <generator class="identity"/>
+    </id>
+    <property name="NewsletterType" column="NewsletterType" type="ProjectBase.Newsletter.NewsletterType,ProjectBase.Newsletter" not-null="true"/>
+	<property name="Subject" column="Subject" type="System.String" not-null="true" length="128" />
+    <property name="Body" column="Body" type="System.String" not-null="true"/>
+	  <bag name="Campaigns" table="camCampaigns" inverse="true" lazy="true"  cascade="none">
+		  <key column="FixedNewsletterID" />
+		  <one-to-many class="Campaign"/>
+	  </bag>
+
+	</class>
+  
+</hibernate-mapping>

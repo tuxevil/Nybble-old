@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/nybble/!svn/ver/2261/Library/ProjectBase/trunk/ProjectBase.Data/NHibernateSessionMgmt
+END
+OpenSessionInViewSection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Data/NHibernateSessionMgmt/OpenSessionInViewSection.cs
+END
+NHibernateSessionManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2261/Library/ProjectBase/trunk/ProjectBase.Data/NHibernateSessionMgmt/NHibernateSessionManager.cs
+END
+SessionFactoriesCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Data/NHibernateSessionMgmt/SessionFactoriesCollection.cs
+END
+SessionFactoryElement.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Data/NHibernateSessionMgmt/SessionFactoryElement.cs
+END
+NHibernateSessionModule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/2032/Library/ProjectBase/trunk/ProjectBase.Data/NHibernateSessionMgmt/NHibernateSessionModule.cs
+END

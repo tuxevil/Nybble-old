@@ -1,0 +1,67 @@
+﻿Uninstalling assembly 'C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe
+   logfile = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.InstallLog
+Removing EventLog source FundProRetail.Newsletters.
+Warning: The source FundProRetail.Newsletters is not registered on the local machine.
+Service FundProRetail.Newsletters is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe
+   logfile = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.InstallLog
+Installing service FundProRetail.Newsletters...
+Service FundProRetail.Newsletters has been successfully installed.
+Creating EventLog source FundProRetail.Newsletters in log Application...
+Committing assembly 'C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe
+   logfile = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.InstallLog
+Uninstalling assembly 'C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe
+   logfile = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.InstallLog
+Removing EventLog source FundProRetail.Newsletters.
+Service FundProRetail.Newsletters is being removed from the system...
+Service FundProRetail.Newsletters was successfully removed from the system.
+Attempt to stop service FundProRetail.Newsletters.
+Installing assembly 'C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe
+   logfile = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.InstallLog
+Installing service FundProRetail.Newsletters...
+Service FundProRetail.Newsletters has been successfully installed.
+Creating EventLog source FundProRetail.Newsletters in log Application...
+Committing assembly 'C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe
+   logfile = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.InstallLog
+Uninstalling assembly 'C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe
+   logfile = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.InstallLog
+Removing EventLog source FundProRetail.Newsletters.
+Service FundProRetail.Newsletters is being removed from the system...
+Service FundProRetail.Newsletters was successfully removed from the system.
+Installing assembly 'C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe
+   logfile = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.InstallLog
+Installing service FundProRetail.Newsletters...
+Service FundProRetail.Newsletters has been successfully installed.
+Creating EventLog source FundProRetail.Newsletters in log Application...
+Committing assembly 'C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.exe
+   logfile = C:\Projects\LatinAssetManagement\FundProRetail\FundProRetail.Newsletter.Service\bin\Debug\FundProRetail.Newsletter.Service.InstallLog

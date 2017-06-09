@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/nybble/!svn/ver/2362/Library/ProjectBase/trunk/ProjectBase.Data/Audit
+END
+ITimeStamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nybble/!svn/ver/2355/Library/ProjectBase/trunk/ProjectBase.Data/Audit/ITimeStamp.cs
+END
+IAuditable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nybble/!svn/ver/528/Library/ProjectBase/trunk/ProjectBase.Data/Audit/IAuditable.cs
+END
+TimeStamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nybble/!svn/ver/2362/Library/ProjectBase/trunk/ProjectBase.Data/Audit/TimeStamp.cs
+END

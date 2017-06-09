@@ -1,0 +1,14 @@
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\bin\Debug\ProjectBase.OfflineProcessor.Remoting.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\bin\Debug\ProjectBase.OfflineProcessor.Remoting.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\bin\Debug\ProjectBase.OfflineProcessor.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\bin\Debug\ProjectBase.OfflineProcessor.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\obj\Debug\ProjectBase.OfflineProcessor.Remoting.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\obj\Debug\ProjectBase.OfflineProcessor.Remoting.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\bin\Release\ProjectBase.OfflineProcessor.Remoting.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\bin\Release\ProjectBase.OfflineProcessor.Remoting.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\bin\Release\ProjectBase.OfflineProcessor.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\bin\Release\ProjectBase.OfflineProcessor.pdb
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\obj\Release\ProjectBase.OfflineProcessor.Remoting.dll
+C:\Projects\Nybble\ProjectBase\ProjectBase.OfflineProcessor.Remoting\obj\Release\ProjectBase.OfflineProcessor.Remoting.pdb

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/nybble/!svn/ver/2213/Library/ProjectBase/trunk/ProjectBase.MailSender
+END
+Global.asax.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/nybble/!svn/ver/1550/Library/ProjectBase/trunk/ProjectBase.MailSender/Global.asax.cs
+END
+Web.config
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/nybble/!svn/ver/1645/Library/ProjectBase/trunk/ProjectBase.MailSender/Web.config
+END
+ProjectBase.MailSender.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/2120/Library/ProjectBase/trunk/ProjectBase.MailSender/ProjectBase.MailSender.csproj
+END
+Mail.asmx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nybble/!svn/ver/1549/Library/ProjectBase/trunk/ProjectBase.MailSender/Mail.asmx
+END
+Global.asax
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nybble/!svn/ver/1549/Library/ProjectBase/trunk/ProjectBase.MailSender/Global.asax
+END
+Mail.asmx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/nybble/!svn/ver/2211/Library/ProjectBase/trunk/ProjectBase.MailSender/Mail.asmx.cs
+END

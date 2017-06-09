@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="ProjectBase.Newsletter" namespace="ProjectBase.Newsletter">
+  <class name="Campaign" table="camCampaigns" >
+    <id name="ID" type="System.Int32" column="CampaignID">
+      <generator class="identity"/>
+    </id>
+	<property name="ApplicationName" column="ApplicationName" type="System.String" not-null="true" length="256"/>
+	<property name="Name" column="Name" type="System.String" not-null="true" length="64"/>
+    <property name="Type" column="Type" type="ProjectBase.Newsletter.CampaignType, ProjectBase.Newsletter" not-null="true" />
+	<property name="Status" column="Status" type="ProjectBase.Newsletter.CampaignStatus, ProjectBase.Newsletter" not-null="true" />
+	<property name="StartDate" column="StartDate" type="System.DateTime" not-null="false"/>
+	<property name="EndDate" column="EndDate" type="System.DateTime" not-null="false"/>
+	<property name="Frequency" column="Frequency" type="ProjectBase.Newsletter.MailFrequency, ProjectBase.Newsletter" not-null="true" />
+    <property name="Code" column="Code" type="System.String" not-null="true" length="64"/>
+	<many-to-one name="FixedNewsletter" column="FixedNewsletterID" class="Newsletter" />
+	<property name="DynamicCode" column="DynamicCode" type="System.String" not-null="false" length="64"/>
+    <bag name="UserCampaigns" table="camCampaignUsers" inverse="true" lazy="true" cascade="none">
+      <key column="CampaignID" />
+      <one-to-many class="UserCampaign"/>
+    </bag>
+    <bag name="ProcessExecutions" table="camProcessExecution" inverse="true" lazy="true" cascade="none">
+		  <key column="CampaignID" />
+		  <one-to-many class="ProcessExecution"/>
+	  </bag>
+  </class>
+  
+</hibernate-mapping>

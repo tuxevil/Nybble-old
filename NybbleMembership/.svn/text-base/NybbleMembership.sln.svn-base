@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Administration.WebSite", "Administration.WebSite\Administration.WebSite.csproj", "{33248779-9FD2-471E-A6A4-CFE80960E305}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NybbleMembership.Core", "NybbleMembership.Core\NybbleMembership.Core.csproj", "{16AEE181-2A9C-4219-A158-58505526BB45}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NybbleMembership.Business", "NybbleMembership.Business\NybbleMembership.Business.csproj", "{A08ABA93-AD79-40EA-8568-50B5E5611C99}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NybbleMembership.PermissionManager", "NybbleMembership.PermissionManager\NybbleMembership.PermissionManager.csproj", "{8E157B45-D1F5-4CA4-8F6B-EAD0FB89DC65}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NybbleMembership.Common", "NybbleMembership.Common\NybbleMembership.Common.csproj", "{9A27C807-A71A-489C-8625-5EE2ACAEC091}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{4F174C21-8C12-11D0-8340-0000F80270F8}") = "NybbleMembsership.DataBase", "NybbleMembsership.DataBase\NybbleMembsership.DataBase.dbp", "{C79791DE-59DF-44F6-91F2-041EC6846A5D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{4F174C21-8C12-11D0-8340-0000F80270F8}") = "NybbleMembership.DataBase", "NybbleMembership.DataBase\NybbleMembership.DataBase.dbp", "{5D04E88C-F388-4C2E-A13C-EAE0598EFF41}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NybbleMembership.TestWebSite", "NybbleMembership.TestWebSite\NybbleMembership.TestWebSite.csproj", "{F12B6156-334B-444A-B44A-1BB875295D54}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33248779-9FD2-471E-A6A4-CFE80960E305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33248779-9FD2-471E-A6A4-CFE80960E305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33248779-9FD2-471E-A6A4-CFE80960E305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33248779-9FD2-471E-A6A4-CFE80960E305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AEE181-2A9C-4219-A158-58505526BB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AEE181-2A9C-4219-A158-58505526BB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AEE181-2A9C-4219-A158-58505526BB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AEE181-2A9C-4219-A158-58505526BB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08ABA93-AD79-40EA-8568-50B5E5611C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08ABA93-AD79-40EA-8568-50B5E5611C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08ABA93-AD79-40EA-8568-50B5E5611C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08ABA93-AD79-40EA-8568-50B5E5611C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E157B45-D1F5-4CA4-8F6B-EAD0FB89DC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E157B45-D1F5-4CA4-8F6B-EAD0FB89DC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E157B45-D1F5-4CA4-8F6B-EAD0FB89DC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E157B45-D1F5-4CA4-8F6B-EAD0FB89DC65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A27C807-A71A-489C-8625-5EE2ACAEC091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A27C807-A71A-489C-8625-5EE2ACAEC091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A27C807-A71A-489C-8625-5EE2ACAEC091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A27C807-A71A-489C-8625-5EE2ACAEC091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12B6156-334B-444A-B44A-1BB875295D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12B6156-334B-444A-B44A-1BB875295D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12B6156-334B-444A-B44A-1BB875295D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12B6156-334B-444A-B44A-1BB875295D54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

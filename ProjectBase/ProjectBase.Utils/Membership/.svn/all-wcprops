@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/nybble/!svn/ver/401/Library/ProjectBase/trunk/ProjectBase.Utils/Membership
+END
+BaseSqlMembershipProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/401/Library/ProjectBase/trunk/ProjectBase.Utils/Membership/BaseSqlMembershipProvider.cs
+END
+SqlTableProfileProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Utils/Membership/SqlTableProfileProvider.cs
+END
+SqlStoredProcedureProfileProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Utils/Membership/SqlStoredProcedureProfileProvider.cs
+END

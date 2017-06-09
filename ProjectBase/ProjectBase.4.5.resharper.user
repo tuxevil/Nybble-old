@@ -1,0 +1,195 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="firstEmpty" priority="0" />
+      <Item value="else" priority="1" />
+      <Item value="lngPos" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="StrongTypingException" priority="0" />
+      <Item value="string" priority="14" />
+      <Item value="To" priority="0" />
+      <Item value="Subject" priority="0" />
+      <Item value="Body" priority="0" />
+      <Item value="false" priority="1" />
+      <Item value="MailSender" priority="6" />
+      <Item value="Mail" priority="7" />
+      <Item value="Convert" priority="0" />
+      <Item value="DropDownList1" priority="0" />
+      <Item value="TextBox1" priority="0" />
+      <Item value="TextBox2" priority="0" />
+      <Item value="TextBox3" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="log4net" priority="1" />
+      <Item value="Config" priority="1" />
+      <Item value="XmlConfigurator" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="catch" priority="0" />
+      <Item value="Exception" priority="1" />
+      <Item value="e" priority="1" />
+      <Item value="return" priority="1" />
+      <Item value="LogManager" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="new" priority="9" />
+      <Item value="mail" priority="0" />
+      <Item value="to" priority="1" />
+      <Item value="subject" priority="1" />
+      <Item value="body" priority="1" />
+      <Item value="ProjectBase" priority="1" />
+      <Item value="wm" priority="0" />
+      <Item value="object" priority="1" />
+      <Item value="attachment" priority="4" />
+      <Item value="MemoryStream" priority="0" />
+      <Item value="fileContent" priority="2" />
+      <Item value="System" priority="0" />
+      <Item value="Data" priority="0" />
+      <Item value="IO" priority="0" />
+      <Item value="File" priority="0" />
+      <Item value="Server" priority="1" />
+      <Item value="mm" priority="2" />
+      <Item value="Attachment" priority="1" />
+      <Item value="as" priority="1" />
+      <Item value="ms" priority="0" />
+      <Item value="byte" priority="5" />
+      <Item value="m" priority="0" />
+      <Item value="SendEmail" priority="0" />
+      <Item value="siteCode" priority="0" />
+      <Item value="null" priority="6" />
+      <Item value="if" priority="1" />
+      <Item value="FieldAccessException" priority="0" />
+      <Item value="from" priority="4" />
+      <Item value="filename" priority="1" />
+      <Item value="response" priority="0" />
+      <Item value="filecontent" priority="1" />
+      <Item value="txtFirst" priority="0" />
+      <Item value="public" priority="2" />
+      <Item value="Value" priority="0" />
+      <Item value="value" priority="2" />
+      <Item value="TabIndex" priority="0" />
+      <Item value="short" priority="2" />
+      <Item value="StringValue" priority="1" />
+      <Item value="ListItemCollection" priority="1" />
+      <Item value="ListItem" priority="0" />
+      <Item value="DelimitedFieldBuilder" priority="1" />
+      <Item value="nuevo" priority="0" />
+      <Item value="ConverterBuilder" priority="1" />
+      <Item value="engine" priority="0" />
+      <Item value="o" priority="0" />
+      <Item value="items" priority="0" />
+      <Item value="typeof" priority="1" />
+      <Item value="WebTester" priority="0" />
+      <Item value="Prices" priority="0" />
+      <Item value="IgnoreEmptyLines" priority="0" />
+      <Item value="true" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32" priority="0" />
+      <Item value="ToDecimal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="3" />
+      <Item value="TabIndex" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@log4net.Config.XmlConfigurator">
+      <Item value="Configure" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@log4net.LogManager">
+      <Item value="GetLogger" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.ILog">
+      <Item value="Error" priority="0" />
+      <Item value="Debug" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProjectBase.Utils.MailSender.Mail">
+      <Item value="SendEmail" priority="0" />
+      <Item value="SendEmailWithAttachment" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProjectBase.Utils.Email.WebMailing">
+      <Item value="SendMail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="WriteAllBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="MapPath" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.MailMessage">
+      <Item value="Attachments" priority="0" />
+      <Item value="From" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.AttachmentCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProjectBase.MailSender.Mail">
+      <Item value="SendEmail" priority="0" />
+      <Item value="SendEmailWithAttachment" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.MailAddress">
+      <Item value="Address" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ProjectBase.WebControls.DataFieldType">
+      <Item value="HyperLink" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListControl">
+      <Item value="SelectedItem" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileHelpers.RunTime.ConverterBuilder">
+      <Item value="Arg2" priority="0" />
+      <Item value="TypeName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileHelpers.RunTime.DelimitedFieldBuilder">
+      <Item value="Converter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileHelpers.FileHelperEngine">
+      <Item value="WriteFile" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="AEAEFA62-E28A-4396-9330-F60D2F9F082D/f:Web.config" caret="1133" fromTop="22" />
+      <File id="24D21FC0-59B8-4208-AA1D-1B30D3F3C101/d:FileImport/f:CsvReader.cs" caret="1029" fromTop="14" />
+      <File id="F679FF2E-8AD4-4B8B-8F9B-8223F6D263C3/f:Service1.cs" caret="1613" fromTop="17" />
+      <File id="1525D81E-E245-4B16-A2BB-5509D7E6EF26/f:OfflineProcessorRemoting.cs" caret="193" fromTop="7" />
+      <File id="DF442913-716B-4A18-8A70-004B0FEB0168/d:Entity/f:Entity.cs" caret="163" fromTop="9" />
+      <File id="DF442913-716B-4A18-8A70-004B0FEB0168/d:Entity/f:DomainObject.cs" caret="1692" fromTop="27" />
+      <File id="10359AE3-4E24-4A0F-8184-6A9AE1FD0C73/f:DataField.cs" caret="0" fromTop="0" />
+      <File id="24D21FC0-59B8-4208-AA1D-1B30D3F3C101/d:Email/f:WebMailing.cs" caret="679" fromTop="9" />
+      <File id="24D21FC0-59B8-4208-AA1D-1B30D3F3C101/d:Email/f:Mailing.cs" caret="678" fromTop="6" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="1525D81E-E245-4B16-A2BB-5509D7E6EF26/f:OfflineProcessorRemoting.cs" caret="6038" fromTop="7" />
+      <File id="DF442913-716B-4A18-8A70-004B0FEB0168/d:Entity/f:DomainObject.cs" caret="1692" fromTop="27" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

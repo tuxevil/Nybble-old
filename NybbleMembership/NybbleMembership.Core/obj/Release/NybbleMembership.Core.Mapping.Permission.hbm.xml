@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="NybbleMembership.Core" namespace="NybbleMembership.Core.Domain">
+  <class name="Permission" table="mem_Permission" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+	  
+    <property name="Name" column="Name" type="System.String" />
+    <property name="Code" column="Code" type="System.String" />
+    <property name="Description" column="Description" type="System.String" />
+    <!--<property name="Action" column="Action" type="System.Int32" not-null="true"/>-->
+    <property name="PermissionAction" column="Action" type="NybbleMembership.Core.PermissionAction, NybbleMembership.Core" not-null="true"/>
+    
+    <bag name="Functions" table="mem_PermissionByFunction" lazy="true" cascade="none">
+      <key column="PermissionId" />
+      <many-to-many class="Function" column="FunctionId"/>
+    </bag>
+
+    <bag name="Users" table="mem_UsersByPermissions" lazy="true" cascade="none">
+      <key column="PermissionId" />
+      <many-to-many class="UserMember" column="UserId"/>
+    </bag>
+
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+
+    <joined-subclass name="EntityPermission" table="mem_EntityPermission" >
+      <key column="Id" />
+      <property name="ClassName" column="ClassName" type="System.String" />
+      <property name="Identifier" column="Identifier" type="System.String" not-null="false"/>
+    </joined-subclass>
+    
+    <joined-subclass name="PagePermission" table="mem_PagePermission" >
+		  <key column="Id" />
+		  <property name="PageName" column="PageName" type="System.String" />
+		  <property name="FolderName" column="FolderName" type="System.String" />
+	  </joined-subclass>
+
+    <joined-subclass name="MethodPermission" table="mem_MethodPermission" >
+		<key column="Id" />
+      <property name="ClassName" column="ClassName" type="System.String" />
+      <property name="MethodName" column="MethodName" type="System.String" />
+    </joined-subclass>
+
+    <joined-subclass name="WebControlPermission" table="mem_WebControlPermission" >
+ 		<key column="Id" />
+		<property name="RelativePath" column="RelativePath" type="System.String" />
+		<property name="ControlIdentifier" column="ControlIdentifier" type="System.String" />
+  	</joined-subclass>
+
+    <joined-subclass name="ExecutePermission" table="mem_ExecutePermission" >
+      <key column="Id" />
+      <property name="ClassName" column="ClassName" type="System.String" />
+      <property name="KeyIdentifier" column="KeyIdentifier" type="System.String"/>
+    </joined-subclass>
+  </class>
+</hibernate-mapping>

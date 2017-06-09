@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="NybbleMembership.Core" namespace="NybbleMembership.Core.Domain">
+  <class name="UserMember" table="aspnet_Membership" >
+    <id name="ID" type="System.Guid" column="UserId">
+      <generator class="assigned"/>
+    </id>
+    <property name="Email" column="Email" type="System.String" />
+    <property name="IsApproved" column="IsApproved" type="System.Boolean" />
+    <property name="IsLockedOut" column="IsLockedOut" type="System.Boolean" />
+    <property name="CreateDate" column="CreateDate" type="System.DateTime" />
+
+    <bag name="Roles" table="mem_UsersByRoles" lazy="true" cascade="none">
+      <key column="UserId" />
+      <many-to-many class="Rol" column="RolId"/>
+    </bag>
+
+    <bag name="Sites" table="mem_UsersBySite" lazy="true" cascade="none">
+      <key column="UserId" />
+      <many-to-many class="Site" column="SiteId"/>
+    </bag>
+
+    <bag name="Permissions" table="mem_UsersByPermissions" lazy="true" cascade="none">
+      <key column="UserId" />
+      <many-to-many class="Permission" column="PermissionId"/>
+    </bag>
+
+    <one-to-one name="UserProfile" class="UserProfile" cascade="all"/>
+
+  </class>
+</hibernate-mapping>

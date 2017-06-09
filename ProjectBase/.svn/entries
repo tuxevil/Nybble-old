@@ -1,0 +1,98 @@
+9
+
+dir
+2858
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble/Library/ProjectBase/trunk
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble
+
+
+
+2009-12-05T16:06:48.206272Z
+2745
+leonardo.rodriguez
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+420dda77-6af4-1841-a513-76830d1e3cad
+
+ProjectBase.Utils
+dir
+
+ProjectBase.WebControls
+dir
+
+ProjectBase.OfflineProcessor.Service
+dir
+
+ProjectBase.OfflineProcessor
+dir
+
+ProjectBase.Services
+dir
+
+ProjectBase.MailSender
+dir
+
+ProjectBase.WebTester
+dir
+
+ProjectBase.OfflineProcessor.Remoting
+dir
+
+ProjectBase.Data
+dir
+
+ProjectBase.Newsletter
+dir
+
+ProjectBase.sln
+file
+
+
+
+
+2009-10-30T13:50:59.286807Z
+82c69ad4001b1005cac81151b1be1778
+2009-10-26T13:46:38.195976Z
+2274
+leonardo.rodriguez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15211
+
+ProjectBase.Payment
+dir
+
+ProjectBase.OfflineProcessor.Installer
+dir
+

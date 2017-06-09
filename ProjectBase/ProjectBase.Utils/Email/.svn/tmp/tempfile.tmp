@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Configuration;
+using System.IO;
+using System.Net.Mail;
+using System.Text;
+using System.Web.Security;
+using log4net;
+using log4net.Core;
+using ProjectBase.Utils.MailSender;
+
+namespace ProjectBase.Utils.Email
+{
+    /// <summary>
+    /// Allow to send email through standard Smtp configuration of .NET Framework
+    /// </summary>
+    /// <remarks>
+    /// You can inherint this class to modify the defaults for template usage.
+    /// We currently suggest to base on the current settings for projects compatibility.
+    /// </remarks>
+    public class WebMailing : Mailing
+    {
+        private const string FROM_ADDRESS = "Mailing_FromAddress";
+        private const string SITE_CODE = "Mailing_SiteCode";
+
+        public override void SendMail(string to, string title, string subject, string body, bool sendToAdmins, bool async, string filename, byte[] filecontent)
+        {
+<<<<<<< .mine
+            Mail mail = new Mail();
+            mail.SendEmailWithAttachment("1", null, to, subject, body, filename, filecontent);
+        }
+=======
+            string from = ConfigurationSettings.AppSettings[FROM_ADDRESS];
+            string siteCode = ConfigurationSettings.AppSettings[SITE_CODE];
+>>>>>>> .r2055
+
+            if (string.IsNullOrEmpty(from))
+                throw new Exception(FROM_ADDRESS + " not available on configuration file");
+
+            if (string.IsNullOrEmpty(siteCode))
+                throw new Exception(SITE_CODE + " not available on configuration file");
+
+            string template = ApplyTemplate(title, subject, body);
+
+            Mail mail = new Mail();
+            if (!string.IsNullOrEmpty(filename))
+                mail.SendEmailWithAttachment(siteCode, from, to, subject, template, filename, filecontent);
+            else
+                mail.SendEmail(siteCode, from, to, subject, template);
+        }
+
+        public void SendMail(string to, string title, string subject, string body, bool sendToAdmins, bool async, string fileName, string filePath)
+        {
+            SendMail(to, title, subject, body, sendToAdmins, async, fileName, File.ReadAllBytes(filePath));
+        }
+   }
+}

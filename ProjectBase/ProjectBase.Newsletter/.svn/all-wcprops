@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/nybble/!svn/ver/2173/Library/ProjectBase/trunk/ProjectBase.Newsletter
+END
+NewsletterProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/NewsletterProcessor.cs
+END
+Modeling.cd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Modeling.cd
+END
+To Extend.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/To%20Extend.txt
+END
+INewsletterProcessor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/INewsletterProcessor.cs
+END
+ProcessorCollector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/ProcessorCollector.cs
+END
+Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/Enums.cs
+END
+NewsletterManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/NewsletterManager.cs
+END
+ProjectBase.Newsletter.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/2173/Library/ProjectBase/trunk/ProjectBase.Newsletter/ProjectBase.Newsletter.csproj
+END
+NewsletterDaoFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nybble/!svn/ver/18/Library/ProjectBase/trunk/ProjectBase.Newsletter/NewsletterDaoFactory.cs
+END

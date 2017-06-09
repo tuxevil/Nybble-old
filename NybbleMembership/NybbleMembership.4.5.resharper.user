@@ -1,0 +1,38 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A08ABA93-AD79-40EA-8568-50B5E5611C99/d:Controller/f:RolController.cs" caret="7819" fromTop="22" />
+      <File id="8E157B45-D1F5-4CA4-8F6B-EAD0FB89DC65/f:PermissionManager.cs" caret="0" fromTop="0" />
+      <File id="8E157B45-D1F5-4CA4-8F6B-EAD0FB89DC65/f:MembershipManager.cs" caret="5587" fromTop="50" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8E157B45-D1F5-4CA4-8F6B-EAD0FB89DC65/f:MembershipManager.cs" caret="5580" fromTop="50" />
+      <File id="8E157B45-D1F5-4CA4-8F6B-EAD0FB89DC65/f:MembershipManager.cs" caret="6040" fromTop="60" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Page" priority="0" />
+      <Item value="p" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="AppRelativeVirtualPath" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

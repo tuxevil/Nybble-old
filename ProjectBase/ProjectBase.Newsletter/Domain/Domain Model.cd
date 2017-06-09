@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="ProjectBase.Newsletter.Campaign">
+    <Position X="3.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Domain\Campaign.cs</FileName>
+      <HashCode>AMgAAAAEAABFAASEAAAkIAQgAIAAIMgAQQAAAEGABAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+      <Property Name="Status" />
+      <Property Name="Frequency" />
+      <Property Name="FixedNewsletter" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="UserCampaigns" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="_ApplicationName" Hidden="true" />
+      <Field Name="_Code" Hidden="true" />
+      <Field Name="_DynamicCode" Hidden="true" />
+      <Field Name="_EndDate" Hidden="true" />
+      <Field Name="_FixedNewsletterIDNewsletters" Hidden="true" />
+      <Field Name="_Frequency" Hidden="true" />
+      <Field Name="_Name" Hidden="true" />
+      <Field Name="_StartDate" Hidden="true" />
+      <Field Name="_Status" Hidden="true" />
+      <Field Name="_Type" Hidden="true" />
+      <Field Name="_UserCampaigns" Hidden="true" />
+      <Method Name="Campaign" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="ProjectBase.Newsletter.Execution">
+    <Position X="2.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Domain\Execution.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAgAAEAAIgAIEAEEAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Campaign" />
+    </ShowAsAssociation>
+    <Members>
+      <Field Name="_Campaign" Hidden="true" />
+      <Field Name="_DateCreated" Hidden="true" />
+      <Field Name="_RunDate" Hidden="true" />
+      <Field Name="_TestExecution" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="ProjectBase.Newsletter.History">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Domain\History.cs</FileName>
+      <HashCode>AAAAACAAAAAgABAAAIABAAAgAAEAAIAgQAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Campaign" />
+    </ShowAsAssociation>
+    <Members>
+      <Field Name="_Body" Hidden="true" />
+      <Field Name="_Campaign" Hidden="true" />
+      <Field Name="_SentDate" Hidden="true" />
+      <Field Name="_Subject" Hidden="true" />
+      <Field Name="_UserCampaigns" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="ProjectBase.Newsletter.Frequency" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\Frequency.cs</FileName>
+      <HashCode>AEAAAAAAAAAFAAAAAAAAAAAAAAAAAIAAAAAAAACAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectBase.Newsletter.Newsletter">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\Newsletter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAABAAAIABBAQAAAEAAIAAAAAAAAAAACg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NewsletterType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Campaigns" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="_Body" Hidden="true" />
+      <Field Name="_Campaigns" Hidden="true" />
+      <Field Name="_NewsletterType" Hidden="true" />
+      <Field Name="_Subject" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+      <Method Name="Newsletter" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="ProjectBase.Newsletter.UserCampaign">
+    <Position X="6.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\UserCampaign.cs</FileName>
+      <HashCode>AAAAAAAAAAgAQAAAAAAAAAgAAAEAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Campaign" />
+    </ShowAsAssociation>
+    <Members>
+      <Field Name="_CampaignIDCampaign" Hidden="true" />
+      <Field Name="_UserID" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+      <Method Name="UserCampaign" Hidden="true" />
+    </Members>
+  </Class>
+  <Enum Name="ProjectBase.Newsletter.MailFrequency">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAwAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ProjectBase.Newsletter.CampaignStatus">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ProjectBase.Newsletter.CampaignType">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ProjectBase.Newsletter.NewsletterType">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

@@ -1,0 +1,1125 @@
+2009-10-15 11:24:18,563 INFO NHibernate 2.0.1.4000 (2.0.1.4000)
+2009-10-15 11:24:18,594 INFO hibernate-configuration section not found in application configuration file
+2009-10-15 11:24:18,594 INFO Bytecode provider name : lcg
+2009-10-15 11:24:18,610 INFO Using reflection optimizer
+2009-10-15 11:24:18,704 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-15 11:24:18,704 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-15 11:24:18,704 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-15 11:24:18,704 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-15 11:24:18,704 DEBUG connection.isolation=ReadCommitted
+2009-10-15 11:24:18,704 DEBUG default_schema=Nybble_Test.dbo
+2009-10-15 11:24:18,704 DEBUG show_sql=true
+2009-10-15 11:24:18,704 DEBUG adonet.batch_size=10
+2009-10-15 11:24:18,704 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-15 11:24:18,704 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-15 11:24:18,704 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-15 11:24:18,844 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-15 11:24:20,454 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-15 11:24:20,469 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-15 11:24:20,485 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-15 11:24:20,501 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-15 11:24:20,516 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-15 11:24:20,516 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-15 11:24:20,516 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-15 11:24:20,516 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-15 11:24:20,563 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-15 11:24:20,563 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-15 11:24:20,579 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-15 11:24:20,579 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-15 11:24:20,579 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-15 11:24:20,594 INFO checking mappings queue
+2009-10-15 11:24:20,594 INFO processing one-to-many association mappings
+2009-10-15 11:24:20,594 INFO processing one-to-one association property references
+2009-10-15 11:24:20,594 INFO processing foreign key constraints
+2009-10-15 11:24:20,626 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-15 11:24:20,626 INFO Using dialect defined converter
+2009-10-15 11:24:20,626 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-15 11:24:20,626 INFO Configuring ConnectionProvider
+2009-10-15 11:24:20,626 INFO Transaction factory: NHibernate.Transaction.AdoNetTransactionFactory
+2009-10-15 11:24:20,626 INFO Optimize cache for minimal puts: False
+2009-10-15 11:24:20,626 INFO Connection release mode: auto
+2009-10-15 11:24:20,626 INFO Default schema: Nybble_Test.dbo
+2009-10-15 11:24:20,626 INFO Default batch fetch size: 1
+2009-10-15 11:24:20,626 INFO echoing all SQL to stdout
+2009-10-15 11:24:20,626 INFO Statistics: disabled
+2009-10-15 11:24:20,626 INFO Query translator: NHibernate.Hql.Classic.ClassicQueryTranslatorFactory
+2009-10-15 11:24:20,626 INFO Query language substitutions: {}
+2009-10-15 11:24:20,626 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-15 11:24:20,626 DEBUG Wrap result sets: disabled
+2009-10-15 11:24:20,641 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-15 11:24:20,641 INFO Using Isolation Level: ReadCommitted
+2009-10-15 11:24:20,641 INFO Named query checking : enabled
+2009-10-15 11:24:20,657 INFO building session factory
+2009-10-15 11:24:20,657 DEBUG instantiating session factory with properties: {use_reflection_optimizer=True, session_factory_name=cimexEjecutivos, dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data, connection.provider=NHibernate.Connection.DriverConnectionProvider, connection.driver_class=NHibernate.Driver.SqlClientDriver, connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test, connection.isolation=ReadCommitted, default_schema=Nybble_Test.dbo, show_sql=true, adonet.batch_size=10}
+2009-10-15 11:24:20,766 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-15 11:24:20,766 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-15 11:24:20,829 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-15 11:24:20,829 DEBUG registered: 20376a5fd61046e5b38f631054c2489c(cimexEjecutivos)
+2009-10-15 11:24:20,829 INFO Factory name:cimexEjecutivos
+2009-10-15 11:24:20,891 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-15 11:24:20,891 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-15 11:24:20,891 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-15 11:24:20,891 DEBUG  Insert 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 11:24:20,891 DEBUG  Update 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 11:24:20,891 DEBUG  Delete 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 11:24:20,891 DEBUG  Identity insert: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 11:24:20,954 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 11:24:20,954 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 11:24:20,954 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-15 11:24:20,954 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-15 11:24:20,954 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-15 11:24:20,954 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 11:24:20,954 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 11:24:20,954 DEBUG Instantiated session factory
+2009-10-15 11:24:20,954 DEBUG Checking 0 named HQL queries
+2009-10-15 11:24:20,954 DEBUG Checking 0 named SQL queries
+2009-10-15 11:24:20,985 DEBUG opened session
+2009-10-15 11:24:20,985 DEBUG Begin (Unspecified)
+2009-10-15 11:24:20,985 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,205 DEBUG Start Commit
+2009-10-15 11:24:23,221 DEBUG before transaction completion
+2009-10-15 11:24:23,221 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,221 DEBUG transaction completion
+2009-10-15 11:24:23,221 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,221 DEBUG Closing connection
+2009-10-15 11:24:23,221 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,221 DEBUG closing session
+2009-10-15 11:24:23,221 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,252 DEBUG opened session
+2009-10-15 11:24:23,252 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,252 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,252 DEBUG opened session
+2009-10-15 11:24:23,252 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,252 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,268 DEBUG Start Commit
+2009-10-15 11:24:23,283 DEBUG before transaction completion
+2009-10-15 11:24:23,283 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,283 DEBUG transaction completion
+2009-10-15 11:24:23,283 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,283 DEBUG Closing connection
+2009-10-15 11:24:23,283 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,283 DEBUG closing session
+2009-10-15 11:24:23,283 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,283 DEBUG Start Commit
+2009-10-15 11:24:23,283 DEBUG before transaction completion
+2009-10-15 11:24:23,283 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,283 DEBUG transaction completion
+2009-10-15 11:24:23,283 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,283 DEBUG Closing connection
+2009-10-15 11:24:23,283 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,283 DEBUG closing session
+2009-10-15 11:24:23,283 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,346 DEBUG opened session
+2009-10-15 11:24:23,346 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,346 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,377 DEBUG Start Commit
+2009-10-15 11:24:23,377 DEBUG before transaction completion
+2009-10-15 11:24:23,377 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,377 DEBUG transaction completion
+2009-10-15 11:24:23,377 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,377 DEBUG Closing connection
+2009-10-15 11:24:23,377 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,377 DEBUG closing session
+2009-10-15 11:24:23,377 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,409 DEBUG opened session
+2009-10-15 11:24:23,409 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,409 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,424 DEBUG Start Commit
+2009-10-15 11:24:23,424 DEBUG before transaction completion
+2009-10-15 11:24:23,424 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,424 DEBUG transaction completion
+2009-10-15 11:24:23,424 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,424 DEBUG Closing connection
+2009-10-15 11:24:23,424 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,424 DEBUG closing session
+2009-10-15 11:24:23,424 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,440 DEBUG opened session
+2009-10-15 11:24:23,440 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,440 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,440 DEBUG Start Commit
+2009-10-15 11:24:23,440 DEBUG before transaction completion
+2009-10-15 11:24:23,440 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,440 DEBUG transaction completion
+2009-10-15 11:24:23,440 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,440 DEBUG Closing connection
+2009-10-15 11:24:23,440 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,440 DEBUG closing session
+2009-10-15 11:24:23,440 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,471 DEBUG opened session
+2009-10-15 11:24:23,471 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,471 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,471 DEBUG Start Commit
+2009-10-15 11:24:23,471 DEBUG before transaction completion
+2009-10-15 11:24:23,471 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,471 DEBUG transaction completion
+2009-10-15 11:24:23,471 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,471 DEBUG Closing connection
+2009-10-15 11:24:23,471 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,471 DEBUG closing session
+2009-10-15 11:24:23,471 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,471 DEBUG opened session
+2009-10-15 11:24:23,471 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,471 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,487 DEBUG Start Commit
+2009-10-15 11:24:23,487 DEBUG before transaction completion
+2009-10-15 11:24:23,487 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,487 DEBUG transaction completion
+2009-10-15 11:24:23,487 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,487 DEBUG Closing connection
+2009-10-15 11:24:23,487 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,487 DEBUG closing session
+2009-10-15 11:24:23,487 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,487 DEBUG opened session
+2009-10-15 11:24:23,487 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,487 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,518 DEBUG Start Commit
+2009-10-15 11:24:23,518 DEBUG before transaction completion
+2009-10-15 11:24:23,518 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,518 DEBUG transaction completion
+2009-10-15 11:24:23,518 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,518 DEBUG Closing connection
+2009-10-15 11:24:23,518 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,518 DEBUG closing session
+2009-10-15 11:24:23,518 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,549 DEBUG opened session
+2009-10-15 11:24:23,549 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,549 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,549 DEBUG Start Commit
+2009-10-15 11:24:23,549 DEBUG before transaction completion
+2009-10-15 11:24:23,549 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,549 DEBUG transaction completion
+2009-10-15 11:24:23,549 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,549 DEBUG Closing connection
+2009-10-15 11:24:23,549 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,549 DEBUG closing session
+2009-10-15 11:24:23,549 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,565 DEBUG opened session
+2009-10-15 11:24:23,565 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,565 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,565 DEBUG Start Commit
+2009-10-15 11:24:23,565 DEBUG before transaction completion
+2009-10-15 11:24:23,565 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,565 DEBUG transaction completion
+2009-10-15 11:24:23,565 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,565 DEBUG Closing connection
+2009-10-15 11:24:23,565 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,565 DEBUG closing session
+2009-10-15 11:24:23,565 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,581 DEBUG opened session
+2009-10-15 11:24:23,581 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,581 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,581 DEBUG Start Commit
+2009-10-15 11:24:23,581 DEBUG before transaction completion
+2009-10-15 11:24:23,581 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,581 DEBUG transaction completion
+2009-10-15 11:24:23,581 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,581 DEBUG Closing connection
+2009-10-15 11:24:23,581 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,581 DEBUG closing session
+2009-10-15 11:24:23,581 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,596 DEBUG opened session
+2009-10-15 11:24:23,596 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,596 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,596 DEBUG Start Commit
+2009-10-15 11:24:23,596 DEBUG before transaction completion
+2009-10-15 11:24:23,596 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,596 DEBUG transaction completion
+2009-10-15 11:24:23,596 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,596 DEBUG Closing connection
+2009-10-15 11:24:23,596 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,596 DEBUG closing session
+2009-10-15 11:24:23,596 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,596 DEBUG opened session
+2009-10-15 11:24:23,596 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,596 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,612 DEBUG Start Commit
+2009-10-15 11:24:23,612 DEBUG before transaction completion
+2009-10-15 11:24:23,612 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,612 DEBUG transaction completion
+2009-10-15 11:24:23,612 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,612 DEBUG Closing connection
+2009-10-15 11:24:23,612 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,612 DEBUG closing session
+2009-10-15 11:24:23,612 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,628 DEBUG opened session
+2009-10-15 11:24:23,628 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,628 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,643 DEBUG Start Commit
+2009-10-15 11:24:23,643 DEBUG before transaction completion
+2009-10-15 11:24:23,643 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,643 DEBUG transaction completion
+2009-10-15 11:24:23,643 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,643 DEBUG Closing connection
+2009-10-15 11:24:23,643 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,643 DEBUG closing session
+2009-10-15 11:24:23,643 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,643 DEBUG opened session
+2009-10-15 11:24:23,643 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,643 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,659 DEBUG Start Commit
+2009-10-15 11:24:23,659 DEBUG before transaction completion
+2009-10-15 11:24:23,659 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,659 DEBUG transaction completion
+2009-10-15 11:24:23,659 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,659 DEBUG Closing connection
+2009-10-15 11:24:23,659 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,659 DEBUG closing session
+2009-10-15 11:24:23,659 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,659 DEBUG opened session
+2009-10-15 11:24:23,659 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,659 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,659 DEBUG Start Commit
+2009-10-15 11:24:23,659 DEBUG before transaction completion
+2009-10-15 11:24:23,659 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,659 DEBUG transaction completion
+2009-10-15 11:24:23,659 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,659 DEBUG Closing connection
+2009-10-15 11:24:23,659 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,659 DEBUG closing session
+2009-10-15 11:24:23,659 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,674 DEBUG opened session
+2009-10-15 11:24:23,674 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,674 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,674 DEBUG Start Commit
+2009-10-15 11:24:23,674 DEBUG before transaction completion
+2009-10-15 11:24:23,674 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,674 DEBUG transaction completion
+2009-10-15 11:24:23,674 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,674 DEBUG Closing connection
+2009-10-15 11:24:23,674 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,674 DEBUG closing session
+2009-10-15 11:24:23,674 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,674 DEBUG opened session
+2009-10-15 11:24:23,674 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,674 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,690 DEBUG Start Commit
+2009-10-15 11:24:23,690 DEBUG before transaction completion
+2009-10-15 11:24:23,706 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,706 DEBUG transaction completion
+2009-10-15 11:24:23,706 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,706 DEBUG Closing connection
+2009-10-15 11:24:23,706 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,706 DEBUG closing session
+2009-10-15 11:24:23,706 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:23,768 DEBUG opened session
+2009-10-15 11:24:23,768 DEBUG Begin (Unspecified)
+2009-10-15 11:24:23,768 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:23,768 DEBUG Start Commit
+2009-10-15 11:24:23,768 DEBUG before transaction completion
+2009-10-15 11:24:23,768 DEBUG IDbTransaction Committed
+2009-10-15 11:24:23,768 DEBUG transaction completion
+2009-10-15 11:24:23,768 DEBUG aggressively releasing database connection
+2009-10-15 11:24:23,768 DEBUG Closing connection
+2009-10-15 11:24:23,768 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:23,768 DEBUG closing session
+2009-10-15 11:24:23,768 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:26,772 DEBUG opened session
+2009-10-15 11:24:26,772 DEBUG Begin (Unspecified)
+2009-10-15 11:24:26,772 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:26,772 DEBUG Start Commit
+2009-10-15 11:24:26,772 DEBUG before transaction completion
+2009-10-15 11:24:26,788 DEBUG IDbTransaction Committed
+2009-10-15 11:24:26,788 DEBUG transaction completion
+2009-10-15 11:24:26,788 DEBUG aggressively releasing database connection
+2009-10-15 11:24:26,788 DEBUG Closing connection
+2009-10-15 11:24:26,788 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:26,788 DEBUG closing session
+2009-10-15 11:24:26,788 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:53,445 DEBUG opened session
+2009-10-15 11:24:53,445 DEBUG Begin (Unspecified)
+2009-10-15 11:24:53,445 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:53,476 DEBUG Start Commit
+2009-10-15 11:24:53,476 DEBUG before transaction completion
+2009-10-15 11:24:53,476 DEBUG IDbTransaction Committed
+2009-10-15 11:24:53,476 DEBUG transaction completion
+2009-10-15 11:24:53,476 DEBUG aggressively releasing database connection
+2009-10-15 11:24:53,476 DEBUG Closing connection
+2009-10-15 11:24:53,476 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:53,476 DEBUG closing session
+2009-10-15 11:24:53,476 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:53,508 DEBUG opened session
+2009-10-15 11:24:53,508 DEBUG Begin (Unspecified)
+2009-10-15 11:24:53,508 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:53,508 DEBUG Start Commit
+2009-10-15 11:24:53,508 DEBUG before transaction completion
+2009-10-15 11:24:53,508 DEBUG opened session
+2009-10-15 11:24:53,508 DEBUG Begin (Unspecified)
+2009-10-15 11:24:53,508 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:53,508 DEBUG IDbTransaction Committed
+2009-10-15 11:24:53,508 DEBUG transaction completion
+2009-10-15 11:24:53,508 DEBUG aggressively releasing database connection
+2009-10-15 11:24:53,508 DEBUG Closing connection
+2009-10-15 11:24:53,508 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:53,508 DEBUG closing session
+2009-10-15 11:24:53,508 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:53,508 DEBUG Start Commit
+2009-10-15 11:24:53,508 DEBUG before transaction completion
+2009-10-15 11:24:53,523 DEBUG IDbTransaction Committed
+2009-10-15 11:24:53,523 DEBUG transaction completion
+2009-10-15 11:24:53,523 DEBUG aggressively releasing database connection
+2009-10-15 11:24:53,523 DEBUG Closing connection
+2009-10-15 11:24:53,523 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:53,523 DEBUG closing session
+2009-10-15 11:24:53,523 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:24:53,555 DEBUG opened session
+2009-10-15 11:24:53,555 DEBUG Begin (Unspecified)
+2009-10-15 11:24:53,555 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:24:53,570 DEBUG Start Commit
+2009-10-15 11:24:53,570 DEBUG before transaction completion
+2009-10-15 11:24:53,570 DEBUG IDbTransaction Committed
+2009-10-15 11:24:53,570 DEBUG transaction completion
+2009-10-15 11:24:53,570 DEBUG aggressively releasing database connection
+2009-10-15 11:24:53,570 DEBUG Closing connection
+2009-10-15 11:24:53,570 DEBUG IDbTransaction disposed.
+2009-10-15 11:24:53,570 DEBUG closing session
+2009-10-15 11:24:53,570 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:02,738 DEBUG opened session
+2009-10-15 11:25:02,738 DEBUG Begin (Unspecified)
+2009-10-15 11:25:02,738 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:02,738 DEBUG Start Commit
+2009-10-15 11:25:02,738 DEBUG before transaction completion
+2009-10-15 11:25:02,753 DEBUG IDbTransaction Committed
+2009-10-15 11:25:02,753 DEBUG transaction completion
+2009-10-15 11:25:02,753 DEBUG aggressively releasing database connection
+2009-10-15 11:25:02,753 DEBUG Closing connection
+2009-10-15 11:25:02,753 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:02,753 DEBUG closing session
+2009-10-15 11:25:02,753 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:02,816 DEBUG opened session
+2009-10-15 11:25:02,816 DEBUG Begin (Unspecified)
+2009-10-15 11:25:02,816 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:02,816 DEBUG Start Commit
+2009-10-15 11:25:02,816 DEBUG before transaction completion
+2009-10-15 11:25:02,816 DEBUG IDbTransaction Committed
+2009-10-15 11:25:02,816 DEBUG transaction completion
+2009-10-15 11:25:02,816 DEBUG aggressively releasing database connection
+2009-10-15 11:25:02,816 DEBUG Closing connection
+2009-10-15 11:25:02,816 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:02,816 DEBUG closing session
+2009-10-15 11:25:02,816 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:06,133 DEBUG opened session
+2009-10-15 11:25:06,133 DEBUG Begin (Unspecified)
+2009-10-15 11:25:06,133 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:06,179 DEBUG Start Commit
+2009-10-15 11:25:06,179 DEBUG before transaction completion
+2009-10-15 11:25:06,179 DEBUG IDbTransaction Committed
+2009-10-15 11:25:06,179 DEBUG transaction completion
+2009-10-15 11:25:06,179 DEBUG aggressively releasing database connection
+2009-10-15 11:25:06,179 DEBUG Closing connection
+2009-10-15 11:25:06,179 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:06,179 DEBUG closing session
+2009-10-15 11:25:06,179 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:06,242 DEBUG opened session
+2009-10-15 11:25:06,242 DEBUG Begin (Unspecified)
+2009-10-15 11:25:06,242 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:06,242 DEBUG Start Commit
+2009-10-15 11:25:06,242 DEBUG before transaction completion
+2009-10-15 11:25:06,242 DEBUG IDbTransaction Committed
+2009-10-15 11:25:06,242 DEBUG transaction completion
+2009-10-15 11:25:06,242 DEBUG aggressively releasing database connection
+2009-10-15 11:25:06,242 DEBUG Closing connection
+2009-10-15 11:25:06,242 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:06,242 DEBUG closing session
+2009-10-15 11:25:06,242 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:12,296 DEBUG opened session
+2009-10-15 11:25:12,296 DEBUG Begin (Unspecified)
+2009-10-15 11:25:12,296 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:12,296 DEBUG Start Commit
+2009-10-15 11:25:12,296 DEBUG before transaction completion
+2009-10-15 11:25:12,296 DEBUG IDbTransaction Committed
+2009-10-15 11:25:12,296 DEBUG transaction completion
+2009-10-15 11:25:12,296 DEBUG aggressively releasing database connection
+2009-10-15 11:25:12,296 DEBUG Closing connection
+2009-10-15 11:25:12,296 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:12,296 DEBUG closing session
+2009-10-15 11:25:12,296 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:12,375 DEBUG opened session
+2009-10-15 11:25:12,375 DEBUG Begin (Unspecified)
+2009-10-15 11:25:12,375 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:12,375 DEBUG Start Commit
+2009-10-15 11:25:12,375 DEBUG before transaction completion
+2009-10-15 11:25:12,390 DEBUG IDbTransaction Committed
+2009-10-15 11:25:12,390 DEBUG transaction completion
+2009-10-15 11:25:12,390 DEBUG aggressively releasing database connection
+2009-10-15 11:25:12,390 DEBUG Closing connection
+2009-10-15 11:25:12,390 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:12,390 DEBUG closing session
+2009-10-15 11:25:12,390 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:15,675 DEBUG opened session
+2009-10-15 11:25:15,675 DEBUG Begin (Unspecified)
+2009-10-15 11:25:15,675 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:15,691 DEBUG Start Commit
+2009-10-15 11:25:15,691 DEBUG before transaction completion
+2009-10-15 11:25:15,691 DEBUG IDbTransaction Committed
+2009-10-15 11:25:15,691 DEBUG transaction completion
+2009-10-15 11:25:15,691 DEBUG aggressively releasing database connection
+2009-10-15 11:25:15,691 DEBUG Closing connection
+2009-10-15 11:25:15,691 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:15,691 DEBUG closing session
+2009-10-15 11:25:15,691 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:15,769 DEBUG opened session
+2009-10-15 11:25:15,769 DEBUG Begin (Unspecified)
+2009-10-15 11:25:15,769 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:15,769 DEBUG Start Commit
+2009-10-15 11:25:15,769 DEBUG before transaction completion
+2009-10-15 11:25:15,769 DEBUG IDbTransaction Committed
+2009-10-15 11:25:15,769 DEBUG transaction completion
+2009-10-15 11:25:15,769 DEBUG aggressively releasing database connection
+2009-10-15 11:25:15,769 DEBUG Closing connection
+2009-10-15 11:25:15,769 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:15,769 DEBUG closing session
+2009-10-15 11:25:15,769 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:24,671 DEBUG opened session
+2009-10-15 11:25:24,671 DEBUG Begin (Unspecified)
+2009-10-15 11:25:24,671 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:24,671 DEBUG Start Commit
+2009-10-15 11:25:24,671 DEBUG before transaction completion
+2009-10-15 11:25:24,671 DEBUG IDbTransaction Committed
+2009-10-15 11:25:24,671 DEBUG transaction completion
+2009-10-15 11:25:24,671 DEBUG aggressively releasing database connection
+2009-10-15 11:25:24,671 DEBUG Closing connection
+2009-10-15 11:25:24,671 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:24,671 DEBUG closing session
+2009-10-15 11:25:24,671 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:24,765 DEBUG opened session
+2009-10-15 11:25:24,765 DEBUG Begin (Unspecified)
+2009-10-15 11:25:24,765 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:24,780 DEBUG Start Commit
+2009-10-15 11:25:24,780 DEBUG before transaction completion
+2009-10-15 11:25:24,780 DEBUG IDbTransaction Committed
+2009-10-15 11:25:24,780 DEBUG transaction completion
+2009-10-15 11:25:24,780 DEBUG aggressively releasing database connection
+2009-10-15 11:25:24,780 DEBUG Closing connection
+2009-10-15 11:25:24,780 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:24,780 DEBUG closing session
+2009-10-15 11:25:24,780 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:40,205 DEBUG opened session
+2009-10-15 11:25:40,205 DEBUG Begin (Unspecified)
+2009-10-15 11:25:40,205 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:40,221 DEBUG Start Commit
+2009-10-15 11:25:40,221 DEBUG before transaction completion
+2009-10-15 11:25:40,237 DEBUG IDbTransaction Committed
+2009-10-15 11:25:40,237 DEBUG transaction completion
+2009-10-15 11:25:40,237 DEBUG aggressively releasing database connection
+2009-10-15 11:25:40,237 DEBUG Closing connection
+2009-10-15 11:25:40,237 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:40,237 DEBUG closing session
+2009-10-15 11:25:40,237 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:40,299 DEBUG opened session
+2009-10-15 11:25:40,299 DEBUG Begin (Unspecified)
+2009-10-15 11:25:40,299 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:40,299 DEBUG Start Commit
+2009-10-15 11:25:40,299 DEBUG before transaction completion
+2009-10-15 11:25:40,299 DEBUG IDbTransaction Committed
+2009-10-15 11:25:40,299 DEBUG transaction completion
+2009-10-15 11:25:40,299 DEBUG aggressively releasing database connection
+2009-10-15 11:25:40,299 DEBUG Closing connection
+2009-10-15 11:25:40,299 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:40,299 DEBUG closing session
+2009-10-15 11:25:40,299 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:49,060 DEBUG opened session
+2009-10-15 11:25:49,060 DEBUG Begin (Unspecified)
+2009-10-15 11:25:49,060 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:49,060 DEBUG Start Commit
+2009-10-15 11:25:49,060 DEBUG before transaction completion
+2009-10-15 11:25:49,076 DEBUG IDbTransaction Committed
+2009-10-15 11:25:49,076 DEBUG transaction completion
+2009-10-15 11:25:49,076 DEBUG aggressively releasing database connection
+2009-10-15 11:25:49,076 DEBUG Closing connection
+2009-10-15 11:25:49,076 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:49,076 DEBUG closing session
+2009-10-15 11:25:49,076 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 11:25:49,154 DEBUG opened session
+2009-10-15 11:25:49,154 DEBUG Begin (Unspecified)
+2009-10-15 11:25:49,154 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 11:25:49,154 DEBUG Start Commit
+2009-10-15 11:25:49,154 DEBUG before transaction completion
+2009-10-15 11:25:49,154 DEBUG IDbTransaction Committed
+2009-10-15 11:25:49,154 DEBUG transaction completion
+2009-10-15 11:25:49,154 DEBUG aggressively releasing database connection
+2009-10-15 11:25:49,154 DEBUG Closing connection
+2009-10-15 11:25:49,154 DEBUG IDbTransaction disposed.
+2009-10-15 11:25:49,154 DEBUG closing session
+2009-10-15 11:25:49,154 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:04:17,533 INFO NHibernate 2.0.1.4000 (2.0.1.4000)
+2009-10-15 12:04:17,564 INFO hibernate-configuration section not found in application configuration file
+2009-10-15 12:04:17,564 INFO Bytecode provider name : lcg
+2009-10-15 12:04:17,564 INFO Using reflection optimizer
+2009-10-15 12:04:17,658 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-15 12:04:17,658 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-15 12:04:17,658 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-15 12:04:17,658 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-15 12:04:17,658 DEBUG connection.isolation=ReadCommitted
+2009-10-15 12:04:17,658 DEBUG default_schema=Nybble_Test.dbo
+2009-10-15 12:04:17,658 DEBUG show_sql=true
+2009-10-15 12:04:17,658 DEBUG adonet.batch_size=10
+2009-10-15 12:04:17,658 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-15 12:04:17,658 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-15 12:04:17,658 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-15 12:04:17,766 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-15 12:04:19,286 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-15 12:04:19,317 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-15 12:04:19,348 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-15 12:04:19,379 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-15 12:04:19,379 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-15 12:04:19,379 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-15 12:04:19,379 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-15 12:04:19,379 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-15 12:04:19,410 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-15 12:04:19,410 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-15 12:04:19,425 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-15 12:04:19,441 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-15 12:04:19,441 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-15 12:04:19,441 INFO checking mappings queue
+2009-10-15 12:04:19,441 INFO processing one-to-many association mappings
+2009-10-15 12:04:19,441 INFO processing one-to-one association property references
+2009-10-15 12:04:19,441 INFO processing foreign key constraints
+2009-10-15 12:04:19,456 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-15 12:04:19,456 INFO Using dialect defined converter
+2009-10-15 12:04:19,472 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-15 12:04:19,472 INFO Configuring ConnectionProvider
+2009-10-15 12:04:19,472 INFO Transaction factory: NHibernate.Transaction.AdoNetTransactionFactory
+2009-10-15 12:04:19,472 INFO Optimize cache for minimal puts: False
+2009-10-15 12:04:19,472 INFO Connection release mode: auto
+2009-10-15 12:04:19,472 INFO Default schema: Nybble_Test.dbo
+2009-10-15 12:04:19,472 INFO Default batch fetch size: 1
+2009-10-15 12:04:19,472 INFO echoing all SQL to stdout
+2009-10-15 12:04:19,472 INFO Statistics: disabled
+2009-10-15 12:04:19,472 INFO Query translator: NHibernate.Hql.Classic.ClassicQueryTranslatorFactory
+2009-10-15 12:04:19,472 INFO Query language substitutions: {}
+2009-10-15 12:04:19,472 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-15 12:04:19,472 DEBUG Wrap result sets: disabled
+2009-10-15 12:04:19,472 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-15 12:04:19,472 INFO Using Isolation Level: ReadCommitted
+2009-10-15 12:04:19,472 INFO Named query checking : enabled
+2009-10-15 12:04:19,487 INFO building session factory
+2009-10-15 12:04:19,487 DEBUG instantiating session factory with properties: {use_reflection_optimizer=True, session_factory_name=cimexEjecutivos, dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data, connection.provider=NHibernate.Connection.DriverConnectionProvider, connection.driver_class=NHibernate.Driver.SqlClientDriver, connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test, connection.isolation=ReadCommitted, default_schema=Nybble_Test.dbo, show_sql=true, adonet.batch_size=10}
+2009-10-15 12:04:19,580 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-15 12:04:19,596 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-15 12:04:19,643 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-15 12:04:19,643 DEBUG registered: af7bd071d5d44f36972a16d4e7d3cefc(cimexEjecutivos)
+2009-10-15 12:04:19,643 INFO Factory name:cimexEjecutivos
+2009-10-15 12:04:19,705 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-15 12:04:19,705 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-15 12:04:19,705 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-15 12:04:19,705 DEBUG  Insert 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 12:04:19,705 DEBUG  Update 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 12:04:19,705 DEBUG  Delete 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 12:04:19,705 DEBUG  Identity insert: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 12:04:19,751 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 12:04:19,751 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 12:04:19,751 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-15 12:04:19,751 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-15 12:04:19,751 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-15 12:04:19,751 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 12:04:19,751 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 12:04:19,751 DEBUG Instantiated session factory
+2009-10-15 12:04:19,751 DEBUG Checking 0 named HQL queries
+2009-10-15 12:04:19,751 DEBUG Checking 0 named SQL queries
+2009-10-15 12:04:19,782 DEBUG opened session
+2009-10-15 12:04:19,782 DEBUG Begin (Unspecified)
+2009-10-15 12:04:19,782 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:04:20,666 DEBUG Start Commit
+2009-10-15 12:04:20,666 DEBUG before transaction completion
+2009-10-15 12:04:20,666 DEBUG IDbTransaction Committed
+2009-10-15 12:04:20,666 DEBUG transaction completion
+2009-10-15 12:04:20,666 DEBUG aggressively releasing database connection
+2009-10-15 12:04:20,666 DEBUG Closing connection
+2009-10-15 12:04:20,682 DEBUG IDbTransaction disposed.
+2009-10-15 12:04:20,682 DEBUG closing session
+2009-10-15 12:04:20,682 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:04:20,744 DEBUG opened session
+2009-10-15 12:04:20,744 DEBUG Begin (Unspecified)
+2009-10-15 12:04:20,744 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:04:20,775 DEBUG Start Commit
+2009-10-15 12:04:20,775 DEBUG before transaction completion
+2009-10-15 12:04:20,775 DEBUG IDbTransaction Committed
+2009-10-15 12:04:20,775 DEBUG transaction completion
+2009-10-15 12:04:20,775 DEBUG aggressively releasing database connection
+2009-10-15 12:04:20,775 DEBUG Closing connection
+2009-10-15 12:04:20,775 DEBUG IDbTransaction disposed.
+2009-10-15 12:04:20,775 DEBUG closing session
+2009-10-15 12:04:20,775 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:04:20,790 DEBUG opened session
+2009-10-15 12:04:20,790 DEBUG Begin (Unspecified)
+2009-10-15 12:04:20,790 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:04:20,790 DEBUG Start Commit
+2009-10-15 12:04:20,790 DEBUG before transaction completion
+2009-10-15 12:04:20,806 DEBUG IDbTransaction Committed
+2009-10-15 12:04:20,806 DEBUG transaction completion
+2009-10-15 12:04:20,806 DEBUG aggressively releasing database connection
+2009-10-15 12:04:20,806 DEBUG Closing connection
+2009-10-15 12:04:20,806 DEBUG IDbTransaction disposed.
+2009-10-15 12:04:20,806 DEBUG closing session
+2009-10-15 12:04:20,806 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:04:46,192 DEBUG opened session
+2009-10-15 12:04:46,192 DEBUG Begin (Unspecified)
+2009-10-15 12:04:46,192 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:04:46,207 DEBUG Start Commit
+2009-10-15 12:04:46,207 DEBUG before transaction completion
+2009-10-15 12:04:46,207 DEBUG IDbTransaction Committed
+2009-10-15 12:04:46,207 DEBUG transaction completion
+2009-10-15 12:04:46,207 DEBUG aggressively releasing database connection
+2009-10-15 12:04:46,207 DEBUG Closing connection
+2009-10-15 12:04:46,207 DEBUG IDbTransaction disposed.
+2009-10-15 12:04:46,207 DEBUG closing session
+2009-10-15 12:04:46,207 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:04:46,300 DEBUG opened session
+2009-10-15 12:04:46,300 DEBUG Begin (Unspecified)
+2009-10-15 12:04:46,300 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:04:46,300 DEBUG Start Commit
+2009-10-15 12:04:46,300 DEBUG before transaction completion
+2009-10-15 12:04:46,300 DEBUG IDbTransaction Committed
+2009-10-15 12:04:46,300 DEBUG transaction completion
+2009-10-15 12:04:46,300 DEBUG aggressively releasing database connection
+2009-10-15 12:04:46,300 DEBUG Closing connection
+2009-10-15 12:04:46,300 DEBUG IDbTransaction disposed.
+2009-10-15 12:04:46,300 DEBUG closing session
+2009-10-15 12:04:46,300 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:05:00,490 DEBUG opened session
+2009-10-15 12:05:00,490 DEBUG Begin (Unspecified)
+2009-10-15 12:05:00,490 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:05:00,505 DEBUG Start Commit
+2009-10-15 12:05:00,505 DEBUG before transaction completion
+2009-10-15 12:05:00,521 DEBUG IDbTransaction Committed
+2009-10-15 12:05:00,521 DEBUG transaction completion
+2009-10-15 12:05:00,521 DEBUG aggressively releasing database connection
+2009-10-15 12:05:00,521 DEBUG Closing connection
+2009-10-15 12:05:00,521 DEBUG IDbTransaction disposed.
+2009-10-15 12:05:00,521 DEBUG closing session
+2009-10-15 12:05:00,521 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:05:00,583 DEBUG opened session
+2009-10-15 12:05:00,583 DEBUG Begin (Unspecified)
+2009-10-15 12:05:00,583 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:05:00,583 DEBUG Start Commit
+2009-10-15 12:05:00,583 DEBUG before transaction completion
+2009-10-15 12:05:00,583 DEBUG IDbTransaction Committed
+2009-10-15 12:05:00,583 DEBUG transaction completion
+2009-10-15 12:05:00,583 DEBUG aggressively releasing database connection
+2009-10-15 12:05:00,583 DEBUG Closing connection
+2009-10-15 12:05:00,583 DEBUG IDbTransaction disposed.
+2009-10-15 12:05:00,583 DEBUG closing session
+2009-10-15 12:05:00,583 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:05:05,529 DEBUG opened session
+2009-10-15 12:05:05,529 DEBUG Begin (Unspecified)
+2009-10-15 12:05:05,529 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:05:05,545 DEBUG Start Commit
+2009-10-15 12:05:05,545 DEBUG before transaction completion
+2009-10-15 12:05:05,545 DEBUG IDbTransaction Committed
+2009-10-15 12:05:05,545 DEBUG transaction completion
+2009-10-15 12:05:05,545 DEBUG aggressively releasing database connection
+2009-10-15 12:05:05,545 DEBUG Closing connection
+2009-10-15 12:05:05,545 DEBUG IDbTransaction disposed.
+2009-10-15 12:05:05,545 DEBUG closing session
+2009-10-15 12:05:05,545 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:05:05,623 DEBUG opened session
+2009-10-15 12:05:05,623 DEBUG Begin (Unspecified)
+2009-10-15 12:05:05,623 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:05:05,623 DEBUG Start Commit
+2009-10-15 12:05:05,623 DEBUG before transaction completion
+2009-10-15 12:05:05,623 DEBUG IDbTransaction Committed
+2009-10-15 12:05:05,623 DEBUG transaction completion
+2009-10-15 12:05:05,623 DEBUG aggressively releasing database connection
+2009-10-15 12:05:05,623 DEBUG Closing connection
+2009-10-15 12:05:05,623 DEBUG IDbTransaction disposed.
+2009-10-15 12:05:05,623 DEBUG closing session
+2009-10-15 12:05:05,623 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:05:07,499 DEBUG opened session
+2009-10-15 12:05:07,499 DEBUG Begin (Unspecified)
+2009-10-15 12:05:07,499 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:05:07,514 DEBUG Start Commit
+2009-10-15 12:05:07,514 DEBUG before transaction completion
+2009-10-15 12:05:07,514 DEBUG IDbTransaction Committed
+2009-10-15 12:05:07,514 DEBUG transaction completion
+2009-10-15 12:05:07,514 DEBUG aggressively releasing database connection
+2009-10-15 12:05:07,514 DEBUG Closing connection
+2009-10-15 12:05:07,514 DEBUG IDbTransaction disposed.
+2009-10-15 12:05:07,514 DEBUG closing session
+2009-10-15 12:05:07,514 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:05:07,592 DEBUG opened session
+2009-10-15 12:05:07,592 DEBUG Begin (Unspecified)
+2009-10-15 12:05:07,592 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:05:07,592 DEBUG Start Commit
+2009-10-15 12:05:07,592 DEBUG before transaction completion
+2009-10-15 12:05:07,608 DEBUG IDbTransaction Committed
+2009-10-15 12:05:07,608 DEBUG transaction completion
+2009-10-15 12:05:07,608 DEBUG aggressively releasing database connection
+2009-10-15 12:05:07,608 DEBUG Closing connection
+2009-10-15 12:05:07,608 DEBUG IDbTransaction disposed.
+2009-10-15 12:05:07,608 DEBUG closing session
+2009-10-15 12:05:07,608 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:05:12,229 DEBUG opened session
+2009-10-15 12:05:12,229 DEBUG Begin (Unspecified)
+2009-10-15 12:05:12,229 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:05:12,244 DEBUG Start Commit
+2009-10-15 12:05:12,244 DEBUG before transaction completion
+2009-10-15 12:05:12,244 DEBUG IDbTransaction Committed
+2009-10-15 12:05:12,244 DEBUG transaction completion
+2009-10-15 12:05:12,244 DEBUG aggressively releasing database connection
+2009-10-15 12:05:12,244 DEBUG Closing connection
+2009-10-15 12:05:12,244 DEBUG IDbTransaction disposed.
+2009-10-15 12:05:12,244 DEBUG closing session
+2009-10-15 12:05:12,244 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:05:12,306 DEBUG opened session
+2009-10-15 12:05:12,306 DEBUG Begin (Unspecified)
+2009-10-15 12:05:12,306 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:05:12,322 DEBUG Start Commit
+2009-10-15 12:05:12,322 DEBUG before transaction completion
+2009-10-15 12:05:12,322 DEBUG IDbTransaction Committed
+2009-10-15 12:05:12,322 DEBUG transaction completion
+2009-10-15 12:05:12,322 DEBUG aggressively releasing database connection
+2009-10-15 12:05:12,322 DEBUG Closing connection
+2009-10-15 12:05:12,322 DEBUG IDbTransaction disposed.
+2009-10-15 12:05:12,322 DEBUG closing session
+2009-10-15 12:05:12,322 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:05:21,037 DEBUG opened session
+2009-10-15 12:05:21,037 DEBUG Begin (Unspecified)
+2009-10-15 12:05:21,037 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:05:21,053 DEBUG Start Commit
+2009-10-15 12:05:21,053 DEBUG before transaction completion
+2009-10-15 12:05:21,053 DEBUG IDbTransaction Committed
+2009-10-15 12:05:21,053 DEBUG transaction completion
+2009-10-15 12:05:21,053 DEBUG aggressively releasing database connection
+2009-10-15 12:05:21,053 DEBUG Closing connection
+2009-10-15 12:05:21,053 DEBUG IDbTransaction disposed.
+2009-10-15 12:05:21,053 DEBUG closing session
+2009-10-15 12:05:21,053 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:05:21,146 DEBUG opened session
+2009-10-15 12:05:21,146 DEBUG Begin (Unspecified)
+2009-10-15 12:05:21,146 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:05:21,146 DEBUG Start Commit
+2009-10-15 12:05:21,146 DEBUG before transaction completion
+2009-10-15 12:05:21,146 DEBUG IDbTransaction Committed
+2009-10-15 12:05:21,146 DEBUG transaction completion
+2009-10-15 12:05:21,146 DEBUG aggressively releasing database connection
+2009-10-15 12:05:21,146 DEBUG Closing connection
+2009-10-15 12:05:21,146 DEBUG IDbTransaction disposed.
+2009-10-15 12:05:21,146 DEBUG closing session
+2009-10-15 12:05:21,146 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:11:47,063 INFO NHibernate 2.0.1.4000 (2.0.1.4000)
+2009-10-15 12:11:47,094 INFO hibernate-configuration section not found in application configuration file
+2009-10-15 12:11:47,094 INFO Bytecode provider name : lcg
+2009-10-15 12:11:47,094 INFO Using reflection optimizer
+2009-10-15 12:11:47,187 DEBUG dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data
+2009-10-15 12:11:47,187 DEBUG connection.provider=NHibernate.Connection.DriverConnectionProvider
+2009-10-15 12:11:47,187 DEBUG connection.driver_class=NHibernate.Driver.SqlClientDriver
+2009-10-15 12:11:47,187 DEBUG connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test
+2009-10-15 12:11:47,187 DEBUG connection.isolation=ReadCommitted
+2009-10-15 12:11:47,187 DEBUG default_schema=Nybble_Test.dbo
+2009-10-15 12:11:47,187 DEBUG show_sql=true
+2009-10-15 12:11:47,187 DEBUG adonet.batch_size=10
+2009-10-15 12:11:47,187 DEBUG cimexEjecutivos<-ProjectBase.WebTester
+2009-10-15 12:11:47,187 INFO Searching for mapped documents in assembly: ProjectBase.WebTester
+2009-10-15 12:11:47,187 INFO Mapping resource: ProjectBase.WebTester.Test.hbm.xml
+2009-10-15 12:11:47,312 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-15 12:11:48,883 INFO Mapping class: ProjectBase.WebTester.Test -> Test
+2009-10-15 12:11:48,914 DEBUG Mapped property: ID -> ID, type: Int32
+2009-10-15 12:11:48,930 DEBUG Mapped property: Version -> Version, type: Int32
+2009-10-15 12:11:48,961 DEBUG Mapped property: TestProperty -> TestProperty, type: String
+2009-10-15 12:11:48,961 DEBUG Mapped property: CreatedOn -> CreatedOn, type: DateTime
+2009-10-15 12:11:48,961 DEBUG Mapped property: ModifiedOn -> ModifiedOn, type: DateTime
+2009-10-15 12:11:48,961 DEBUG Mapped property: CreatedBy -> CreatedBy, type: Guid
+2009-10-15 12:11:48,961 DEBUG Mapped property: ModifiedBy -> ModifiedBy, type: Guid
+2009-10-15 12:11:49,008 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-15 12:11:49,008 DEBUG No custom accessors found for component: ProjectBase.Data.TimeStamp, ProjectBase.Data
+2009-10-15 12:11:49,039 DEBUG Mapped property: TimeStamp -> CreatedOn, ModifiedOn, CreatedBy, ModifiedBy, type: component[CreatedOn,ModifiedOn,CreatedBy,ModifiedBy]
+2009-10-15 12:11:49,039 INFO Configured SessionFactory: cimexEjecutivos
+2009-10-15 12:11:49,039 DEBUG properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2009-10-15 12:11:49,039 INFO checking mappings queue
+2009-10-15 12:11:49,039 INFO processing one-to-many association mappings
+2009-10-15 12:11:49,039 INFO processing one-to-one association property references
+2009-10-15 12:11:49,039 INFO processing foreign key constraints
+2009-10-15 12:11:49,085 INFO Using dialect: ProjectBase.Data.FullTextDialect
+2009-10-15 12:11:49,085 INFO Using dialect defined converter
+2009-10-15 12:11:49,085 INFO Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2009-10-15 12:11:49,085 INFO Configuring ConnectionProvider
+2009-10-15 12:11:49,085 INFO Transaction factory: NHibernate.Transaction.AdoNetTransactionFactory
+2009-10-15 12:11:49,085 INFO Optimize cache for minimal puts: False
+2009-10-15 12:11:49,085 INFO Connection release mode: auto
+2009-10-15 12:11:49,085 INFO Default schema: Nybble_Test.dbo
+2009-10-15 12:11:49,085 INFO Default batch fetch size: 1
+2009-10-15 12:11:49,085 INFO echoing all SQL to stdout
+2009-10-15 12:11:49,085 INFO Statistics: disabled
+2009-10-15 12:11:49,085 INFO Query translator: NHibernate.Hql.Classic.ClassicQueryTranslatorFactory
+2009-10-15 12:11:49,085 INFO Query language substitutions: {}
+2009-10-15 12:11:49,085 INFO cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-15 12:11:49,085 DEBUG Wrap result sets: disabled
+2009-10-15 12:11:49,101 INFO Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2009-10-15 12:11:49,101 INFO Using Isolation Level: ReadCommitted
+2009-10-15 12:11:49,101 INFO Named query checking : enabled
+2009-10-15 12:11:49,117 INFO building session factory
+2009-10-15 12:11:49,117 DEBUG instantiating session factory with properties: {use_reflection_optimizer=True, session_factory_name=cimexEjecutivos, dialect=ProjectBase.Data.FullTextDialect, ProjectBase.Data, connection.provider=NHibernate.Connection.DriverConnectionProvider, connection.driver_class=NHibernate.Driver.SqlClientDriver, connection.connection_string=data source=sql.nybblenetwork.com;User ID=test;Password=test;database=Nybble_Test, connection.isolation=ReadCommitted, default_schema=Nybble_Test.dbo, show_sql=true, adonet.batch_size=10}
+2009-10-15 12:11:49,225 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-15 12:11:49,225 DEBUG No custom accessors found for entity: ProjectBase.WebTester.Test
+2009-10-15 12:11:49,288 DEBUG initializing class SessionFactoryObjectFactory
+2009-10-15 12:11:49,288 DEBUG registered: edfa8db08f8f4775bbd177c65834a402(cimexEjecutivos)
+2009-10-15 12:11:49,288 INFO Factory name:cimexEjecutivos
+2009-10-15 12:11:49,350 DEBUG Static SQL for entity: ProjectBase.WebTester.Test
+2009-10-15 12:11:49,350 DEBUG  Version select: SELECT Version FROM Nybble_Test.dbo.Test WHERE ID = ?
+2009-10-15 12:11:49,350 DEBUG  Snapshot select: SELECT test_.ID, test_.Version as Version0_, test_.TestProperty as TestProp3_0_, test_.CreatedOn as CreatedOn0_, test_.ModifiedOn as ModifiedOn0_, test_.CreatedBy as CreatedBy0_, test_.ModifiedBy as ModifiedBy0_ FROM Nybble_Test.dbo.Test test_ WHERE test_.ID=?
+2009-10-15 12:11:49,350 DEBUG  Insert 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 12:11:49,350 DEBUG  Update 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 12:11:49,350 DEBUG  Delete 0: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 12:11:49,350 DEBUG  Identity insert: NHibernate.SqlCommand.SqlCommandInfo
+2009-10-15 12:11:49,397 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 12:11:49,397 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 12:11:49,397 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-15 12:11:49,397 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-15 12:11:49,397 DEBUG Static select for entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ with (updlock, rowlock) WHERE test0_.ID=?
+2009-10-15 12:11:49,397 DEBUG Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 12:11:49,397 DEBUG Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity ProjectBase.WebTester.Test: SELECT test0_.ID as ID0_0_, test0_.Version as Version0_0_, test0_.TestProperty as TestProp3_0_0_, test0_.CreatedOn as CreatedOn0_0_, test0_.ModifiedOn as ModifiedOn0_0_, test0_.CreatedBy as CreatedBy0_0_, test0_.ModifiedBy as ModifiedBy0_0_ FROM Nybble_Test.dbo.Test test0_ WHERE test0_.ID=?
+2009-10-15 12:11:49,397 DEBUG Instantiated session factory
+2009-10-15 12:11:49,397 DEBUG Checking 0 named HQL queries
+2009-10-15 12:11:49,397 DEBUG Checking 0 named SQL queries
+2009-10-15 12:11:49,412 DEBUG opened session
+2009-10-15 12:11:49,428 DEBUG Begin (Unspecified)
+2009-10-15 12:11:49,428 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:11:50,346 DEBUG Start Commit
+2009-10-15 12:11:50,346 DEBUG before transaction completion
+2009-10-15 12:11:50,346 DEBUG IDbTransaction Committed
+2009-10-15 12:11:50,346 DEBUG transaction completion
+2009-10-15 12:11:50,346 DEBUG aggressively releasing database connection
+2009-10-15 12:11:50,346 DEBUG Closing connection
+2009-10-15 12:11:50,361 DEBUG IDbTransaction disposed.
+2009-10-15 12:11:50,361 DEBUG closing session
+2009-10-15 12:11:50,361 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:11:50,455 DEBUG opened session
+2009-10-15 12:11:50,455 DEBUG Begin (Unspecified)
+2009-10-15 12:11:50,455 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:11:50,486 DEBUG Start Commit
+2009-10-15 12:11:50,486 DEBUG before transaction completion
+2009-10-15 12:11:50,486 DEBUG IDbTransaction Committed
+2009-10-15 12:11:50,486 DEBUG transaction completion
+2009-10-15 12:11:50,486 DEBUG aggressively releasing database connection
+2009-10-15 12:11:50,486 DEBUG Closing connection
+2009-10-15 12:11:50,486 DEBUG IDbTransaction disposed.
+2009-10-15 12:11:50,486 DEBUG closing session
+2009-10-15 12:11:50,486 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:11:50,501 DEBUG opened session
+2009-10-15 12:11:50,501 DEBUG Begin (Unspecified)
+2009-10-15 12:11:50,501 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:11:50,517 DEBUG Start Commit
+2009-10-15 12:11:50,517 DEBUG before transaction completion
+2009-10-15 12:11:50,517 DEBUG IDbTransaction Committed
+2009-10-15 12:11:50,517 DEBUG transaction completion
+2009-10-15 12:11:50,517 DEBUG aggressively releasing database connection
+2009-10-15 12:11:50,517 DEBUG Closing connection
+2009-10-15 12:11:50,517 DEBUG IDbTransaction disposed.
+2009-10-15 12:11:50,517 DEBUG closing session
+2009-10-15 12:11:50,517 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:11:54,577 DEBUG opened session
+2009-10-15 12:11:54,577 DEBUG Begin (Unspecified)
+2009-10-15 12:11:54,577 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:11:54,608 DEBUG Start Commit
+2009-10-15 12:11:54,608 DEBUG before transaction completion
+2009-10-15 12:11:54,608 DEBUG IDbTransaction Committed
+2009-10-15 12:11:54,608 DEBUG transaction completion
+2009-10-15 12:11:54,608 DEBUG aggressively releasing database connection
+2009-10-15 12:11:54,608 DEBUG Closing connection
+2009-10-15 12:11:54,608 DEBUG IDbTransaction disposed.
+2009-10-15 12:11:54,608 DEBUG closing session
+2009-10-15 12:11:54,608 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:11:54,671 DEBUG opened session
+2009-10-15 12:11:54,671 DEBUG Begin (Unspecified)
+2009-10-15 12:11:54,671 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:11:54,671 DEBUG Start Commit
+2009-10-15 12:11:54,671 DEBUG before transaction completion
+2009-10-15 12:11:54,671 DEBUG IDbTransaction Committed
+2009-10-15 12:11:54,671 DEBUG transaction completion
+2009-10-15 12:11:54,671 DEBUG aggressively releasing database connection
+2009-10-15 12:11:54,671 DEBUG Closing connection
+2009-10-15 12:11:54,671 DEBUG IDbTransaction disposed.
+2009-10-15 12:11:54,671 DEBUG closing session
+2009-10-15 12:11:54,671 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:11:58,093 DEBUG opened session
+2009-10-15 12:11:58,093 DEBUG Begin (Unspecified)
+2009-10-15 12:11:58,093 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:11:58,109 DEBUG Start Commit
+2009-10-15 12:11:58,109 DEBUG before transaction completion
+2009-10-15 12:11:58,109 DEBUG IDbTransaction Committed
+2009-10-15 12:11:58,109 DEBUG transaction completion
+2009-10-15 12:11:58,109 DEBUG aggressively releasing database connection
+2009-10-15 12:11:58,109 DEBUG Closing connection
+2009-10-15 12:11:58,109 DEBUG IDbTransaction disposed.
+2009-10-15 12:11:58,109 DEBUG closing session
+2009-10-15 12:11:58,109 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:11:58,202 DEBUG opened session
+2009-10-15 12:11:58,202 DEBUG Begin (Unspecified)
+2009-10-15 12:11:58,202 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:11:58,202 DEBUG Start Commit
+2009-10-15 12:11:58,202 DEBUG before transaction completion
+2009-10-15 12:11:58,202 DEBUG IDbTransaction Committed
+2009-10-15 12:11:58,202 DEBUG transaction completion
+2009-10-15 12:11:58,202 DEBUG aggressively releasing database connection
+2009-10-15 12:11:58,202 DEBUG Closing connection
+2009-10-15 12:11:58,202 DEBUG IDbTransaction disposed.
+2009-10-15 12:11:58,202 DEBUG closing session
+2009-10-15 12:11:58,202 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:12:02,123 DEBUG opened session
+2009-10-15 12:12:02,123 DEBUG Begin (Unspecified)
+2009-10-15 12:12:02,123 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:12:02,154 DEBUG Start Commit
+2009-10-15 12:12:02,154 DEBUG before transaction completion
+2009-10-15 12:12:02,154 DEBUG IDbTransaction Committed
+2009-10-15 12:12:02,154 DEBUG transaction completion
+2009-10-15 12:12:02,154 DEBUG aggressively releasing database connection
+2009-10-15 12:12:02,154 DEBUG Closing connection
+2009-10-15 12:12:02,154 DEBUG IDbTransaction disposed.
+2009-10-15 12:12:02,154 DEBUG closing session
+2009-10-15 12:12:02,154 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:12:02,247 DEBUG opened session
+2009-10-15 12:12:02,247 DEBUG Begin (Unspecified)
+2009-10-15 12:12:02,247 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:12:02,263 DEBUG Start Commit
+2009-10-15 12:12:02,263 DEBUG before transaction completion
+2009-10-15 12:12:02,263 DEBUG IDbTransaction Committed
+2009-10-15 12:12:02,263 DEBUG transaction completion
+2009-10-15 12:12:02,263 DEBUG aggressively releasing database connection
+2009-10-15 12:12:02,263 DEBUG Closing connection
+2009-10-15 12:12:02,263 DEBUG IDbTransaction disposed.
+2009-10-15 12:12:02,263 DEBUG closing session
+2009-10-15 12:12:02,263 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:12:04,457 DEBUG opened session
+2009-10-15 12:12:04,457 DEBUG Begin (Unspecified)
+2009-10-15 12:12:04,457 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:12:04,472 DEBUG Start Commit
+2009-10-15 12:12:04,472 DEBUG before transaction completion
+2009-10-15 12:12:04,472 DEBUG IDbTransaction Committed
+2009-10-15 12:12:04,472 DEBUG transaction completion
+2009-10-15 12:12:04,472 DEBUG aggressively releasing database connection
+2009-10-15 12:12:04,472 DEBUG Closing connection
+2009-10-15 12:12:04,472 DEBUG IDbTransaction disposed.
+2009-10-15 12:12:04,472 DEBUG closing session
+2009-10-15 12:12:04,472 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:12:04,550 DEBUG opened session
+2009-10-15 12:12:04,550 DEBUG Begin (Unspecified)
+2009-10-15 12:12:04,550 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:12:04,550 DEBUG Start Commit
+2009-10-15 12:12:04,550 DEBUG before transaction completion
+2009-10-15 12:12:04,550 DEBUG IDbTransaction Committed
+2009-10-15 12:12:04,550 DEBUG transaction completion
+2009-10-15 12:12:04,550 DEBUG aggressively releasing database connection
+2009-10-15 12:12:04,550 DEBUG Closing connection
+2009-10-15 12:12:04,550 DEBUG IDbTransaction disposed.
+2009-10-15 12:12:04,550 DEBUG closing session
+2009-10-15 12:12:04,550 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:12:10,789 DEBUG opened session
+2009-10-15 12:12:10,789 DEBUG Begin (Unspecified)
+2009-10-15 12:12:10,789 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:12:10,804 DEBUG Start Commit
+2009-10-15 12:12:10,804 DEBUG before transaction completion
+2009-10-15 12:12:10,804 DEBUG IDbTransaction Committed
+2009-10-15 12:12:10,804 DEBUG transaction completion
+2009-10-15 12:12:10,804 DEBUG aggressively releasing database connection
+2009-10-15 12:12:10,804 DEBUG Closing connection
+2009-10-15 12:12:10,804 DEBUG IDbTransaction disposed.
+2009-10-15 12:12:10,804 DEBUG closing session
+2009-10-15 12:12:10,804 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:12:10,882 DEBUG opened session
+2009-10-15 12:12:10,882 DEBUG Begin (Unspecified)
+2009-10-15 12:12:10,882 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:12:10,882 DEBUG Start Commit
+2009-10-15 12:12:10,882 DEBUG before transaction completion
+2009-10-15 12:12:10,882 DEBUG IDbTransaction Committed
+2009-10-15 12:12:10,882 DEBUG transaction completion
+2009-10-15 12:12:10,882 DEBUG aggressively releasing database connection
+2009-10-15 12:12:10,882 DEBUG Closing connection
+2009-10-15 12:12:10,882 DEBUG IDbTransaction disposed.
+2009-10-15 12:12:10,882 DEBUG closing session
+2009-10-15 12:12:10,882 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:12:30,780 DEBUG opened session
+2009-10-15 12:12:30,780 DEBUG Begin (Unspecified)
+2009-10-15 12:12:30,780 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:12:30,796 DEBUG Start Commit
+2009-10-15 12:12:30,796 DEBUG before transaction completion
+2009-10-15 12:12:30,811 DEBUG IDbTransaction Committed
+2009-10-15 12:12:30,811 DEBUG transaction completion
+2009-10-15 12:12:30,811 DEBUG aggressively releasing database connection
+2009-10-15 12:12:30,811 DEBUG Closing connection
+2009-10-15 12:12:30,811 DEBUG IDbTransaction disposed.
+2009-10-15 12:12:30,811 DEBUG closing session
+2009-10-15 12:12:30,811 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:12:30,920 DEBUG opened session
+2009-10-15 12:12:30,920 DEBUG Begin (Unspecified)
+2009-10-15 12:12:30,920 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:12:30,920 DEBUG Start Commit
+2009-10-15 12:12:30,920 DEBUG before transaction completion
+2009-10-15 12:12:30,920 DEBUG IDbTransaction Committed
+2009-10-15 12:12:30,920 DEBUG transaction completion
+2009-10-15 12:12:30,920 DEBUG aggressively releasing database connection
+2009-10-15 12:12:30,920 DEBUG Closing connection
+2009-10-15 12:12:30,920 DEBUG IDbTransaction disposed.
+2009-10-15 12:12:30,920 DEBUG closing session
+2009-10-15 12:12:30,920 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:13:30,600 DEBUG opened session
+2009-10-15 12:13:30,600 DEBUG Begin (Unspecified)
+2009-10-15 12:13:30,600 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:13:30,616 DEBUG Start Commit
+2009-10-15 12:13:30,616 DEBUG before transaction completion
+2009-10-15 12:13:30,616 DEBUG IDbTransaction Committed
+2009-10-15 12:13:30,616 DEBUG transaction completion
+2009-10-15 12:13:30,616 DEBUG aggressively releasing database connection
+2009-10-15 12:13:30,616 DEBUG Closing connection
+2009-10-15 12:13:30,616 DEBUG IDbTransaction disposed.
+2009-10-15 12:13:30,616 DEBUG closing session
+2009-10-15 12:13:30,616 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:13:30,693 DEBUG opened session
+2009-10-15 12:13:30,693 DEBUG Begin (Unspecified)
+2009-10-15 12:13:30,693 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:13:30,709 DEBUG Start Commit
+2009-10-15 12:13:30,709 DEBUG before transaction completion
+2009-10-15 12:13:30,709 DEBUG IDbTransaction Committed
+2009-10-15 12:13:30,709 DEBUG transaction completion
+2009-10-15 12:13:30,709 DEBUG aggressively releasing database connection
+2009-10-15 12:13:30,709 DEBUG Closing connection
+2009-10-15 12:13:30,709 DEBUG IDbTransaction disposed.
+2009-10-15 12:13:30,709 DEBUG closing session
+2009-10-15 12:13:30,709 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:13:34,163 DEBUG opened session
+2009-10-15 12:13:34,163 DEBUG Begin (Unspecified)
+2009-10-15 12:13:34,163 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:13:34,178 DEBUG Start Commit
+2009-10-15 12:13:34,178 DEBUG before transaction completion
+2009-10-15 12:13:34,178 DEBUG IDbTransaction Committed
+2009-10-15 12:13:34,178 DEBUG transaction completion
+2009-10-15 12:13:34,178 DEBUG aggressively releasing database connection
+2009-10-15 12:13:34,178 DEBUG Closing connection
+2009-10-15 12:13:34,178 DEBUG IDbTransaction disposed.
+2009-10-15 12:13:34,178 DEBUG closing session
+2009-10-15 12:13:34,178 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:13:34,272 DEBUG opened session
+2009-10-15 12:13:34,272 DEBUG Begin (Unspecified)
+2009-10-15 12:13:34,272 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:13:34,272 DEBUG Start Commit
+2009-10-15 12:13:34,272 DEBUG before transaction completion
+2009-10-15 12:13:34,272 DEBUG IDbTransaction Committed
+2009-10-15 12:13:34,272 DEBUG transaction completion
+2009-10-15 12:13:34,272 DEBUG aggressively releasing database connection
+2009-10-15 12:13:34,272 DEBUG Closing connection
+2009-10-15 12:13:34,272 DEBUG IDbTransaction disposed.
+2009-10-15 12:13:34,272 DEBUG closing session
+2009-10-15 12:13:34,272 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:13:38,783 DEBUG opened session
+2009-10-15 12:13:38,783 DEBUG Begin (Unspecified)
+2009-10-15 12:13:38,783 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:13:38,799 DEBUG Start Commit
+2009-10-15 12:13:38,799 DEBUG before transaction completion
+2009-10-15 12:13:38,799 DEBUG IDbTransaction Committed
+2009-10-15 12:13:38,799 DEBUG transaction completion
+2009-10-15 12:13:38,799 DEBUG aggressively releasing database connection
+2009-10-15 12:13:38,799 DEBUG Closing connection
+2009-10-15 12:13:38,799 DEBUG IDbTransaction disposed.
+2009-10-15 12:13:38,799 DEBUG closing session
+2009-10-15 12:13:38,799 DEBUG running BatcherImpl.Dispose(true)
+2009-10-15 12:13:38,877 DEBUG opened session
+2009-10-15 12:13:38,877 DEBUG Begin (Unspecified)
+2009-10-15 12:13:38,877 DEBUG Obtaining IDbConnection from Driver
+2009-10-15 12:13:38,877 DEBUG Start Commit
+2009-10-15 12:13:38,877 DEBUG before transaction completion
+2009-10-15 12:13:38,877 DEBUG IDbTransaction Committed
+2009-10-15 12:13:38,877 DEBUG transaction completion
+2009-10-15 12:13:38,877 DEBUG aggressively releasing database connection
+2009-10-15 12:13:38,877 DEBUG Closing connection
+2009-10-15 12:13:38,877 DEBUG IDbTransaction disposed.
+2009-10-15 12:13:38,877 DEBUG closing session
+2009-10-15 12:13:38,877 DEBUG running BatcherImpl.Dispose(true)

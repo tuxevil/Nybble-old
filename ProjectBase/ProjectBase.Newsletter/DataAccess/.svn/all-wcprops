@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nybble/!svn/ver/404/Library/ProjectBase/trunk/ProjectBase.Newsletter/DataAccess
+END
+NewsletterDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/nybble/!svn/ver/295/Library/ProjectBase/trunk/ProjectBase.Newsletter/DataAccess/NewsletterDao.cs
+END
+UserCampaignDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/nybble/!svn/ver/295/Library/ProjectBase/trunk/ProjectBase.Newsletter/DataAccess/UserCampaignDao.cs
+END
+CampaignDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/nybble/!svn/ver/295/Library/ProjectBase/trunk/ProjectBase.Newsletter/DataAccess/CampaignDao.cs
+END
+FrequencyDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/295/Library/ProjectBase/trunk/ProjectBase.Newsletter/DataAccess/FrequencyDao.cs
+END
+HistoryDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nybble/!svn/ver/295/Library/ProjectBase/trunk/ProjectBase.Newsletter/DataAccess/HistoryDao.cs
+END
+ProcessExecutionDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/nybble/!svn/ver/404/Library/ProjectBase/trunk/ProjectBase.Newsletter/DataAccess/ProcessExecutionDao.cs
+END
+ExecutionDao.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/295/Library/ProjectBase/trunk/ProjectBase.Newsletter/DataAccess/ExecutionDao.cs
+END

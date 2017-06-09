@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/nybble/!svn/ver/2111/Library/NybbleMembership/trunk/NybbleMembership.Core/Mapping
+END
+Rol.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nybble/!svn/ver/673/Library/NybbleMembership/trunk/NybbleMembership.Core/Mapping/Rol.hbm.xml
+END
+UserProfile.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/1935/Library/NybbleMembership/trunk/NybbleMembership.Core/Mapping/UserProfile.hbm.xml
+END
+HierarchyFunctionsView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/1771/Library/NybbleMembership/trunk/NybbleMembership.Core/Mapping/HierarchyFunctionsView.hbm.xml
+END
+Site.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nybble/!svn/ver/673/Library/NybbleMembership/trunk/NybbleMembership.Core/Mapping/Site.hbm.xml
+END
+Function.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/nybble/!svn/ver/541/Library/NybbleMembership/trunk/NybbleMembership.Core/Mapping/Function.hbm.xml
+END
+UserMember.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2111/Library/NybbleMembership/trunk/NybbleMembership.Core/Mapping/UserMember.hbm.xml
+END
+Permission.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/1619/Library/NybbleMembership/trunk/NybbleMembership.Core/Mapping/Permission.hbm.xml
+END

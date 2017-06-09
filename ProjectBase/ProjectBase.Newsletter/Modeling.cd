@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="ProjectBase.Newsletter.NewsletterManager">
+    <Position X="10.5" Y="0.75" Width="12" />
+    <TypeIdentifier>
+      <FileName>NewsletterManager.cs</FileName>
+      <HashCode>AIQAAAAEAACAAQYABAEBAAgQJAACABAQQAABAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="applicationName" Hidden="true" />
+      <Field Name="sessionFactoryConfigPath" Hidden="true" />
+    </Members>
+  </Class>
+  <Interface Name="ProjectBase.Newsletter.IDynamicNewsletter">
+    <Position X="4.5" Y="0.5" Width="5.25" />
+    <TypeIdentifier>
+      <FileName>Interfaces\IDynamicNewsletter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProjectBase.Newsletter.IPersonalizedNewsletter">
+    <Position X="5" Y="4.25" Width="5" />
+    <TypeIdentifier>
+      <FileName>Interfaces\IPersonalizedNewsletter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ProjectBase.Newsletter.INewsletterProcessor">
+    <Position X="0.5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>INewsletterProcessor.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAwAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ProjectBase.Newsletter.MailFrequency">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAwAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ProjectBase.Newsletter.CampaignStatus">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ProjectBase.Newsletter.CampaignType">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ProjectBase.Newsletter.NewsletterType">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>
